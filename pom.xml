@@ -28,6 +28,7 @@
     <module>com-component-util-serializable</module>
     <module>com-component-util-sort</module>
     <module>com-component-util-cache</module>
+    <module>com-component-util-annotation</module>
   </modules>
   <packaging>pom</packaging>
 

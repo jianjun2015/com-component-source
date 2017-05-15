@@ -178,6 +178,13 @@
         <processorPath useClasspath="true" />
         <module name="com-component-nosql" />
       </profile>
+      <profile default="false" name="Annotation profile for com-component-util-annotation" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-component-util-annotation" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="com-component-jdbc" target="1.7" />
@@ -190,6 +197,7 @@
       <module name="com-component-spring" target="1.7" />
       <module name="com-component-spring-boot" target="1.7" />
       <module name="com-component-test" target="1.7" />
+      <module name="com-component-util-annotation" target="1.7" />
       <module name="com-component-util-array" target="1.7" />
       <module name="com-component-util-cache" target="1.7" />
       <module name="com-component-util-collection" target="1.7" />

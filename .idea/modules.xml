@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-spring/com-component-spring.iml" filepath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" filepath="$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-test/com-component-test.iml" filepath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" filepath="$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" filepath="$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" filepath="$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" filepath="$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" />
