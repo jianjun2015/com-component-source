@@ -185,8 +185,30 @@
         <processorPath useClasspath="true" />
         <module name="com-component-util-annotation" />
       </profile>
+      <profile default="false" name="Annotation profile for com-component-hibernate" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-component-hibernate" />
+      </profile>
+      <profile default="false" name="Annotation profile for com-component-struts2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-component-struts2" />
+      </profile>
+      <profile default="false" name="Annotation profile for com-component-springmvc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-component-springmvc" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
+      <module name="com-component-hibernate" target="1.7" />
       <module name="com-component-jdbc" target="1.7" />
       <module name="com-component-logger" target="1.7" />
       <module name="com-component-mq" target="1.7" />
@@ -196,6 +218,8 @@
       <module name="com-component-source" target="1.7" />
       <module name="com-component-spring" target="1.7" />
       <module name="com-component-spring-boot" target="1.7" />
+      <module name="com-component-springmvc" target="1.7" />
+      <module name="com-component-struts2" target="1.7" />
       <module name="com-component-test" target="1.7" />
       <module name="com-component-util-annotation" target="1.7" />
       <module name="com-component-util-array" target="1.7" />

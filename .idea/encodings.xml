@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-hibernate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-logger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mq" charset="UTF-8" />
@@ -10,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/com-component-poi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-springmvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-struts2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-annotation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-array" charset="UTF-8" />

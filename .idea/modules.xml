@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" filepath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" filepath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-logger/com-component-logger.iml" filepath="$PROJECT_DIR$/com-component-logger/com-component-logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mq/com-component-mq.iml" filepath="$PROJECT_DIR$/com-component-mq/com-component-mq.iml" />
@@ -11,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-source.iml" filepath="$PROJECT_DIR$/com-component-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring/com-component-spring.iml" filepath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" filepath="$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" filepath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" filepath="$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-test/com-component-test.iml" filepath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" filepath="$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" filepath="$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" />

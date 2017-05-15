@@ -1,0 +1,1 @@
+1、利用mybatis-generator生成器自动生成实体和对应的xml文件(配置配置文件generatorConfig.xml文件，在maven project选中mybatis-generator，到对应的模块去执行即可)
