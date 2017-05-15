@@ -2,32 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_component_springmvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_springmvc_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/pom.xml" afterPath="$PROJECT_DIR$/com-component-hibernate/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/pom.xml" afterPath="$PROJECT_DIR$/com-component-jdbc/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/pom.xml" afterPath="$PROJECT_DIR$/com-component-logger/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/pom.xml" afterPath="$PROJECT_DIR$/com-component-mq/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/pom.xml" afterPath="$PROJECT_DIR$/com-component-mybatis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/pom.xml" afterPath="$PROJECT_DIR$/com-component-nosql/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/pom.xml" afterPath="$PROJECT_DIR$/com-component-poi/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/pom.xml" afterPath="$PROJECT_DIR$/com-component-spring-boot/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" afterPath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" afterPath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/com-component-logger.iml" afterPath="$PROJECT_DIR$/com-component-logger/com-component-logger.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/com-component-mq.iml" afterPath="$PROJECT_DIR$/com-component-mq/com-component-mq.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" afterPath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" afterPath="$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/com-component-poi.iml" afterPath="$PROJECT_DIR$/com-component-poi/com-component-poi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-source.iml" afterPath="$PROJECT_DIR$/com-component-source.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" afterPath="$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" afterPath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/pom.xml" afterPath="$PROJECT_DIR$/com-component-spring/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/pom.xml" afterPath="$PROJECT_DIR$/com-component-struts2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/pom.xml" afterPath="$PROJECT_DIR$/com-component-test/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-annotation/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-array/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-cache/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-collection/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-datetime/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-designmodule/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-json/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-pattern/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-reflect/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-serializable/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-sort/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-thread/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-web/pom.xml" afterPath="$PROJECT_DIR$/com-component-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" afterPath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" afterPath="$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/com-component-test.iml" afterPath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" afterPath="$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" afterPath="$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" afterPath="$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" afterPath="$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" afterPath="$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" afterPath="$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" afterPath="$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" afterPath="$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/com-component-util-reflect.iml" afterPath="$PROJECT_DIR$/com-component-util-reflect/com-component-util-reflect.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/com-component-util-serializable.iml" afterPath="$PROJECT_DIR$/com-component-util-serializable/com-component-util-serializable.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/com-component-util-sort.iml" afterPath="$PROJECT_DIR$/com-component-util-sort/com-component-util-sort.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" afterPath="$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,100 +95,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-pattern/pom.xml">
+        <entry file="file://$PROJECT_DIR$/com-component-spring/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-json/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-reflect/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-serializable/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-sort/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.1290324">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-stringnumbric/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-thread/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state vertical-scroll-proportion="-7.290323">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-component-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39461884">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-datetime/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-util-designmodule/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2580647">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.21076234">
+              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/com-component-mybatis/src/main/resources/sql/init.sql" />
         <option value="$PROJECT_DIR$/com-component-mybatis/src/main/resources/sql/update_20170308.sql" />
@@ -205,7 +141,6 @@
         <option value="$PROJECT_DIR$/com-component-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-nosql/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-poi/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-spring/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-struts2/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-test/pom.xml" />
@@ -223,6 +158,8 @@
         <option value="$PROJECT_DIR$/com-component-util-stringnumbric/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-util-thread/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-spring/pom.xml" />
       </list>
     </option>
   </component>
@@ -777,7 +714,7 @@
       <workItem from="1494820327685" duration="820000" />
       <workItem from="1494821231873" duration="53000" />
       <workItem from="1494821380097" duration="44000" />
-      <workItem from="1494828698306" duration="5297000" />
+      <workItem from="1494828698306" duration="6402000" />
     </task>
     <task id="LOCAL-00001" summary="添加 注解">
       <created>1494828855356</created>
@@ -789,7 +726,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6214000" />
+    <option name="totallyTimeSpent" value="7319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,22 +792,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-spring-boot/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-test/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-util-annotation/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1061,14 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-hibernate/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2580647">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-jdbc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2580647">
@@ -1110,14 +1023,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-poi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2580647">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-spring/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2580647">
           <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
@@ -1263,8 +1168,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39461884">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.290323">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41509435">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hibernate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049327355">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21076234">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding />
         </state>
       </provider>
