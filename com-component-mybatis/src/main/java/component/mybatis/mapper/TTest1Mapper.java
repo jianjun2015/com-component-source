@@ -1,6 +1,6 @@
-package component.mybatis.entity;
+package component.mybatis.mapper;
 
-import com.eif.inspection.dal.model.TTest1;
+import component.mybatis.entity.TTest1;
 import java.util.List;
 
 public interface TTest1Mapper {

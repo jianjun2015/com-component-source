@@ -17,7 +17,7 @@
 		<javaTypeResolver>
 			<property name="forceBigDecimals" value="true" />
 		</javaTypeResolver>
-		<javaModelGenerator targetPackage=".mybatis.entity.base"
+		<javaModelGenerator targetPackage="component.mybatis.entity"
 			targetProject="src/main/java" >
 			<!-- 增加基础bean的继承操作，将通用属性集成到BaseEntity内部(貌似没有用)
 			<property name="rootClass" value="com.eif.inspection.base.entity.standardEntity"/>
@@ -25,7 +25,7 @@
 		</javaModelGenerator>
 		<sqlMapGenerator targetPackage="sqlmapper"
 			targetProject="src/main/resources" />
-		<javaClientGenerator targetPackage="component.mybatis.entity"
+		<javaClientGenerator targetPackage="component.mybatis.mapper"
 			targetProject="src/main/java" type="XMLMAPPER" />
 
 		<!--表名对应实体对象-->
