@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-logger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-nosql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-poi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-array" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-collection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-datetime" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-designmodule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-pattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-reflect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-serializable" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-sort" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-stringnumbric" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

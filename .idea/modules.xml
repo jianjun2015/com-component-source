@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" filepath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-logger/com-component-logger.iml" filepath="$PROJECT_DIR$/com-component-logger/com-component-logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-mq/com-component-mq.iml" filepath="$PROJECT_DIR$/com-component-mq/com-component-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" filepath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" filepath="$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-poi/com-component-poi.iml" filepath="$PROJECT_DIR$/com-component-poi/com-component-poi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-source.iml" filepath="$PROJECT_DIR$/com-component-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-spring/com-component-spring.iml" filepath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" filepath="$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-test/com-component-test.iml" filepath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" filepath="$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" filepath="$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" filepath="$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" filepath="$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" filepath="$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" filepath="$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" filepath="$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-reflect/com-component-util-reflect.iml" filepath="$PROJECT_DIR$/com-component-util-reflect/com-component-util-reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-serializable/com-component-util-serializable.iml" filepath="$PROJECT_DIR$/com-component-util-serializable/com-component-util-serializable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-sort/com-component-util-sort.iml" filepath="$PROJECT_DIR$/com-component-util-sort/com-component-util-sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" filepath="$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" filepath="$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-web/com-component-web.iml" filepath="$PROJECT_DIR$/com-component-web/com-component-web.iml" />
+    </modules>
+  </component>
+</project>
