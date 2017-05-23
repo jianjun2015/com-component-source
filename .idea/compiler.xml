@@ -206,6 +206,12 @@
         <processorPath useClasspath="true" />
         <module name="com-component-springmvc" />
       </profile>
+      <profile default="false" name="Annotation profile for com-component-mybatis-pagehelper" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="com-component-hibernate" target="1.7" />
@@ -213,6 +219,7 @@
       <module name="com-component-logger" target="1.7" />
       <module name="com-component-mq" target="1.7" />
       <module name="com-component-mybatis" target="1.7" />
+      <module name="com-component-mybatis-pagehelper" target="1.7" />
       <module name="com-component-nosql" target="1.7" />
       <module name="com-component-poi" target="1.7" />
       <module name="com-component-source" target="1.7" />
