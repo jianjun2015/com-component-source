@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" filepath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" filepath="$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-poi/com-component-poi.iml" filepath="$PROJECT_DIR$/com-component-poi/com-component-poi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" filepath="$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" filepath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-source.iml" filepath="$PROJECT_DIR$/com-component-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring/com-component-spring.iml" filepath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" filepath="$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" />

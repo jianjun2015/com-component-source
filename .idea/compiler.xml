@@ -212,6 +212,20 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Annotation profile for com-component-shiro" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-component-shiro" />
+      </profile>
+      <profile default="false" name="Annotation profile for com-component-shiro-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-component-shiro-web" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="com-component-hibernate" target="1.7" />
@@ -222,6 +236,8 @@
       <module name="com-component-mybatis-pagehelper" target="1.7" />
       <module name="com-component-nosql" target="1.7" />
       <module name="com-component-poi" target="1.7" />
+      <module name="com-component-shiro" target="1.7" />
+      <module name="com-component-shiro-web" target="1.7" />
       <module name="com-component-source" target="1.7" />
       <module name="com-component-spring" target="1.7" />
       <module name="com-component-spring-boot" target="1.7" />

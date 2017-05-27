@@ -32,6 +32,8 @@
     <module>com-component-hibernate</module>
     <module>com-component-struts2</module>
     <module>com-component-springmvc</module>
+    <module>com-component-shiro</module>
+    <module>com-component-shiro-web</module>
   </modules>
   <packaging>pom</packaging>
 
