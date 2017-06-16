@@ -39,14 +39,30 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring.boot.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-log4j2 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools 热部署-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <version>${spring.boot.version}</version>
         </dependency>
+
+
 
     </dependencies>
 

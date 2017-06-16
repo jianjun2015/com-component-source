@@ -15,6 +15,6 @@ CREATE TABLE `t_test_1` (
   `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`),
    KEY `idx_inspection_rule_1` (`inspection_name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '测试';
 
 
