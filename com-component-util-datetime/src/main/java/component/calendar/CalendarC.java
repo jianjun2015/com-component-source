@@ -125,7 +125,7 @@ public class CalendarC {
     public static void main(String[] args) {
 //        fun_calendar();
         Calendar endCal = Calendar.getInstance();
-        //endCal.add(Calendar.DAY_OF_MONTH,4);//add 可以跨月，roll在当月循环
+        endCal.add(Calendar.DAY_OF_MONTH,-14);//add 可以跨月，roll在当月循环
         endCal.add(Calendar.YEAR,+2444);
 
         fun_interval_days(Calendar.getInstance(),endCal);

@@ -1,0 +1,2 @@
+log4j是apache实现的一个开源日志组件
+log4j的正常运行需要配置文件，配置文件类型：log4j配置文件可以是log4j.xml也可以是log4j.properties。需要为其配置root、appender、layout等信息。

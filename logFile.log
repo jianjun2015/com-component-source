@@ -1,0 +1,4 @@
+269  [main] DEBUG component.logback.LogbackClass - this is a debug msg
+273  [main] DEBUG component.logback.LogbackClass - hi，welcome admin，today is Sunday
+375  [main] DEBUG component.logback.LogbackClass - this is a debug msg
+381  [main] DEBUG component.logback.LogbackClass - hi，welcome admin，today is Sunday
