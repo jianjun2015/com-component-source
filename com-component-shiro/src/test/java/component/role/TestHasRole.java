@@ -2,6 +2,7 @@ package component.role;
 
 import component.common.Common;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -9,6 +10,7 @@ import java.util.Arrays;
 /**
  * Created by wangjianjun on 2017/5/27.
  */
+@Ignore
 public class TestHasRole extends Common{
 
     @Test

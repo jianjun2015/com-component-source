@@ -1,6 +1,6 @@
 package component.sort;
 
-import base.util.Exchange;
+import component.util.Exchange;
 
 public class QuickSort {
 

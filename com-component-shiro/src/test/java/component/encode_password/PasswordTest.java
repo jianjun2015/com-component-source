@@ -7,6 +7,7 @@ import org.apache.shiro.authc.ExcessiveAttemptsException;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -14,6 +15,7 @@ import org.junit.Test;
  * <p>Date: 14-1-27
  * <p>Version: 1.0
  */
+@Ignore
 public class PasswordTest extends BaseTest {
 
     @Test

@@ -6,11 +6,13 @@ import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
  * Created by wangjianjun on 2017/5/27.
  */
+@Ignore
 public class TestAuthentication extends Common{
 
     @Test

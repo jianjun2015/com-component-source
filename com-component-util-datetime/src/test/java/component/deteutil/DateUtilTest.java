@@ -2,12 +2,14 @@ package component.deteutil;
 
 import component.dateutil.DateUtilThreadLocal;
 import junit.framework.TestCase;
+import org.junit.Ignore;
 
 import java.text.ParseException;
 
 /**
  * Created by wangjianjun on 2017/6/16.
  */
+@Ignore
 public class DateUtilTest extends TestCase {
 
     public static class TestSimpleDateFormatThreadSafe extends Thread{

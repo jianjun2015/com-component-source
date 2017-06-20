@@ -5,8 +5,6 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * ������̬�������
- * ��̬������Ҫʵ�ֽӿڣ�������Ҫָ���ӿ�����
  * @author wangjianjun
  *
  */

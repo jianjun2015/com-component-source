@@ -7,12 +7,14 @@ import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
 import org.apache.shiro.util.ThreadContext;
 import org.junit.After;
+import org.junit.Ignore;
 
 /**
  * <p>User: Zhang Kaitao
  * <p>Date: 14-1-26
  * <p>Version: 1.0
  */
+@Ignore
 public abstract class BaseTest {
 
 

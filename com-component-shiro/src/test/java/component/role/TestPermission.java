@@ -2,11 +2,13 @@ package component.role;
 
 import component.common.Common;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
  * Created by wangjianjun on 2017/5/27.
  */
+@Ignore
 public class TestPermission extends Common{
 
     @Test

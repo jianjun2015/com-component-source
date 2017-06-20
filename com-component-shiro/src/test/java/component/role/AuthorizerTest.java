@@ -2,6 +2,7 @@ package component.role;
 
 import component.common.Common;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -9,6 +10,7 @@ import org.junit.Test;
  * <p>Date: 14-1-26
  * <p>Version: 1.0
  */
+@Ignore
 public class AuthorizerTest extends Common {
 
     @Test
