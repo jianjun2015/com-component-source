@@ -1,0 +1,15 @@
+component\hibernate\entity\Dbuser.class
+component\hibernate\entity\Card.class
+component\hibernate\entity\Group.class
+component\hibernate\cache\session\SecondCache.class
+component\hibernate\class_table\Bird.class
+component\hibernate\entity\Student.class
+component\hibernate\util\HibernateUtil.class
+component\hibernate\entity\Class.class
+component\App.class
+component\hibernate\class_table\Pig.class
+component\hibernate\dao\DbUserDao.class
+component\hibernate\class_table\Animal.class
+component\hibernate\entity\Person.class
+component\hibernate\cache\session\SessionCache.class
+component\hibernate\main\Main.class

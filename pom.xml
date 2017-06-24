@@ -34,6 +34,7 @@
     <module>com-component-springmvc</module>
     <module>com-component-shiro</module>
     <module>com-component-shiro-web</module>
+    <module>com-component-jndi</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -50,6 +51,7 @@
     <junit.version>4.12</junit.version>
     <slf4j.version>1.7.25</slf4j.version>
     <spring.version>4.3.8.RELEASE</spring.version>
+    <aspectJ.version>1.8.10</aspectJ.version>
 
   </properties>
 
@@ -130,9 +132,9 @@
     </dependency>
 
     <dependency>
-      <groupId>org.aspectj</groupId>
-      <artifactId>aspectjrt</artifactId>
-      <version>1.8.10</version>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>${spring.version}</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/aopalliance/aopalliance -->

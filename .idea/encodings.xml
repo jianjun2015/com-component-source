@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-hibernate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-jndi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-logger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mybatis" charset="UTF-8" />

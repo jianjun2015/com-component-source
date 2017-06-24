@@ -226,10 +226,18 @@
         <processorPath useClasspath="true" />
         <module name="com-component-shiro-web" />
       </profile>
+      <profile default="false" name="Annotation profile for com-component-jndi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com-component-jndi" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="com-component-hibernate" target="1.7" />
       <module name="com-component-jdbc" target="1.7" />
+      <module name="com-component-jndi" target="1.7" />
       <module name="com-component-logger" target="1.7" />
       <module name="com-component-mq" target="1.7" />
       <module name="com-component-mybatis" target="1.7" />

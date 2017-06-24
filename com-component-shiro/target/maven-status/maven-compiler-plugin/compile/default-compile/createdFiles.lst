@@ -1,0 +1,16 @@
+component\role\permission\BitAndWildPermissionResolver.class
+component\helloworld\realm\simple\MyRealm_.class
+component\authenticate\MyRealm_1.class
+component\authenticate\MyRealm_2.class
+component\helloworld\realm\simple\MyRealm.class
+component\role\permission\MyRolePermissionResolver.class
+component\authenticate\strategy\AtLeastTwoAuthenticatorStrategy.class
+component\helloworld\HelloWorld.class
+component\App.class
+component\role\permission\BitPermission.class
+component\authenticate\MyRealm_3.class
+component\aes\realm\MyRealm.class
+component\aes\credentials\RetryLimitHashedCredentialsMatcher.class
+component\role\realm\MyRealm.class
+component\authenticate\strategy\OnlyOneAuthenticatorStrategy.class
+component\aes\realm\MyRealm2.class

@@ -1,0 +1,8 @@
+component\collection\SetInter.class
+component\collection\VectorInter.class
+component\collection\QueueInter.class
+component\collection\IteratorClass.class
+component\collection\ListInter.class
+component\collection\CollectionClass.class
+component\collection\MapInter.class
+component\App.class

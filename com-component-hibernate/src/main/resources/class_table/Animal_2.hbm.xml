@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--每个子类对应一张表-->
+<hibernate-mapping package="component.hibernate.class_table">
+    <class name="component.hibernate.class_table.Animal" table="t_animal" abstract="true">
+        <id name="id" type="int" access="field">
+            <!--uuid assigned-手工指定 identity-库自动生成 native-库自动生成-->
+            <generator class="assigned"/>
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" length="50"/>
+        </property>
+        <property name="sex"/>
+
+        <union-subclass name="Pig" table="t_pig">
+            <property name="weight"/>
+        </union-subclass>
+        <union-subclass name="Bird" table="t_bird">
+            <property name="height"/>
+        </union-subclass>
+    </class>
+</hibernate-mapping>

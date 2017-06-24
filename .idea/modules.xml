@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" filepath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" filepath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" filepath="$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-logger/com-component-logger.iml" filepath="$PROJECT_DIR$/com-component-logger/com-component-logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mq/com-component-mq.iml" filepath="$PROJECT_DIR$/com-component-mq/com-component-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" filepath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" />

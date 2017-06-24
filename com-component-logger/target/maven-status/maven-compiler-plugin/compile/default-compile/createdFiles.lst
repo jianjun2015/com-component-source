@@ -1,0 +1,5 @@
+component\main\Main.class
+component\log4j\Log4jClass.class
+component\logback\LogbackClass.class
+component\logpattern\SystemLogger.class
+component\App.class

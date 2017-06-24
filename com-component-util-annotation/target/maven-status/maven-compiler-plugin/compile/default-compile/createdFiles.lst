@@ -1,0 +1,10 @@
+component\annouse\CheckMain.class
+component\annouse\TarResearch.class
+component\annotation\MyMethodAnnotation.class
+component\annotation\MyConstructorAnnotation.class
+component\annotation\MyFieldAnnotation.class
+component\annouse\IgnoreProperty.class
+component\annotation\TemplateAnno.class
+component\annotation\MySampleMain.class
+component\annotation\MyClassAnnotation.class
+component\App.class
