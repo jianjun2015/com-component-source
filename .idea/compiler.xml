@@ -1,271 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-conponent-nosql" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-reflect" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-reflect" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-json" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-json" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-cache" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-cache" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-jdbc" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-jdbc" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-stringnumbric" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-stringnumbric" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-collection" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-collection" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-thread" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-thread" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-array" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-array" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-pattern" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-pattern" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-sort" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-sort" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-test" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-test" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-mq" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-mq" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-serializable" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-serializable" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-mybatis" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-mybatis" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-datetime" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-datetime" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-designmodule" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-designmodule" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-spring" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-spring" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-web" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-web" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-spring-boot" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-spring-boot" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-poi" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-poi" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-logger" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-logger" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-nosql" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-nosql" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-util-annotation" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-util-annotation" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-hibernate" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="com-component-hibernate" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-struts2" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-struts2" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-springmvc" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-springmvc" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-mybatis-pagehelper" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-shiro" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-shiro" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-shiro-web" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="com-component-shiro-web" />
-      </profile>
-      <profile default="false" name="Annotation profile for com-component-jndi" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
+        <module name="com-component-jdbc" />
         <module name="com-component-jndi" />
+        <module name="com-component-logger" />
+        <module name="com-component-mq" />
+        <module name="com-component-mybatis" />
+        <module name="com-component-nosql" />
+        <module name="com-component-poi" />
+        <module name="com-component-shiro" />
+        <module name="com-component-shiro-web" />
+        <module name="com-component-spring" />
+        <module name="com-component-spring-boot" />
+        <module name="com-component-springmvc" />
+        <module name="com-component-struts2" />
+        <module name="com-component-test" />
+        <module name="com-component-util-annotation" />
+        <module name="com-component-util-array" />
+        <module name="com-component-util-cache" />
+        <module name="com-component-util-collection" />
+        <module name="com-component-util-datetime" />
+        <module name="com-component-util-designmodule" />
+        <module name="com-component-util-json" />
+        <module name="com-component-util-pattern" />
+        <module name="com-component-util-reflect" />
+        <module name="com-component-util-serializable" />
+        <module name="com-component-util-sort" />
+        <module name="com-component-util-stringnumbric" />
+        <module name="com-component-util-thread" />
+        <module name="com-component-web" />
+        <module name="com-conponent-nosql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
-      <module name="com-component-hibernate" target="1.7" />
-      <module name="com-component-jdbc" target="1.7" />
-      <module name="com-component-jndi" target="1.7" />
-      <module name="com-component-logger" target="1.7" />
-      <module name="com-component-mq" target="1.7" />
-      <module name="com-component-mybatis" target="1.7" />
+      <module name="com-component-hibernate" target="1.8" />
+      <module name="com-component-jdbc" target="1.8" />
+      <module name="com-component-jndi" target="1.8" />
+      <module name="com-component-logger" target="1.8" />
+      <module name="com-component-mq" target="1.8" />
+      <module name="com-component-mybatis" target="1.8" />
       <module name="com-component-mybatis-pagehelper" target="1.7" />
-      <module name="com-component-nosql" target="1.7" />
-      <module name="com-component-poi" target="1.7" />
-      <module name="com-component-shiro" target="1.7" />
-      <module name="com-component-shiro-web" target="1.7" />
-      <module name="com-component-source" target="1.7" />
-      <module name="com-component-spring" target="1.7" />
-      <module name="com-component-spring-boot" target="1.7" />
-      <module name="com-component-springmvc" target="1.7" />
-      <module name="com-component-struts2" target="1.7" />
-      <module name="com-component-test" target="1.7" />
-      <module name="com-component-util-annotation" target="1.7" />
-      <module name="com-component-util-array" target="1.7" />
-      <module name="com-component-util-cache" target="1.7" />
-      <module name="com-component-util-collection" target="1.7" />
-      <module name="com-component-util-datetime" target="1.7" />
-      <module name="com-component-util-designmodule" target="1.7" />
-      <module name="com-component-util-json" target="1.7" />
-      <module name="com-component-util-pattern" target="1.7" />
-      <module name="com-component-util-reflect" target="1.7" />
-      <module name="com-component-util-serializable" target="1.7" />
-      <module name="com-component-util-sort" target="1.7" />
-      <module name="com-component-util-stringnumbric" target="1.7" />
-      <module name="com-component-util-thread" target="1.7" />
-      <module name="com-component-web" target="1.7" />
+      <module name="com-component-nosql" target="1.8" />
+      <module name="com-component-poi" target="1.8" />
+      <module name="com-component-shiro" target="1.8" />
+      <module name="com-component-shiro-web" target="1.8" />
+      <module name="com-component-source" target="1.8" />
+      <module name="com-component-spring" target="1.8" />
+      <module name="com-component-spring-boot" target="1.8" />
+      <module name="com-component-springmvc" target="1.8" />
+      <module name="com-component-struts2" target="1.8" />
+      <module name="com-component-test" target="1.8" />
+      <module name="com-component-util-annotation" target="1.8" />
+      <module name="com-component-util-array" target="1.8" />
+      <module name="com-component-util-cache" target="1.8" />
+      <module name="com-component-util-collection" target="1.8" />
+      <module name="com-component-util-datetime" target="1.8" />
+      <module name="com-component-util-designmodule" target="1.8" />
+      <module name="com-component-util-json" target="1.8" />
+      <module name="com-component-util-pattern" target="1.8" />
+      <module name="com-component-util-reflect" target="1.8" />
+      <module name="com-component-util-serializable" target="1.8" />
+      <module name="com-component-util-sort" target="1.8" />
+      <module name="com-component-util-stringnumbric" target="1.8" />
+      <module name="com-component-util-thread" target="1.8" />
+      <module name="com-component-web" target="1.8" />
       <module name="com-conponent-nosql" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -1,9 +1,9 @@
-component\sort\BubbleSort.class
-component\sort\QuickSort.class
-component\sort\Main.class
-component\sort\InsertSort.class
 component\sort\MergeSort.class
+component\sort\QuickSort.class
+component\sort\BubbleSort.class
+component\sort\InsertSort.class
 component\sort\ShellSort.class
-component\util\Exchange.class
 component\sort\SelectSort.class
+component\util\Exchange.class
 component\App.class
+component\sort\Main.class

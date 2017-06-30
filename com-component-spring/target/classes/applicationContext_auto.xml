@@ -8,14 +8,14 @@
         http://www.springframework.org/schema/aop  http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
 
     <!--配置bean-->
-    <bean id="arithmeticCalculator_" class="component.aopxml.impl.ArithmeticCalculatorImpl"/>
+    <bean id="arithmeticCalculator_" class="component.spring.aopxml.impl.ArithmeticCalculatorImpl"/>
 
-    <bean id="logginAspect_" class="component.aopxml.LoggingAspect"/>
+    <bean id="logginAspect_" class="component.spring.aopxml.LoggingAspect"/>
 
     <!--配置AOP-->
     <aop:config>
         <!--切点-->
-        <aop:pointcut id="pointCut" expression="execution(* component.aopxml.ArithmeticCalculator.*(..))"/>
+        <aop:pointcut id="pointCut" expression="execution(* component.spring.aopxml.ArithmeticCalculator.*(..))"/>
         <!--切面和通知-->
         <aop:aspect ref="logginAspect_" order="1">
             <aop:before method="beforeMethod" pointcut-ref="pointCut"/>

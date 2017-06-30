@@ -1,1 +1,9 @@
 component\App.class
+component\spring\aopxml\impl\ArithmeticCalculatorImpl.class
+component\spring\aop\impl\ArithmeticCalculatorImpl.class
+component\spring\aopxml\LoggingAspect.class
+component\spring\aop\ArithmeticCalculator.class
+component\spring\aopxml\ArithmeticCalculator.class
+component\spring\aopxml\Main.class
+component\spring\aop\Main.class
+component\spring\aop\LoggingAspect.class

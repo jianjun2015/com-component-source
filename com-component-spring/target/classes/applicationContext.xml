@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/aop  http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
 
     <!--自动扫描对应注解的包-->
-    <context:component-scan base-package="component.aop"/>
+    <context:component-scan base-package="component.spring.aop"/>
 
     <!--使aspectJ注解起作用，自动为匹配类生成代理-->
     <aop:aspectj-autoproxy/>
