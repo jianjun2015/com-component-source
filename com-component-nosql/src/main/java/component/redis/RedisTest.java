@@ -22,7 +22,7 @@ public class RedisTest {
 	@Before
 	public void setup() {
 		// TODO Auto-generated method stub
-		String host = "127.0.0.1";
+		String host = "192.168.66.129";
 		int port = 6379;
 		String password="admin";
 		jedis = new Jedis(host, port);
