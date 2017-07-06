@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="component.module.mybatis.entity.ClassMapper">
+
+  <resultMap id="BaseClasses" type="component.module.mybatis.entity.Classes">
+    <id property="id" column="c_id"/>
+    <result property="name" column="c_name" jdbcType="VARCHAR"/>
+  </resultMap>
+  <resultMap id="BaseTeacher" type="component.module.mybatis.entity.Teacher">
+    <id property="id" column="t_id"/>
+    <result property="name" column="t_name" jdbcType="VARCHAR"/>
+  </resultMap>
+
+  <select id="selectNameById" parameterType="int" resultType="string">
+    SELECT c_name FROM t_class WHERE c_id = #{id}
+  </select>
+
+  <!--    1对1   嵌套查询 执行一次sql-->
+  <select id="selectClassById" parameterType="int" resultMap="ClassResultMap">
+    SELECT * FROM T_Class tc,T_Teacher tt WHERE tc.teacher_id = tt.t_id AND tc.c_id=#{id}
+  </select>
+
+  <resultMap id="ClassResultMap" type="component.module.mybatis.entity.Classes">
+    <id column="c_id" property="id" />
+    <result column="c_name" jdbcType="VARCHAR" property="name" />
+    <association property="teacher" javaType="component.module.mybatis.entity.Teacher">
+      <id property="id" column="t_id"/>
+      <result property="name" column="t_name" jdbcType="VARCHAR"/>
+    </association>
+  </resultMap>
+
+  <!--    1对1   分开查询，两次sql-->
+  <select id="selectClassById2" parameterType="int" resultMap="ClassResultMap2">
+    SELECT * FROM T_class WHERE c_id=#{id}
+  </select>
+  <resultMap id="ClassResultMap2" type="component.module.mybatis.entity.Classes">
+    <id property="id" column="c_id"/>
+    <result property="name" column="c_name"/>
+    <association property="teacher" select="getTeacher" column="teacher_id">
+      <id property="id" column="t_id"/>
+      <result property="name" column="t_name"/>
+    </association>
+  </resultMap>
+  <select id="getTeacher" resultMap="BaseTeacher" parameterType="int">
+    SELECT * FROM t_teacher WHERE t_id = #{id}
+  </select>
+
+
+  <!--1对多  单条sql  也可以同上 多条sql  ofType属性指定集合中元素的对象类型-->
+  <select id="selectClassById3" parameterType="int" resultMap="ClassResultMap3">
+    SELECT * FROM t_class tc,t_teacher tt,t_student ts
+    WHERE tc.teacher_id = tt.t_id AND tc.c_id = ts.c_id AND tc.c_id = #{id}
+  </select>
+  <resultMap id="ClassResultMap3" type="component.module.mybatis.entity.Classes">
+    <id property="id" column="c_id"/>
+    <result property="name" column="c_name"/>
+    <association property="teacher" column="teacher_id" select="getTeacher">
+      <id property="id" column="t_id"/>
+      <result property="name" column="t_name"/>
+    </association>
+    <collection property="students" ofType="component.module.mybatis.entity.Student">
+      <id property="id" column="s_id"/>
+      <result property="name" column="s_name"/>
+    </collection>
+  </resultMap>
+
+  <!--调用存储过程-->
+  <select id="getStudentCountById" parameterMap="getStudentCountMap" statementType="CALLABLE">
+    CALL module.get_student_count(?,?)
+  </select>
+  <parameterMap id="getStudentCountMap" type="java.util.Map">
+    <parameter property="stu_id" mode="IN" jdbcType="INTEGER"/>
+    <parameter property="stu_count" mode="OUT" jdbcType="INTEGER"/>
+  </parameterMap>
+
+  <!--相关关键字   keyProperty="id" useGeneratedKeys="true" 可以返回主键-->
+  <insert id="insertTeacher" parameterType="component.module.mybatis.entity.Teacher">
+    <!--可以返回主键-->
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER">
+      SELECT LAST_INSERT_ID() AS id
+    </selectKey>
+    INSERT INTO t_teacher
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        t_id,
+      </if>
+      <if test="name != null">
+        t_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <update id="updateTeacher" parameterType="component.module.mybatis.entity.Teacher">
+    UPDATE
+    <set>
+      <if test="id != null">
+        t_id = #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        t_name = #{name,jdbcType=VARCHAR},
+      </if>
+    </set>
+    WHERE t_id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <!--注意，如果为单个参数，判断 _parameter-->
+  <!--当mybatis传参为单个参数时，在sql语句中需要使用_parameter 来引用这个参数-->
+  <select id="selectTeacherByName" parameterType="string" resultMap="BaseTeacher">
+    SELECT * FROM t_teacher
+    <where>
+      1=1
+      <if test="_parameter  != null">
+        AND t_name like CONCAT('%', #{name,jdbcType=VARCHAR}, '%')
+      </if>
+    </where>
+  </select>
+
+  <select id="selectTeacherByName2" parameterType="string" resultMap="BaseTeacher">
+    SELECT * FROM t_teacher
+    <trim prefix="where" prefixOverrides="AND | OR">
+      <if test="_parameter != null">
+        AND t_name like CONCAT('%', #{name,jdbcType=VARCHAR}, '%')
+      </if>
+      <if test="_parameter != null">
+        AND t_name like CONCAT('%', #{name,jdbcType=VARCHAR}, '%')
+      </if>
+    </trim>
+  </select>
+
+  <select id="selectTeacherByIds" parameterType="list" resultMap="BaseTeacher">
+    SELECT * FROM t_teacher
+    WHERE t_id IN
+    <foreach collection="list" index="index" item="item" separator=","
+    open="(" close=")">
+      #{item}
+    </foreach>
+  </select>
+
+  <!--if else 的替代 list为空的时候处理-->
+  <select id= "selectTeacherByIds_" parameterType="list" resultMap="BaseTeacher">
+    SELECT * FROM t_teacher
+    <choose>
+      <when test="list != null and list.size>0">
+        WHERE t_id IN
+        <foreach collection="list" index="index" item="item" separator=","
+                 open="(" close=")">
+          #{item}
+        </foreach>
+      </when>
+      <otherwise>
+        WHERE 1=0
+      </otherwise>
+    </choose>
+  </select>
+
+  <select id="selectTeacherByTeachers" parameterType="list" resultMap="BaseTeacher">
+    SELECT * FROM t_teacher
+    WHERE t_id IN
+    <foreach collection="list" index="index" item="item" separator=","
+             open="(" close=")">
+      #{item.id}
+    </foreach>
+  </select>
+
+  
+  <select id="selectTeacherByMap" parameterType="map" resultMap="BaseTeacher">
+    SELECT * FROM t_teacher
+    <if test="map != null and map.size()>0"></if>
+    <choose>
+      <when test="map != null and map.size()>0">
+        <trim prefix="where" prefixOverrides="AND | OR">
+          <if test="id !=null">
+            and t_id=#{id}
+          </if>
+          <if test="name !=null and name != ''">
+            and t_name=#{name}
+          </if>
+        </trim>
+      </when>
+      <otherwise>
+        WHERE 1=0
+      </otherwise>
+    </choose>
+  </select>
+
+  <!--where语言拿出来单独写-->
+  <sql id="queryWhereSql">
+    <trim prefix="where" prefixOverrides="AND | OR">
+      <if test="id!=null and id!=''">
+      AND t_id=#{id,jdbcType=INTEGER}
+      </if>
+      <if test="name!=null and name!=''">
+        AND t_name=#{name,jdbcType=VARCHAR}
+      </if>
+    </trim>
+  </sql>
+
+  <!--include标签引用其他sql  通过refid-->
+  <select id="selectTeacherByWhere_" parameterType="component.module.mybatis.entity.Teacher" resultMap="BaseTeacher">
+    SELECT * FROM t_teacher
+    <include refid="queryWhereSql"/>
+  </select>
+</mapper>
