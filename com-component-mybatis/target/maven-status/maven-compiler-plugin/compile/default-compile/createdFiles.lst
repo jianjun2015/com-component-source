@@ -1,3 +1,8 @@
+component\module\mybatis\MyBatisUtil.class
+component\module\mybatis\dao\ClassDao.class
+component\module\mybatis\entity\Classes.class
 component\App.class
+component\module\mybatis\entity\Teacher.class
 component\mybatis\mapper\TTest1Mapper.class
+component\module\mybatis\entity\Student.class
 component\mybatis\entity\TTest1.class

@@ -1,5 +1,6 @@
 component\mongodb\sample\BaseUse.class
 component\mongodb\MongoDBJDBC.class
 component\App.class
+component\redis\JedisUtilTest.class
 component\redis\RedisTest.class
 component\redis\RedisUtil.class

@@ -2,23 +2,206 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="添加mybatis操作">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/MyBatisUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/dao/ClassDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/entity/Classes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/entity/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/entity/Teacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/resources/Configuration.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/resources/sql/module.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis/src/main/resources/sqlmapper/classMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/com-component-hibernate-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-hibernate/target/com-component-hibernate-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/com-component-jdbc-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-jdbc/target/com-component-jdbc-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/com-component-jndi-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-jndi/target/com-component-jndi-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/com-component-logger-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-logger/target/com-component-logger-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/com-component-mq-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-mq/target/com-component-mq-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/com-component-mybatis.jar" afterPath="$PROJECT_DIR$/com-component-mybatis/target/com-component-mybatis.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/com-component-nosql-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-nosql/target/com-component-nosql-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/com-component-poi-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-poi/target/com-component-poi-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro-web/target/com-component-shiro-web.war" afterPath="$PROJECT_DIR$/com-component-shiro-web/target/com-component-shiro-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/com-component-shiro-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-shiro/target/com-component-shiro-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/target/com-component-spring-boot.jar" afterPath="$PROJECT_DIR$/com-component-spring-boot/target/com-component-spring-boot.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/com-component-spring-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-spring/target/com-component-spring-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc.war" afterPath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/com-component-struts2-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-struts2/target/com-component-struts2-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/com-component-test-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-test/target/com-component-test-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/com-component-util-annotation-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/com-component-util-annotation-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/com-component-util-array-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-array/target/com-component-util-array-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/com-component-util-cache-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-cache/target/com-component-util-cache-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/com-component-util-collection-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-collection/target/com-component-util-collection-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/com-component-util-datatime-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/com-component-util-datatime-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/com-component-util-designmodule-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/com-component-util-designmodule-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/com-component-util-json-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-json/target/com-component-util-json-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/com-component-util-pattern-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/com-component-util-pattern-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/com-component-util-reflect-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/com-component-util-reflect-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/com-component-util-serializable-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/com-component-util-serializable-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/com-component-util-sort-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-sort/target/com-component-util-sort-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/com-component-util-stringnumbric-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/com-component-util-stringnumbric-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/com-component-util-thread-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-thread/target/com-component-util-thread-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web.war" afterPath="$PROJECT_DIR$/com-component-web/target/com-component-web.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" afterPath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" afterPath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" afterPath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/pom.xml" afterPath="$PROJECT_DIR$/com-component-mybatis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" afterPath="$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-hibernate/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-hibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-hibernate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-hibernate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-jdbc/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-jdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-jndi/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-jndi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-jndi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-logger/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-logger/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-mq/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-mybatis/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-nosql/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-poi/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-poi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-poi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-poi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-shiro-web/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-shiro/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-shiro/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.authenticate.TestAuthentication.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.authenticate.TestAuthentication.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.EncodeDeCodeTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.EncodeDeCodeTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.PasswordTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.PasswordTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.TestHelloWorld.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.TestHelloWorld.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.realm.TestRealm.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.realm.TestRealm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.noconfig.NonConfigurationCreateTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.noconfig.NonConfigurationCreateTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.AuthorizerTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.AuthorizerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestHasRole.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestHasRole.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestPermission.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestPermission.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.EncodeDeCodeTest.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.EncodeDeCodeTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.PasswordTest.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.PasswordTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.helloworld.TestHelloWorld.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.helloworld.TestHelloWorld.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.helloworld.realm.TestRealm.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.helloworld.realm.TestRealm.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.role.TestPermission.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.role.TestPermission.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-spring-boot/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/TEST-component.controller.helloword.HelloTest.xml" afterPath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/TEST-component.controller.helloword.HelloTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/TEST-component.controller.helloword.HelloWorldControllerTest.xml" afterPath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/TEST-component.controller.helloword.HelloWorldControllerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-spring-boot/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-spring/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-springmvc/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-struts2/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-struts2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-struts2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-test/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-test/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-test/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-array/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-array/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-array/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-array/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-cache/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-cache/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-cache/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-collection/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-collection/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-collection/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-collection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.deteutil.DateUtilTest.xml" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.deteutil.DateUtilTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-json/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-json/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-json/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-json/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-sort/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-sort/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-sort/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-sort/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-thread/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/TEST-component.AppTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/component.AppTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-web/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +262,7 @@
         <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/Configuration.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -89,7 +272,7 @@
         <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/sqlmapper/classMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+              <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
               <folding>
                 <marker date="1499339656667" expanded="true" signature="681:726" ph="SELECT c_nam... t_class" />
                 <marker date="1499339656667" expanded="true" signature="855:940" ph="SELECT * FRO... T_Class" />
@@ -114,7 +297,7 @@
         <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/dao/ClassDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+              <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +308,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/entity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="100">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -290,6 +473,24 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com-component-source" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com-component-source" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
@@ -348,282 +549,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-nosql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqlmapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1308,7 +1233,7 @@
       <workItem from="1497839567740" duration="61935000" />
       <workItem from="1498270062345" duration="13229000" />
       <workItem from="1498441140821" duration="191000" />
-      <workItem from="1499312172909" duration="19365000" />
+      <workItem from="1499312172909" duration="19966000" />
     </task>
     <task id="LOCAL-00001" summary="添加 注解">
       <created>1494828855356</created>
@@ -1317,7 +1242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494828855356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加mybatis操作">
+      <created>1499340018522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499340018522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1353,7 +1285,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165656000" />
+    <option name="totallyTimeSpent" value="166257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1371,7 +1303,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3032345" sideWeight="0.5051414" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32255244" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32197943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1381,13 +1313,13 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3962264" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33827493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33827493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32614556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1815,7 +1747,7 @@
     <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/Configuration.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1862,7 +1794,7 @@
     <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/sqlmapper/classMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
           <folding>
             <marker date="1499339656667" expanded="true" signature="681:726" ph="SELECT c_nam... t_class" />
             <marker date="1499339656667" expanded="true" signature="855:940" ph="SELECT * FRO... T_Class" />
@@ -1893,7 +1825,7 @@
     <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/dao/ClassDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1902,8 +1834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
