@@ -2,6 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="component.module.mybatis.entity.ClassMapper">
 
+  <!--对应关系-->
   <resultMap id="BaseClasses" type="component.module.mybatis.entity.Classes">
     <id property="id" column="c_id"/>
     <result property="name" column="c_name" jdbcType="VARCHAR"/>
