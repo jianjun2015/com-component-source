@@ -12,6 +12,7 @@
         <module name="com-component-logger" />
         <module name="com-component-mq" />
         <module name="com-component-mybatis" />
+        <module name="com-component-mybatis3-spring4" />
         <module name="com-component-nosql" />
         <module name="com-component-poi" />
         <module name="com-component-shiro" />
@@ -46,6 +47,7 @@
       <module name="com-component-mq" target="1.8" />
       <module name="com-component-mybatis" target="1.8" />
       <module name="com-component-mybatis-pagehelper" target="1.7" />
+      <module name="com-component-mybatis3-spring4" target="1.8" />
       <module name="com-component-nosql" target="1.8" />
       <module name="com-component-poi" target="1.8" />
       <module name="com-component-shiro" target="1.8" />
@@ -71,6 +73,7 @@
       <module name="com-component-util-thread" target="1.8" />
       <module name="com-component-web" target="1.8" />
       <module name="com-conponent-nosql" target="1.5" />
+      <module name="comcomponentmybatis3spring4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

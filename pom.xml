@@ -35,6 +35,8 @@
     <module>com-component-shiro</module>
     <module>com-component-shiro-web</module>
     <module>com-component-jndi</module>
+      <module>comcomponentmybatis3spring4</module>
+      <module>com-component-mybatis3-spring4</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -134,6 +136,12 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aspects</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
       <version>${spring.version}</version>
     </dependency>
 
