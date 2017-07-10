@@ -23,6 +23,7 @@
         </encoder>
     </appender>
 
+    <!--每天记录-->
     <appender name="DAYFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>logFile.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
