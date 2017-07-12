@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" filepath="$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" filepath="$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-web/com-component-web.iml" filepath="$PROJECT_DIR$/com-component-web/com-component-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" filepath="$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" />
     </modules>
   </component>
 </project>

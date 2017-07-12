@@ -37,6 +37,7 @@
     <module>com-component-jndi</module>
       <module>comcomponentmybatis3spring4</module>
       <module>com-component-mybatis3-spring4</module>
+      <module>com-component-zookeeper</module>
   </modules>
   <packaging>pom</packaging>
 

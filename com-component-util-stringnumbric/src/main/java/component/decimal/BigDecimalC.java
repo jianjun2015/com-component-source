@@ -10,7 +10,8 @@ import java.util.Map;
 public class BigDecimalC {
 
     public static void main(String[] args) {
-        func_();
+//        func_();
+        System.out.println(equalZero_());
     }
 
     public static void func_(){
@@ -50,6 +51,30 @@ public class BigDecimalC {
         }
 
         System.out.println(false);
+        return false;
+    }
+
+    private static boolean equalZero_(){
+
+        Object value = 0.000000;
+        BigDecimal value_ = null;
+
+        BigDecimal bigDecimal = BigDecimal.valueOf(0);
+
+        if (value instanceof Integer)
+            value_ =  new BigDecimal((Integer) value);
+        else if (value instanceof Long)
+            value_ =  new BigDecimal((Long) value);
+        else if (value instanceof Double)
+            value_ =  new BigDecimal((Double) value);
+        else if (value instanceof BigDecimalC)
+            value_ =  (BigDecimal) value;
+
+        BigDecimal bigDecimal_ = value_;
+
+        if (bigDecimal_.compareTo(BigDecimal.ZERO) == 0){
+            return true;
+        }
         return false;
     }
 }

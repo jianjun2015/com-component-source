@@ -36,6 +36,7 @@
         <module name="com-component-util-stringnumbric" />
         <module name="com-component-util-thread" />
         <module name="com-component-web" />
+        <module name="com-component-zookeeper" />
         <module name="com-conponent-nosql" />
       </profile>
     </annotationProcessing>
@@ -72,6 +73,7 @@
       <module name="com-component-util-stringnumbric" target="1.8" />
       <module name="com-component-util-thread" target="1.8" />
       <module name="com-component-web" target="1.8" />
+      <module name="com-component-zookeeper" target="1.8" />
       <module name="com-conponent-nosql" target="1.5" />
       <module name="comcomponentmybatis3spring4" target="1.8" />
     </bytecodeTargetLevel>
