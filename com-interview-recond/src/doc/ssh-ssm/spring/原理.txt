@@ -1,0 +1,10 @@
+Spring工作原理及其作用
+    1.springmvc请所有的请求都提交给DispatcherServlet,它会委托应用系统的其他模块负责对请求进行真正的处理工作。
+    2.DispatcherServlet查询一个或多个HandlerMapping,找到处理请求的Controller. 3.DispatcherServlet请请求提交到目标Controller
+    4.Controller进行业务逻辑处理后，会返回一个ModelAndView
+    5.Dispathcher查询一个或多个ViewResolver视图解析器,找到ModelAndView对象指定的视图对象
+    6.视图对象负责渲染返回给客户端。
+
+为什么要使用Spring：
+AOP 让开发人员可以创建非行为性的关注点，称为横切关注点，并将它们插入到应用程序代码中。使用 AOP后，公共服务（比如日志、持久性、事务等）就可以分解成方面并应用到域对象上，同时不会增加域对象的对象模型的复杂性。
+IOC 允许创建一个可以构造对象的应用环境，然后向这些对象传递它们的协作对象。正如单词 倒置 所表明的，IOC 就像反过来的JNDI。没有使用一堆抽象工厂、服务定位器、单元素（singleton）和直接构造（straightconstruction），每一个对象都是用其协作对象构造的。因此是由容器管理协作对象（collaborator）。

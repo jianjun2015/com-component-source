@@ -1,0 +1,16 @@
+hibernate工作原理：
+    1、通过Configuration().configure();读取并解析hibernate.cfg.xml配置文件。
+    2、由hibernate.cfg.xml中的<mappingresource="com/xx/User.hbm.xml"/>读取解析映射信息。
+    3、通过config.buildSessionFactory();//得到sessionFactory。
+    4、sessionFactory.openSession();//得到session。
+    5、session.beginTransaction();//开启事务。
+    6、persistent operate;
+    7、session.getTransaction().commit();//提交事务
+    8、关闭session;
+    9、关闭sessionFactory;
+
+为什么要用：
+    1. 对JDBC访问数据库的代码做了封装，大大简化了数据访问层繁琐的重复性代码。
+    2. Hibernate是一个基于JDBC的主流持久化框架，是一个优秀的ORM实现。他很大程度的简化DAO层的编码工作
+    3. hibernate使用Java反射机制，而不是字节码增强程序来实现透明性。
+    4. hibernate的性能非常好，因为它是个轻量级框架。映射的灵活性很出色。它支持各种关系数据库，从一对一到多对多的各种复杂关系。
