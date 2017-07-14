@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" filepath="$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" filepath="$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" filepath="$PROJECT_DIR$/com-component-util-cache/com-component-util-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-class/com-component-util-class.iml" filepath="$PROJECT_DIR$/com-component-util-class/com-component-util-class.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" filepath="$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" filepath="$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" filepath="$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" />
@@ -34,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" filepath="$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-web/com-component-web.iml" filepath="$PROJECT_DIR$/com-component-web/com-component-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" filepath="$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-interview-recond/com-interview-recond.iml" filepath="$PROJECT_DIR$/com-interview-recond/com-interview-recond.iml" />
     </modules>
   </component>
 </project>

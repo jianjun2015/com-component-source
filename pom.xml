@@ -38,6 +38,8 @@
       <module>comcomponentmybatis3spring4</module>
       <module>com-component-mybatis3-spring4</module>
       <module>com-component-zookeeper</module>
+      <module>com-component-util-class</module>
+      <module>com-interview-recond</module>
   </modules>
   <packaging>pom</packaging>
 

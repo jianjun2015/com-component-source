@@ -1,7 +1,5 @@
 package component.zk;
 
-import org.apache.curator.framework.CuratorFramework;
-import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.*;
 
 import java.io.IOException;

@@ -25,6 +25,7 @@
         <module name="com-component-util-annotation" />
         <module name="com-component-util-array" />
         <module name="com-component-util-cache" />
+        <module name="com-component-util-class" />
         <module name="com-component-util-collection" />
         <module name="com-component-util-datetime" />
         <module name="com-component-util-designmodule" />
@@ -38,6 +39,7 @@
         <module name="com-component-web" />
         <module name="com-component-zookeeper" />
         <module name="com-conponent-nosql" />
+        <module name="com-interview-recond" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
@@ -62,6 +64,7 @@
       <module name="com-component-util-annotation" target="1.8" />
       <module name="com-component-util-array" target="1.8" />
       <module name="com-component-util-cache" target="1.8" />
+      <module name="com-component-util-class" target="1.8" />
       <module name="com-component-util-collection" target="1.8" />
       <module name="com-component-util-datetime" target="1.8" />
       <module name="com-component-util-designmodule" target="1.8" />
@@ -75,6 +78,7 @@
       <module name="com-component-web" target="1.8" />
       <module name="com-component-zookeeper" target="1.8" />
       <module name="com-conponent-nosql" target="1.5" />
+      <module name="com-interview-recond" target="1.8" />
       <module name="comcomponentmybatis3spring4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
