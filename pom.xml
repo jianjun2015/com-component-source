@@ -44,6 +44,9 @@
       <module>com-component-algorithm</module>
       <module>com-component-algorithm_</module>
       <module>com-component-webservice</module>
+      <module>com-component-dubbo</module>
+    <module>com-component-disconf-web</module>
+    <module>com-component-nginx</module>
   </modules>
   <packaging>pom</packaging>
 

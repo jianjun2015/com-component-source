@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" filepath="$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-disconf-web/com-component-disconf-web.iml" filepath="$PROJECT_DIR$/com-component-disconf-web/com-component-disconf-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-dubbo/com-component-dubbo.iml" filepath="$PROJECT_DIR$/com-component-dubbo/com-component-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" filepath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" filepath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" filepath="$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" />
@@ -10,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-mq/com-component-mq.iml" filepath="$PROJECT_DIR$/com-component-mq/com-component-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" filepath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" filepath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-nginx/com-component-nginx.iml" filepath="$PROJECT_DIR$/com-component-nginx/com-component-nginx.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" filepath="$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-poi/com-component-poi.iml" filepath="$PROJECT_DIR$/com-component-poi/com-component-poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" filepath="$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" />

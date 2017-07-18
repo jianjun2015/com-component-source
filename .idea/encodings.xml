@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-algorithm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-algorithm_" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-disconf-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-hibernate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-jndi" charset="UTF-8" />
@@ -11,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/com-component-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mybatis3-spring4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-nginx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-nosql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-poi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-shiro" charset="UTF-8" />

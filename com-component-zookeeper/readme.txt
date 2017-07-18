@@ -1,3 +1,15 @@
+zk集群部署
+    1、centOs环境安装zk
+    2、配置 myid、conf
+    3、zkServer.sh start 启动  zkServer.sh stop 停止  zkServer.sh status 状态
+        注意：在启动之前，关闭防火墙
+        关闭firewall或者iptables：
+        systemctl stop firewalld.service #停止firewall
+        systemctl disable firewalld.service #禁止firewall开机启动
+        firewall-cmd --state #查看默认防火墙状态（关闭后显示notrunning，开启后显示running）
+
+    4、客户端打开操作：./zkCli.sh -server 192.168.66.129:2181,192.168.66.130:2181,192.168.66.131:2181
+
 zookeeper使用场景(ZK会定期发布快照到硬盘存储，方便机器宕机丢失)
 1、数据发布与订阅-简单、可靠、实时
     发布与订阅模型，即所谓的配置中心：发布者将数据发布到ZK节点，共订阅者或取数据，实现配置信息de集中式管理和动态更新。
