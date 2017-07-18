@@ -10,14 +10,12 @@ import java.lang.reflect.Proxy;
  */
 public class ProxyFactory {
 	
-	//ά��һ��Ŀ��Ķ���
 	private Object target;
 
 	public ProxyFactory(Object target) {
 		this.target = target;
 	}
 	
-	//��Ŀ��������ɴ������
 	public Object getProxyInstance(){
 		
 		return Proxy.newProxyInstance(
@@ -29,10 +27,9 @@ public class ProxyFactory {
 					public Object invoke(Object proxy, Method method, Object[] args)
 							throws Throwable {
 						// TODO Auto-generated method stub
-						//ִ��Ŀ����󷽷�
-						System.out.println("��ʼ����---");
+						System.out.println("前序动作");
 						Object returnValue = method.invoke(target, args);
-						System.out.println("�ύ����---");
+						System.out.println("前序动作");
 						return returnValue;
 					}
 				});

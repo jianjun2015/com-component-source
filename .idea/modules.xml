@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" filepath="$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" filepath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" filepath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" filepath="$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" />
@@ -34,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" filepath="$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" filepath="$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-web/com-component-web.iml" filepath="$PROJECT_DIR$/com-component-web/com-component-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-webservice/com-component-webservice.iml" filepath="$PROJECT_DIR$/com-component-webservice/com-component-webservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" filepath="$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-interview-recond/com-interview-recond.iml" filepath="$PROJECT_DIR$/com-interview-recond/com-interview-recond.iml" />
     </modules>

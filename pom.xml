@@ -40,6 +40,10 @@
       <module>com-component-zookeeper</module>
       <module>com-component-util-class</module>
       <module>com-interview-recond</module>
+      <module>com-component-algorithm</module>
+      <module>com-component-algorithm</module>
+      <module>com-component-algorithm_</module>
+      <module>com-component-webservice</module>
   </modules>
   <packaging>pom</packaging>
 

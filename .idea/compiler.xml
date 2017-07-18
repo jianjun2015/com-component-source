@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="com-component-algorithm_" />
         <module name="com-component-hibernate" />
         <module name="com-component-jdbc" />
         <module name="com-component-jndi" />
@@ -37,12 +38,15 @@
         <module name="com-component-util-stringnumbric" />
         <module name="com-component-util-thread" />
         <module name="com-component-web" />
+        <module name="com-component-webservice" />
         <module name="com-component-zookeeper" />
         <module name="com-conponent-nosql" />
         <module name="com-interview-recond" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
+      <module name="com-component-algorithm" target="1.8" />
+      <module name="com-component-algorithm_" target="1.8" />
       <module name="com-component-hibernate" target="1.8" />
       <module name="com-component-jdbc" target="1.8" />
       <module name="com-component-jndi" target="1.8" />
@@ -76,6 +80,7 @@
       <module name="com-component-util-stringnumbric" target="1.8" />
       <module name="com-component-util-thread" target="1.8" />
       <module name="com-component-web" target="1.8" />
+      <module name="com-component-webservice" target="1.8" />
       <module name="com-component-zookeeper" target="1.8" />
       <module name="com-conponent-nosql" target="1.5" />
       <module name="com-interview-recond" target="1.8" />

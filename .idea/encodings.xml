@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-algorithm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-algorithm_" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-hibernate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-jndi" charset="UTF-8" />
@@ -33,6 +35,7 @@
     <file url="file://$PROJECT_DIR$/com-component-util-stringnumbric" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-thread" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-webservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-zookeeper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-interview-recond" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

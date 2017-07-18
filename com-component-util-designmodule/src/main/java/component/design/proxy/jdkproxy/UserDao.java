@@ -2,8 +2,6 @@ package component.design.proxy.jdkproxy;
 
 
 /**
- * �ӿ�ʵ��
- * Ŀ�귽��
  * @author wangjianjun
  *
  */
@@ -12,7 +10,7 @@ public class UserDao implements IUserDao {
 	@Override
 	public void save() {
 		// TODO Auto-generated method stub
-		System.out.println("-----�Ѿ���������--------");
+		System.out.println("-----save--------");
 
 	}
 

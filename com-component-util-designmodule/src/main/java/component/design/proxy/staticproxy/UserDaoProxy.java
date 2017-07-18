@@ -1,7 +1,6 @@
 package component.design.proxy.staticproxy;
 
 /**
- * ������󣬾�̬����
  * @author wangjianjun
  *
  */
@@ -17,9 +16,9 @@ public class UserDaoProxy implements IUserDao {
 	@Override
 	public void save() {
 		// TODO Auto-generated method stub
-		System.out.println("----��������-------");
+		System.out.println("前序动作");
 		target.save();
-		System.out.println("------�ύ����------");
+		System.out.println("后序动作");
 
 	}
 

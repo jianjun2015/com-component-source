@@ -29,11 +29,11 @@ public class ProxyFactory implements MethodInterceptor{
 			MethodProxy proxy) throws Throwable {
 		// TODO Auto-generated method stub
 		
-		System.out.println("----��ʼ����-----");
+		System.out.println("前序动作");
 		
 		Object returnValue = method.invoke(target, args);
 		
-		System.out.println("---�ύ����-----");
+		System.out.println("前序动作");
 		
 		return returnValue;
 	}
