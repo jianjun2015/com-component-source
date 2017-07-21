@@ -2,49 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_spring_mvc_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_spring_mvc_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/mvc/controller/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/props/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/appilcationContext-mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/applicationContext-base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/java/com/mvc/controller/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/java/com/mvc/controller/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/applicationContext-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/props/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/spring/appilcationContext-mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/spring/applicationContext-base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/views/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/views/result/failure.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/views/result/notfound.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/views/result/success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/index_.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc.war" afterPath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_component_springmvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_springmvc_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-dubbo-provider/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/com-component-dubbo-provider/src/main/resources/applicationContext-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" afterPath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/pom.xml" afterPath="$PROJECT_DIR$/com-component-springmvc/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/webapp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc/index.jsp" afterPath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-springmvc/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -181,8 +143,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/views/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1375,7 +1337,7 @@
       <workItem from="1500453078018" duration="609000" />
       <workItem from="1500541024040" duration="24846000" />
       <workItem from="1500631016777" duration="1420000" />
-      <workItem from="1500633225078" duration="4622000" />
+      <workItem from="1500633225078" duration="4740000" />
     </task>
     <task id="LOCAL-00001" summary="添加 注解">
       <created>1494828855356</created>
@@ -1468,7 +1430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500624338111</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="spring-mvc">
+      <created>1500638654249</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1500638654249</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1504,7 +1473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345491000" />
+    <option name="totallyTimeSpent" value="345609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1619,7 +1588,8 @@
     <MESSAGE value="算法记录" />
     <MESSAGE value="添加模块" />
     <MESSAGE value="dubbo demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo demo" />
+    <MESSAGE value="spring-mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-mvc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1830,6 +1800,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2038,8 +2009,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-springmvc/src/main/webapp/WEB-INF/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
