@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="com-component-algorithm_" />
         <module name="com-component-disconf-web" />
-        <module name="com-component-dubbo" />
+        <module name="com-component-dubbo-api" />
+        <module name="com-component-dubbo-consume" />
+        <module name="com-component-dubbo-provider" />
         <module name="com-component-hibernate" />
         <module name="com-component-jdbc" />
         <module name="com-component-jndi" />
@@ -33,6 +35,7 @@
         <module name="com-component-util-collection" />
         <module name="com-component-util-datetime" />
         <module name="com-component-util-designmodule" />
+        <module name="com-component-util-exception" />
         <module name="com-component-util-json" />
         <module name="com-component-util-pattern" />
         <module name="com-component-util-reflect" />
@@ -45,6 +48,8 @@
         <module name="com-component-zookeeper" />
         <module name="com-conponent-nosql" />
         <module name="com-interview-recond" />
+        <module name="demo-dubbo-provider" />
+        <module name="dubbo-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
@@ -52,6 +57,9 @@
       <module name="com-component-algorithm_" target="1.8" />
       <module name="com-component-disconf-web" target="1.8" />
       <module name="com-component-dubbo" target="1.8" />
+      <module name="com-component-dubbo-api" target="1.8" />
+      <module name="com-component-dubbo-consume" target="1.8" />
+      <module name="com-component-dubbo-provider" target="1.8" />
       <module name="com-component-hibernate" target="1.8" />
       <module name="com-component-jdbc" target="1.8" />
       <module name="com-component-jndi" target="1.8" />
@@ -78,6 +86,7 @@
       <module name="com-component-util-collection" target="1.8" />
       <module name="com-component-util-datetime" target="1.8" />
       <module name="com-component-util-designmodule" target="1.8" />
+      <module name="com-component-util-exception" target="1.8" />
       <module name="com-component-util-json" target="1.8" />
       <module name="com-component-util-pattern" target="1.8" />
       <module name="com-component-util-reflect" target="1.8" />
@@ -91,6 +100,8 @@
       <module name="com-conponent-nosql" target="1.5" />
       <module name="com-interview-recond" target="1.8" />
       <module name="comcomponentmybatis3spring4" target="1.8" />
+      <module name="demo-dubbo-provider" target="1.5" />
+      <module name="dubbo-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

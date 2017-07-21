@@ -47,6 +47,11 @@
       <module>com-component-dubbo</module>
     <module>com-component-disconf-web</module>
     <module>com-component-nginx</module>
+      <module>com-component-util-exception</module>
+      <module>demo-dubbo-provider</module>
+      <module>com-component-dubbo-consume</module>
+      <module>com-component-dubbo-provider</module>
+      <module>com-component-dubbo-api</module>
   </modules>
   <packaging>pom</packaging>
 

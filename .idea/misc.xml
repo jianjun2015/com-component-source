@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/com-component-disconf-web" />
+    <file type="web" url="file://$PROJECT_DIR$/com-component-dubbo-provider" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-mybatis3-spring4" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-shiro-web" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-springmvc" />
@@ -15,10 +16,12 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/com-component-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-mybatis-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-web/pom.xml" />
         <option value="$PROJECT_DIR$/com-conponent-nosql/pom.xml" />
         <option value="$PROJECT_DIR$/comcomponentmybatis3spring4/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-provider/pom.xml" />
       </set>
     </option>
   </component>

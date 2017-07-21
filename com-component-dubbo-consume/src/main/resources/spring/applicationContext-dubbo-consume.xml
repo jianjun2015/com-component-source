@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--用于激活容器中注册的bean-->
+    <context:annotation-config/>
+
+    <dubbo:application name="demo-consume" owner="jun" organization="jun"/>
+
+    <dubbo:registry address="${zookeeper}" timeout="500000" group="${ufind.group}" id="ufind_id"/>
+
+    <!-- 监控中心配置，从注册中心发现监控中心地址 -->
+    <dubbo:monitor protocol="registry"/>
+
+    <!-- which service to consume? -->
+    <dubbo:reference id="demoService"
+                     interface="com.dubbo.demo.facade.DemoService"
+                     version="1.0.0"
+                     cluster="failfast"
+                     timeout="500000"
+    />
+
+</beans>

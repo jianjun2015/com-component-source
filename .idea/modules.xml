@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" filepath="$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-disconf-web/com-component-disconf-web.iml" filepath="$PROJECT_DIR$/com-component-disconf-web/com-component-disconf-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/com-component-dubbo/com-component-dubbo.iml" filepath="$PROJECT_DIR$/com-component-dubbo/com-component-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-dubbo-api/com-component-dubbo-api.iml" filepath="$PROJECT_DIR$/com-component-dubbo-api/com-component-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" filepath="$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-dubbo-provider/com-component-dubbo-provider.iml" filepath="$PROJECT_DIR$/com-component-dubbo-provider/com-component-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" filepath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" filepath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" filepath="$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" />
@@ -30,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" filepath="$PROJECT_DIR$/com-component-util-collection/com-component-util-collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" filepath="$PROJECT_DIR$/com-component-util-datetime/com-component-util-datetime.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" filepath="$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-exception/com-component-util-exception.iml" filepath="$PROJECT_DIR$/com-component-util-exception/com-component-util-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" filepath="$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" filepath="$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-reflect/com-component-util-reflect.iml" filepath="$PROJECT_DIR$/com-component-util-reflect/com-component-util-reflect.iml" />

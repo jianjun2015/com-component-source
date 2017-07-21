@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--用于激活容器中注册的bean-->
+    <context:annotation-config/>
+
+    <!--允许扫描使用properties配置文件-->
+    <context:property-placeholder location="classpath*:/props/*.properties" ignore-unresolvable="true"/>
+
+    <dubbo:application name="demo-provider" owner="jun" organization="jun"/>
+
+    <dubbo:registry  address="${zookeeper}" timeout="500000" group="${ufind.group}" id="ufind_id"/>
+
+    <!--<dubbo:protocol name="dubbo" port="20880"/>-->
+    <!-- 暴露出去的接口-->
+    <bean id="demoService" class="com.dubbo.demo.facade.impl.DemoServiceImpl"/>
+
+    <dubbo:service
+            ref="demoService"
+            interface="com.dubbo.demo.facade.DemoService"
+            version="1.0.0"
+            cluster="failfast"
+            executes="10"
+            timeout="500000">
+    </dubbo:service>
+</beans>
