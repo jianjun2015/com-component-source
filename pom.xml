@@ -35,23 +35,19 @@
     <module>com-component-shiro</module>
     <module>com-component-shiro-web</module>
     <module>com-component-jndi</module>
-      <module>comcomponentmybatis3spring4</module>
-      <module>com-component-mybatis3-spring4</module>
-      <module>com-component-zookeeper</module>
-      <module>com-component-util-class</module>
-      <module>com-interview-recond</module>
-      <module>com-component-algorithm</module>
-      <module>com-component-algorithm</module>
-      <module>com-component-algorithm_</module>
-      <module>com-component-webservice</module>
-      <module>com-component-dubbo</module>
+    <module>com-component-mybatis3-spring4</module>
+    <module>com-component-zookeeper</module>
+    <module>com-component-util-class</module>
+    <module>com-interview-recond</module>
+    <module>com-component-algorithm_</module>
+    <module>com-component-webservice</module>
     <module>com-component-disconf-web</module>
     <module>com-component-nginx</module>
-      <module>com-component-util-exception</module>
-      <module>demo-dubbo-provider</module>
-      <module>com-component-dubbo-consume</module>
-      <module>com-component-dubbo-provider</module>
-      <module>com-component-dubbo-api</module>
+    <module>com-component-util-exception</module>
+    <module>com-component-dubbo-consume</module>
+    <module>com-component-dubbo-provider</module>
+    <module>com-component-dubbo-api</module>
+      <module>com-component-spring-mvc</module>
   </modules>
   <packaging>pom</packaging>
 

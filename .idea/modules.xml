@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-source.iml" filepath="$PROJECT_DIR$/com-component-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring/com-component-spring.iml" filepath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" filepath="$PROJECT_DIR$/com-component-spring-boot/com-component-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" filepath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" filepath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" filepath="$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-test/com-component-test.iml" filepath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />

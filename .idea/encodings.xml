@@ -4,7 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-algorithm_" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-disconf-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/com-component-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-dubbo-consume" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-dubbo-provider" charset="UTF-8" />
@@ -22,6 +21,7 @@
     <file url="file://$PROJECT_DIR$/com-component-shiro-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-spring-mvc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-springmvc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-struts2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-test" charset="UTF-8" />
@@ -44,7 +44,6 @@
     <file url="file://$PROJECT_DIR$/com-component-webservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-zookeeper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-interview-recond" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-dubbo-provider" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

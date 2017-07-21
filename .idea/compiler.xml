@@ -25,6 +25,7 @@
         <module name="com-component-shiro-web" />
         <module name="com-component-spring" />
         <module name="com-component-spring-boot" />
+        <module name="com-component-spring-mvc" />
         <module name="com-component-springmvc" />
         <module name="com-component-struts2" />
         <module name="com-component-test" />
@@ -76,6 +77,7 @@
       <module name="com-component-source" target="1.8" />
       <module name="com-component-spring" target="1.8" />
       <module name="com-component-spring-boot" target="1.8" />
+      <module name="com-component-spring-mvc" target="1.8" />
       <module name="com-component-springmvc" target="1.8" />
       <module name="com-component-struts2" target="1.8" />
       <module name="com-component-test" target="1.8" />
