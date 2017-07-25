@@ -48,6 +48,8 @@
     <module>com-component-dubbo-provider</module>
     <module>com-component-dubbo-api</module>
       <module>com-component-spring-mvc</module>
+      <module>com-component-util-encrypt</module>
+      <module>com-component-sso</module>
   </modules>
   <packaging>pom</packaging>
 

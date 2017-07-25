@@ -27,6 +27,7 @@
         <module name="com-component-spring-boot" />
         <module name="com-component-spring-mvc" />
         <module name="com-component-springmvc" />
+        <module name="com-component-sso" />
         <module name="com-component-struts2" />
         <module name="com-component-test" />
         <module name="com-component-util-annotation" />
@@ -36,6 +37,7 @@
         <module name="com-component-util-collection" />
         <module name="com-component-util-datetime" />
         <module name="com-component-util-designmodule" />
+        <module name="com-component-util-encrypt" />
         <module name="com-component-util-exception" />
         <module name="com-component-util-json" />
         <module name="com-component-util-pattern" />
@@ -79,6 +81,7 @@
       <module name="com-component-spring-boot" target="1.8" />
       <module name="com-component-spring-mvc" target="1.8" />
       <module name="com-component-springmvc" target="1.8" />
+      <module name="com-component-sso" target="1.8" />
       <module name="com-component-struts2" target="1.8" />
       <module name="com-component-test" target="1.8" />
       <module name="com-component-util-annotation" target="1.8" />
@@ -88,6 +91,7 @@
       <module name="com-component-util-collection" target="1.8" />
       <module name="com-component-util-datetime" target="1.8" />
       <module name="com-component-util-designmodule" target="1.8" />
+      <module name="com-component-util-encrypt" target="1.8" />
       <module name="com-component-util-exception" target="1.8" />
       <module name="com-component-util-json" target="1.8" />
       <module name="com-component-util-pattern" target="1.8" />

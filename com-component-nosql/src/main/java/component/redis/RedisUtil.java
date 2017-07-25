@@ -12,7 +12,8 @@ import redis.clients.jedis.JedisPoolConfig;
 public final class RedisUtil {
 
 	private static String ADDR = "192.168.66.129";
-	private static int PORT = 6379;
+//	private static String ADDR = "192.168.66.131";
+	private static int PORT = 7001;//可以s单单机redis 也可以集群环境
 	private static String AUTH = "admin";//访问密码
 	private static int MAX_ACTIVE = 1024;//可用连接实例的最大数目 默认8，-1不限制
 	private static int MAX_IDLE=200;//控制一个redis pool空闲的实例数  默认8

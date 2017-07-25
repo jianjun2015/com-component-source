@@ -23,7 +23,8 @@ public class JedisUtilTest
             e.printStackTrace();
         }
 
-        System.out.println(jedis.get("sss"));
+        System.out.println(jedis.get("ss"));
+        System.out.println(jedis.get("hello"));
 
         try {
             RedisUtil.releseJedis(jedis);
