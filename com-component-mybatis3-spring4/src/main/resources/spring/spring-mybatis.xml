@@ -26,7 +26,7 @@
         <property name="url" value="${connectionURL}" />
         <!-- 不配置，自动识别 -->
         <!--<property name="driver" value="${driverClass}"/>-->
-        <property name="username" value="${username}" />
+        <property name="username" value="${user}" />
         <property name="password" value="${password}" />
         <!-- 初始化连接大小 -->
         <property name="initialSize" value="0" />

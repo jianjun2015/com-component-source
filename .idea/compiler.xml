@@ -55,11 +55,9 @@
         <module name="dubbo-provider" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
-      <module name="com-component-algorithm" target="1.8" />
+    <bytecodeTargetLevel target="1.8">
       <module name="com-component-algorithm_" target="1.8" />
       <module name="com-component-disconf-web" target="1.8" />
-      <module name="com-component-dubbo" target="1.8" />
       <module name="com-component-dubbo-api" target="1.8" />
       <module name="com-component-dubbo-consume" target="1.8" />
       <module name="com-component-dubbo-provider" target="1.8" />
@@ -69,7 +67,6 @@
       <module name="com-component-logger" target="1.8" />
       <module name="com-component-mq" target="1.8" />
       <module name="com-component-mybatis" target="1.8" />
-      <module name="com-component-mybatis-pagehelper" target="1.7" />
       <module name="com-component-mybatis3-spring4" target="1.8" />
       <module name="com-component-nginx" target="1.8" />
       <module name="com-component-nosql" target="1.8" />
@@ -103,11 +100,7 @@
       <module name="com-component-web" target="1.8" />
       <module name="com-component-webservice" target="1.8" />
       <module name="com-component-zookeeper" target="1.8" />
-      <module name="com-conponent-nosql" target="1.5" />
       <module name="com-interview-recond" target="1.8" />
-      <module name="comcomponentmybatis3spring4" target="1.8" />
-      <module name="demo-dubbo-provider" target="1.5" />
-      <module name="dubbo-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

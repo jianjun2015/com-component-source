@@ -1,0 +1,1 @@
+对于db.propertise中的username字段信息，注意不要写username，因为这样可能在数据库验证出现问题，验证不通过。换成其他的都是可以的，如user等

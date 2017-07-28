@@ -1,9 +1,11 @@
 package component.redis;
 
+import org.apache.shiro.codec.Base64;
 import org.junit.Before;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 
+import java.io.*;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -28,6 +30,58 @@ public class RedisTest {
 		jedis = new Jedis(host, port);
 //		jedis.auth(password);
 
+	}
+
+	@Test
+	public void myTestSession(){
+		Object obj = get("49df0870-0c16-41ce-a2da-aa91123fcaff");
+		System.out.println(obj);
+	}
+
+	Object get(String sessionId) {
+		Object obj = deserialize(jedis.get(sessionId));
+		return obj;
+	}
+
+	private static Object deserialize(String str) {
+		ByteArrayInputStream bis = null;
+		ObjectInputStream ois = null;
+		try {
+			bis = new ByteArrayInputStream(Base64.decode(str));
+			ois = new ObjectInputStream(bis);
+			return ois.readObject();
+		} catch (Exception e) {
+			throw new RuntimeException("deserialize session error", e);
+		} finally {
+			try {
+				ois.close();
+				bis.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
+		}
+	}
+
+	private static String serialize(Object obj) {
+		ByteArrayOutputStream bos = null;
+		ObjectOutputStream oos = null;
+		try {
+			bos = new ByteArrayOutputStream();
+			oos = new ObjectOutputStream(bos);
+			oos.writeObject(obj);
+			return Base64.encodeToString(bos.toByteArray());
+		} catch (Exception e) {
+			throw new RuntimeException("serialize session error", e);
+		} finally {
+			try {
+				oos.close();
+				bos.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
+		}
 	}
 
 	/**

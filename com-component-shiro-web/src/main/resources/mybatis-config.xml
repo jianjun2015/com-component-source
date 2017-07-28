@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!--<settings>-->
+		<!--<setting name="lazyLoadingEnabled" value="false" />-->
+	<!--</settings>-->
+
+	<!--<properties resource="db.properties"/>-->
+
+	<!--取别名 只可以用一个-->
+	<typeAliases>
+
+		<!--限定包，就可以直接使用简单类名-->
+		<!--<package name="component.module.mybatis.entity"/>-->
+
+		<!--全类名取别名-->
+		<!--<typeAlias type="component.module.mybatis.entity.Student" alias="_Student"/>-->
+		<typeAlias type="com.shiro.entity.module.TUser" alias="_TUser"/>
+	</typeAliases>
+
+	<!--<mappers>-->
+		<!--<mapper resource="classpath:sqlmapper/classMapper.xml"/>-->
+	<!--</mappers>-->
+</configuration>
