@@ -17,6 +17,25 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jasig.cas/cas-server-webapp -->
+        <!--<dependency>-->
+            <!--<groupId>org.jasig.cas</groupId>-->
+            <!--<artifactId>cas-server-webapp</artifactId>-->
+            <!--<version>4.0.3</version>-->
+            <!--<scope>runtime</scope>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.slf4j</groupId>-->
+                    <!--<artifactId>slf4j-api</artifactId>-->
+                <!--</exclusion>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.springframework</groupId>-->
+                    <!--<artifactId>spring-expression</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+
     </dependencies>
     <build>
         <finalName>com-component-sso</finalName>

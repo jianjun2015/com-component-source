@@ -50,6 +50,7 @@
       <module>com-component-spring-mvc</module>
       <module>com-component-util-encrypt</module>
       <module>com-component-sso</module>
+      <module>com-component-webservice-client</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -44,7 +44,8 @@ public class RSAUtil {
 
     public static KeyPair getKeyPair() throws Exception {
 
-        String filePath = RSAUtil.class.getClassLoader().getResource("C:/RSAKey.txt").getPath();
+//        String filePath = RSAUtil.class.getClassLoader().getResource("C:/RSAKey.txt").getPath();
+        String filePath = RSAUtil.class.getClassLoader().getResource(RSAKeyStore).getPath();
         FileInputStream fis = new FileInputStream(filePath);
         ObjectInputStream oos = new ObjectInputStream(fis);
         KeyPair kp = (KeyPair) oos.readObject();

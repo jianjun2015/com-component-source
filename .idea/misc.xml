@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/com-component-spring-mvc" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-springmvc" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/com-component-webservice-client" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/com-component-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-mybatis-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-web/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-webservice/pom.xml" />
         <option value="$PROJECT_DIR$/com-conponent-nosql/pom.xml" />
         <option value="$PROJECT_DIR$/comcomponentmybatis3spring4/pom.xml" />
         <option value="$PROJECT_DIR$/demo-dubbo-provider/pom.xml" />
@@ -30,4 +32,5 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>

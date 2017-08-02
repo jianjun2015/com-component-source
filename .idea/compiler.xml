@@ -47,7 +47,7 @@
         <module name="com-component-util-stringnumbric" />
         <module name="com-component-util-thread" />
         <module name="com-component-web" />
-        <module name="com-component-webservice" />
+        <module name="com-component-webservice-client" />
         <module name="com-component-zookeeper" />
         <module name="com-conponent-nosql" />
         <module name="com-interview-recond" />
@@ -99,6 +99,7 @@
       <module name="com-component-util-thread" target="1.8" />
       <module name="com-component-web" target="1.8" />
       <module name="com-component-webservice" target="1.8" />
+      <module name="com-component-webservice-client" target="1.8" />
       <module name="com-component-zookeeper" target="1.8" />
       <module name="com-interview-recond" target="1.8" />
     </bytecodeTargetLevel>
