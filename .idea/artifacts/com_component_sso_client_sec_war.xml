@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com-component-sso-client-sec:war">
+    <output-path>$PROJECT_DIR$/com-component-sso-client-sec/target</output-path>
+    <root id="archive" name="com-component-sso-client-sec.war">
+      <element id="artifact" artifact-name="com-component-sso-client-sec:war exploded" />
+    </root>
+  </artifact>
+</component>

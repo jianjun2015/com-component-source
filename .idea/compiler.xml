@@ -28,6 +28,8 @@
         <module name="com-component-spring-mvc" />
         <module name="com-component-springmvc" />
         <module name="com-component-sso" />
+        <module name="com-component-sso-client-one" />
+        <module name="com-component-sso-client-sec" />
         <module name="com-component-struts2" />
         <module name="com-component-test" />
         <module name="com-component-util-annotation" />
@@ -79,6 +81,8 @@
       <module name="com-component-spring-mvc" target="1.8" />
       <module name="com-component-springmvc" target="1.8" />
       <module name="com-component-sso" target="1.8" />
+      <module name="com-component-sso-client-one" target="1.8" />
+      <module name="com-component-sso-client-sec" target="1.8" />
       <module name="com-component-struts2" target="1.8" />
       <module name="com-component-test" target="1.8" />
       <module name="com-component-util-annotation" target="1.8" />

@@ -40,7 +40,6 @@
     <module>com-component-util-class</module>
     <module>com-interview-recond</module>
     <module>com-component-algorithm_</module>
-    <module>com-component-webservice</module>
     <module>com-component-disconf-web</module>
     <module>com-component-nginx</module>
     <module>com-component-util-exception</module>
@@ -51,6 +50,8 @@
       <module>com-component-util-encrypt</module>
       <module>com-component-sso</module>
       <module>com-component-webservice-client</module>
+      <module>com-component-sso-client-one</module>
+    <module>com-component-sso-client-sec</module>
   </modules>
   <packaging>pom</packaging>
 
