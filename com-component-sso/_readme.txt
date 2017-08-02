@@ -4,6 +4,31 @@
 修改 D:\software\apache-tomcat-8.5.4\webapps\cas\WEB-INF\cas.propertise 文件对应的端口号为可tomcat访问端口号
 启动tomcat  则认证中心搭建完成
 
+如果配置数据库验证，则需要添加对应jar:
+    cas-server-support-jdbc-4.2.7.jar(注意版本)
+    mysql-connector-Java-5.1.38.jar
+
+    修改WEB-INF/deployerConfigContext.xml
+        <!--<alias name="acceptUsersAuthenticationHandler" alias="primaryAuthenticationHandler" /> -->
+            <bean id="dataSource"
+              class="com.mchange.v2.c3p0.ComboPooledDataSource"
+              p:driverClass="com.mysql.jdbc.Driver"
+              p:jdbcUrl="jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull"
+              p:user="root"
+              p:password="root"
+              p:initialPoolSize="6"
+              p:minPoolSize="6"
+              p:maxPoolSize="18"
+              p:maxIdleTimeExcessConnections="120"
+              p:checkoutTimeout="10000"
+              p:acquireIncrement="6"
+              p:acquireRetryAttempts="5"
+              p:acquireRetryDelay="2000"
+              p:idleConnectionTestPeriod="30"
+              p:preferredTestQuery="select 1" />
+            <alias name="queryDatabaseAuthenticationHandler" alias="primaryAuthenticationHandler" />
+            <alias name="dataSource" alias="queryDatabaseDataSource" />
+
 C:\Windows\System32\drivers\etc\hosts 在文件末端添加下面三条信息：
 
 127.0.0.1 sso.jianjun.com

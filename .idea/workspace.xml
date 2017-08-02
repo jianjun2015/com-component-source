@@ -2,58 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_sso_client_one_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_sso_client_one_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_sso_client_sec_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_sso_client_sec_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_inspektr_inspektr_audit_1_0_7_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_inspektr_inspektr_common_1_0_7_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jexl_commons_jexl_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_cas_server_core_4_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_cas_server_support_jdbc_4_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_client_cas_client_core_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_service_persondir_person_directory_api_1_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_service_persondir_person_directory_impl_1_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_perf4j_perf4j_log4jonly_0_9_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_2_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_resources_2_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-one/com-component-sso-client-one.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-one/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-sec/com-component-sso-client-sec.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-sec/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_component_sso_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_sso_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso/src/main/resources/sql/init.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" afterPath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" afterPath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-sso/_readme.txt" afterPath="$PROJECT_DIR$/com-component-sso/_readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" afterPath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-sso/pom.xml" afterPath="$PROJECT_DIR$/com-component-sso/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,11 +84,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com-component-sso-client-sec/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-sso/src/main/resources/sql/init.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com-component-sso/_readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-sso/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -204,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TRoleMapper.java" />
         <option value="$PROJECT_DIR$/com-component-shiro-web/src/main/resources/sqlmapper/TRoleMapper.xml" />
         <option value="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TRolePermissionMapper.java" />
         <option value="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TUserMapper.java" />
@@ -248,13 +229,14 @@
         <option value="$PROJECT_DIR$/com-component-webservice-client/src/main/java/first/method/ServiceClient.java" />
         <option value="$PROJECT_DIR$/com-component-sso-client-one/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/com-component-sso-client-sec/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/com-component-sso/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-sso-client-one/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-sso-client-sec/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-sso-client-one/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/com-component-sso/_readme.txt" />
         <option value="$PROJECT_DIR$/com-component-sso-client-sec/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/com-component-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-sso/src/main/resources/sql/init.sql" />
+        <option value="$PROJECT_DIR$/com-component-sso/_readme.txt" />
       </list>
     </option>
   </component>
@@ -311,7 +293,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
+    <option name="x" value="223" />
     <option name="width" value="1612" />
     <option name="height" value="877" />
   </component>
@@ -1112,7 +1094,7 @@
       <workItem from="1500973302457" duration="1305000" />
       <workItem from="1501057035562" duration="63481000" />
       <workItem from="1501575406328" duration="269000" />
-      <workItem from="1501578679596" duration="20977000" />
+      <workItem from="1501578679596" duration="22506000" />
     </task>
     <task id="LOCAL-00001" summary="添加 注解">
       <created>1494828855356</created>
@@ -1247,7 +1229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501655460813</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="补充sso">
+      <created>1501664333210</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1501664333210</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1283,7 +1272,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456310000" />
+    <option name="totallyTimeSpent" value="457839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1295,7 +1284,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="0" width="1612" height="877" extended-state="0" />
+    <frame x="223" y="0" width="1612" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1366,7 +1355,8 @@
     <MESSAGE value="sso(单点登录系统)" />
     <MESSAGE value="shiro 实现redis session共享登录" />
     <MESSAGE value="添加webservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加webservice" />
+    <MESSAGE value="补充sso" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充sso" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,13 +1372,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.2.3/shiro-web-1.2.3.jar!/org/apache/shiro/web/tags/HasAnyRolesTag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/repository/org/apache/shiro/shiro-web/1.2.3/shiro-web-1.2.3.jar!/org/apache/shiro/web/tags/RoleTag.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1677,53 +1660,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="36" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="54" column="55" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
           <folding>
-            <marker date="1501663819058" expanded="true" signature="103157:103174" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103157:103192" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103157:103205" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103157:103220" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103255:105931" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103268:105916" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103341:103712" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103469:103692" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103509:103658" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103530:103636" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103777:104089" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103796:104074" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103870:104054" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103910:104020" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="103931:103998" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104140:104405" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104159:104390" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104192:104370" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104232:104336" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104253:104314" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104448:104760" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104467:104745" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104541:104725" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104581:104691" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104602:104669" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104811:105176" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104830:105161" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104918:105141" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104958:105107" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="104979:105085" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="105211:105517" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="105230:105502" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="105304:105482" ph="..." />
-            <marker date="1501663819058" expanded="true" signature="105344:105448" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="98983:99000" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="98983:99018" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="98983:99031" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="98983:99046" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99081:101757" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99094:101742" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99167:99538" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99295:99518" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99335:99484" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99356:99462" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99603:99915" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99622:99900" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99696:99880" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99736:99846" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99757:99824" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99966:100231" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="99985:100216" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100018:100196" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100058:100162" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100079:100140" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100274:100586" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100293:100571" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100367:100551" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100407:100517" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100428:100495" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100637:101002" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100656:100987" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100744:100967" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100784:100933" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="100805:100911" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="101037:101343" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="101056:101328" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="101130:101308" ph="..." />
+            <marker date="1501666612728" expanded="true" signature="101170:101274" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1784,14 +1759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-sso/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-sso-client-one/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1804,6 +1771,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-sso/src/main/resources/sql/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-sso/_readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>
