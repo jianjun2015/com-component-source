@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="com-componennt-util-base-web" />
         <module name="com-component-algorithm_" />
         <module name="com-component-disconf-web" />
         <module name="com-component-dubbo-api" />
@@ -34,6 +35,7 @@
         <module name="com-component-test" />
         <module name="com-component-util-annotation" />
         <module name="com-component-util-array" />
+        <module name="com-component-util-base-web" />
         <module name="com-component-util-cache" />
         <module name="com-component-util-class" />
         <module name="com-component-util-collection" />
@@ -58,6 +60,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="com-componennt-util-base-web" target="1.8" />
       <module name="com-component-algorithm_" target="1.8" />
       <module name="com-component-disconf-web" target="1.8" />
       <module name="com-component-dubbo-api" target="1.8" />
@@ -87,6 +90,7 @@
       <module name="com-component-test" target="1.8" />
       <module name="com-component-util-annotation" target="1.8" />
       <module name="com-component-util-array" target="1.8" />
+      <module name="com-component-util-base-web" target="1.8" />
       <module name="com-component-util-cache" target="1.8" />
       <module name="com-component-util-class" target="1.8" />
       <module name="com-component-util-collection" target="1.8" />

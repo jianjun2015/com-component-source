@@ -52,6 +52,7 @@
       <module>com-component-webservice-client</module>
       <module>com-component-sso-client-one</module>
     <module>com-component-sso-client-sec</module>
+      <module>com-component-util-base-web</module>
   </modules>
   <packaging>pom</packaging>
 
