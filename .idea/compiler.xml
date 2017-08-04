@@ -46,6 +46,7 @@
         <module name="com-component-util-json" />
         <module name="com-component-util-mockito" />
         <module name="com-component-util-pattern" />
+        <module name="com-component-util-plugins-web" />
         <module name="com-component-util-reflect" />
         <module name="com-component-util-serializable" />
         <module name="com-component-util-sort" />
@@ -102,6 +103,7 @@
       <module name="com-component-util-json" target="1.8" />
       <module name="com-component-util-mockito" target="1.8" />
       <module name="com-component-util-pattern" target="1.8" />
+      <module name="com-component-util-plugins-web" target="1.8" />
       <module name="com-component-util-reflect" target="1.8" />
       <module name="com-component-util-serializable" target="1.8" />
       <module name="com-component-util-sort" target="1.8" />

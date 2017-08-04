@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/com-component-sso-client-one" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-sso-client-sec" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-util-base-web" />
+    <file type="web" url="file://$PROJECT_DIR$/com-component-util-plugins-web" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-webservice-client" />
   </component>
   <component name="MavenProjectsManager">
