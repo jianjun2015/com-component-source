@@ -44,6 +44,7 @@
         <module name="com-component-util-encrypt" />
         <module name="com-component-util-exception" />
         <module name="com-component-util-json" />
+        <module name="com-component-util-mockito" />
         <module name="com-component-util-pattern" />
         <module name="com-component-util-reflect" />
         <module name="com-component-util-serializable" />
@@ -99,6 +100,7 @@
       <module name="com-component-util-encrypt" target="1.8" />
       <module name="com-component-util-exception" target="1.8" />
       <module name="com-component-util-json" target="1.8" />
+      <module name="com-component-util-mockito" target="1.8" />
       <module name="com-component-util-pattern" target="1.8" />
       <module name="com-component-util-reflect" target="1.8" />
       <module name="com-component-util-serializable" target="1.8" />
