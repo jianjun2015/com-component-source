@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <import resource="applicationContext-mq.xml"/>
+
+    <!--fanout模式-->
+    <!--<rabbit:listener-container-->
+        <!--connection-factory="connectionFactory">-->
+        <!--<rabbit:listener ref="entityHandlerListener" method="onMessage" queues="test_queue_name_fanout_1,test_queue_name_fanout_2,test_queue_name_fanout_3"/>-->
+    <!--</rabbit:listener-container>-->
+
+    <!--direct模式-->
+    <rabbit:listener-container
+            connection-factory="connectionFactory" acknowledge="auto">
+        <rabbit:listener ref="entityHandlerListener" method="onMessage" queues="test_queue_name_direct_1"/>
+    </rabbit:listener-container>
+    <rabbit:listener-container
+            connection-factory="connectionFactory" acknowledge="auto">
+        <rabbit:listener ref="entityHandlerListener" method="onMessage" queues="test_queue_name_direct_2"/>
+    </rabbit:listener-container>
+    <rabbit:listener-container
+            connection-factory="connectionFactory" acknowledge="auto">
+        <rabbit:listener ref="entityHandlerListener" method="onMessage" queues="test_queue_name_direct_3"/>
+    </rabbit:listener-container>
+
+    <bean id="entityHandlerListener" class="com.spring.rabbit.EntityHandlerListener"/>
+</beans>

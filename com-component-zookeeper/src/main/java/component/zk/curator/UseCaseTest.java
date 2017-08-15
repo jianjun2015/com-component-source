@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class UseCaseTest {
 
-    private static final String ZK_ADDR= "192.168.66.129:2181,192.168.66.130:2181,192.168.66.131:2181";
+    private static final String ZK_ADDR= "192.168.66.128:2181,192.168.66.129:2181,192.168.66.130:2181";
     private static final String ZK_PATH="/examples/locks";
     private static final int QTY = 5;
     private static final int REPETITION = QTY * 5;

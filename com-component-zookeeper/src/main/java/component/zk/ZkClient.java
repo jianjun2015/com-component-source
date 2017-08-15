@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ZkClient {
 
-    private static final String ZK_ADDR= "192.168.66.129:2181,192.168.66.130:2181,192.168.66.131:2181";
+    private static final String ZK_ADDR= "192.168.66.128:2181,192.168.66.129:2181,192.168.66.130:2181";
     private static final String ZK_PATH="/home/zookeeper/zktest";
     private static final int SESSION_TIMEOUT = 30*1000;
 
