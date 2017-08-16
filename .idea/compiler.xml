@@ -22,6 +22,7 @@
         <module name="com-component-nginx" />
         <module name="com-component-nosql" />
         <module name="com-component-poi" />
+        <module name="com-component-scheduled" />
         <module name="com-component-shiro" />
         <module name="com-component-shiro-web" />
         <module name="com-component-spring" />
@@ -78,6 +79,7 @@
       <module name="com-component-nginx" target="1.8" />
       <module name="com-component-nosql" target="1.8" />
       <module name="com-component-poi" target="1.8" />
+      <module name="com-component-scheduled" target="1.8" />
       <module name="com-component-shiro" target="1.8" />
       <module name="com-component-shiro-web" target="1.8" />
       <module name="com-component-source" target="1.8" />

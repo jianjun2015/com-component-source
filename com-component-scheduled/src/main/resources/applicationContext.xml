@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.mvc.controller.*">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--加载外部配置文件-->
+    <context:property-placeholder location="classpath*:props/*.properties" ignore-unresolvable="true"/>
+
+    <!--加载外部spring配置文件-->
+    <import resource="classpath:spring/applicationContext-base.xml"/>
+    <import resource="classpath:spring/appilcationContext-mybatis.xml"/>
+    <import resource="classpath:spring/applicationContext-schedule-1.xml"/>
+    <import resource="classpath:spring/applicationContext-schedule-2.xml"/>
+    <import resource="classpath:spring/applicationContext-schedule-3.xml"/>
+    <import resource="classpath:spring/applicationContext-schedule-anno.xml"/>
+    <import resource="classpath:spring/applicationContext-schedule-param.xml"/>
+</beans>

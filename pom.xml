@@ -55,6 +55,7 @@
       <module>com-component-util-base-web</module>
       <module>com-component-util-mockito</module>
       <module>com-component-util-plugins-web</module>
+      <module>com-component-scheduled</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-nginx/com-component-nginx.iml" filepath="$PROJECT_DIR$/com-component-nginx/com-component-nginx.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" filepath="$PROJECT_DIR$/com-component-nosql/com-component-nosql.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-poi/com-component-poi.iml" filepath="$PROJECT_DIR$/com-component-poi/com-component-poi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" filepath="$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" filepath="$PROJECT_DIR$/com-component-shiro/com-component-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" filepath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-source.iml" filepath="$PROJECT_DIR$/com-component-source.iml" />

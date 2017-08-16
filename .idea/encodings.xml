@@ -17,6 +17,7 @@
     <file url="file://$PROJECT_DIR$/com-component-nginx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-nosql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-poi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-scheduled" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-shiro-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-spring" charset="UTF-8" />
@@ -48,7 +49,6 @@
     <file url="file://$PROJECT_DIR$/com-component-util-stringnumbric" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-thread" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/com-component-webservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-webservice-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-zookeeper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-interview-recond" charset="UTF-8" />

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--调用工作类-->
+    <!--<bean id="quartzTask" class="second.type.withparameter.SpringQuartzWithParam"/>-->
+
+    <bean id="hasReturnParam" class="org.quartz.JobDataMap">
+        <constructor-arg>
+            <map>
+                <entry key="param_1" value="http://111.com"/>
+                <entry key="param_2" value="http://222.com"/>
+            </map>
+        </constructor-arg>
+    </bean>
+
+    <bean id="hasReturnJobDetail" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="second.type.withparameter.SpringQuartzWithParam"/>
+        <property name="jobDataMap" ref="hasReturnParam"/>
+    </bean>
+
+    <bean id="every5Minute" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="hasReturnJobDetail"/>
+        <property name="cronExpression"><value>0/5 * * * * ?</value></property>
+    </bean>
+
+    <bean id="startQuartz" lazy-init="false" autowire="no"
+          class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="every5Minute"/>
+            </list>
+        </property>
+    </bean>
+</beans>
