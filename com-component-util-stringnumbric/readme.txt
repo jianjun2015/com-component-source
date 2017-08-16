@@ -1,0 +1,4 @@
+String、StringBuffer和StringBuilder的总结
+
+1).  String和StringBuffer、StringBuilder相比，String是不可变的，String的每次修改操作都是在内存中重新new一个对象出来，而StringBuffer、StringBuilder则不用，并且提供了一定的缓存功能，默认16个字节数组的大小，超过默认的数组长度时，则扩容为原来字节数组的长度*2+2。
+2).  StringBuffer和StringBuilder相比，StringBuffer是synchronized的，是线程安全的，而StringBuilder是非线程安全的，单线程情况下性能更好一点；使用StringBuffer和StringBuilder时，可以适当考虑下初始化大小，较少扩容的次数，提高代码的高效性。
