@@ -28,16 +28,16 @@ public class CuratorClientTest {
             client.start();
 
             OperClient.createNodeWithRollFunction(client,"/examples/locks", CreateMode.PERSISTENT,"p1_content");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-1", CreateMode.PERSISTENT,"p1_content1");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-2", CreateMode.PERSISTENT,"p1_content2");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-3", CreateMode.PERSISTENT,"p1_content3");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-4", CreateMode.PERSISTENT,"p1_content4");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-5", CreateMode.PERSISTENT,"p1_content5");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-6", CreateMode.PERSISTENT,"p1_content6");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-7", CreateMode.PERSISTENT,"p1_content7");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-8", CreateMode.PERSISTENT,"p1_content8");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-9", CreateMode.PERSISTENT,"p1_content9");
-            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock-10", CreateMode.PERSISTENT,"p1_content10");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-1", CreateMode.PERSISTENT,"p1_content1");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-2", CreateMode.PERSISTENT,"p1_content2");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-3", CreateMode.PERSISTENT,"p1_content3");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-4", CreateMode.PERSISTENT,"p1_content4");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-5", CreateMode.PERSISTENT,"p1_content5");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-6", CreateMode.PERSISTENT,"p1_content6");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-7", CreateMode.PERSISTENT,"p1_content7");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-8", CreateMode.PERSISTENT,"p1_content8");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-9", CreateMode.PERSISTENT,"p1_content9");
+            OperClient.createNodeWithRollFunction(client,"/examples/locks/lock_-10", CreateMode.PERSISTENT,"p1_content10");
 
 //            CuratorWatcher.addWatcherChildrenNode(client,"/super",true);
 //            OperClient.createNodeWithRollFunction(client,"/treeCache", CreateMode.PERSISTENT,"p1_content");

@@ -24,15 +24,15 @@ public class ExampleClientThatLocks {
 
     public void doWork(long time, TimeUnit  timeUnit) throws Exception {
         if (!lock.acquire(time,timeUnit)){
-            throw new IllegalStateException(clientName+" could not acquire the lock");
+            throw new IllegalStateException(clientName+" could not acquire the lock_");
         }
 
-        System.out.println(clientName + " has the lock");
+        System.out.println(clientName + " has the lock_");
 
         try {
             resource.use();
         }finally {
-            System.out.println(clientName + " release the lock");
+            System.out.println(clientName + " release the lock_");
             lock.release();
         }
 
