@@ -64,3 +64,38 @@ java采用单线程编程模型，即在程序中没有主动创建线程的话�
     　　正因为有了读写锁，才使得多个线程之间的读操作不会发生冲突。
     　　ReadWriteLock就是读写锁，它是一个接口，ReentrantReadWriteLock实现了这个接口。
     　　可以通过readLock()获取读锁，通过writeLock()获取写锁。
+
+并发编程的三个问题：
+    原子性
+    可见性
+        对于可见性，Java提供了volatile关键字来保证可见性。
+    有序性
+        在Java内存模型中，允许编译器和处理器对指令进行重排序，但是重排序过程不会影响到单线程程序的执行，却会影响到多线程并发执行的正确性。
+
+volatile：
+    当一个共享变量被volatile修饰时，它会保证修改的值会立即被更新到主存，当有其他线程需要读取时，它会去内存中读取新值。
+    而普通的共享变量不能保证可见性，因为普通共享变量被修改之后，什么时候被写入主存是不确定的，当其他线程去读取时，此时内存中可能还是原来的旧值，因此无法保证可见性。
+另外可以通过synchronized和Lock来保证有序性，很显然，synchronized和Lock保证每个时刻是有一个线程执行同步代码，相当于是让线程顺序执行同步代码，自然就保证了有序性。
+
+volatile关键字的两层语义
+    1、保证了不同线程对这个变量进行操作时的可见性，即一个线程修改了某个变量的值，这新值对其他线程来说是立即可见的。
+    2、禁止进行指令重排序。
+
+ThreadLocal：线程本地变量--案例见example.ConnectionManager
+    这样处理确实也没有任何问题，由于每次都是在方法内部创建的连接，那么线程之间自然不存在线程安全问题。但是这样会有一个致命的影响：导致服务器压力非常大，并且严重影响程序执行性能。由于在方法中需要频繁地开启和关闭数据库连接，这样不尽严重影响程序执行效率，还可能导致服务器压力巨大。
+    那么这种情况下使用ThreadLocal是再适合不过的了，因为ThreadLocal在每个线程中对该变量会创建一个副本，即每个线程内部都会有一个该变量，且在线程内部任何地方都可以使用，线程之间互不影响，这样一来就不存在线程安全问题，也不会严重影响程序执行性能。
+    但是要注意，虽然ThreadLocal能够解决上面说的问题，但是由于在每个线程中都创建了副本，所以要考虑它对资源的消耗，比如内存的占用会比不使用ThreadLocal要大。
+
+同步容器
+    1）Vector、Stack、HashTable
+        Vector：Vector实现了List接口，Vector实际上就是一个数组，和ArrayList类似，但是Vector中的方法都是synchronized方法，即进行了同步措施。
+        Stack：它的方法也用synchronized进行了同步，它实际上是继承于Vector类。
+        HashTable：实现了Map接口，它和HashMap很相似，但是HashTable进行了同步处理，而HashMap没有。
+    2）Collections类中提供的静态工厂方法创建的类
+        Collections类是一个工具提供类，注意，它和Collection不同，Collection是一个顶层的接口。
+        在Collections类中提供了大量的方法，比如对集合或者容器进行排序、查找等操作。最重要的是，在它里面提供了几个静态工厂方法来创建同步容器类
+            Connections.synchronized*
+
+ConcurrentModificationException
+    对Vector、ArrayList在迭代的时候如果同时对其进行修改就会抛出java.util.ConcurrentModificationException异常
+
