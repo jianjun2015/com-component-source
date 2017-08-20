@@ -20,6 +20,7 @@ public class Thread_2 implements Runnable {
 		
 		thread1.start();
 		thread2.start();
+
 	}
 
 }

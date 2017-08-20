@@ -18,8 +18,10 @@ public class Main {
 		SingletonSec singletonSec4 = SingletonSec.getInstance_Securty();
 		System.out.println(singletonSec3 == singletonSec4);
 
-		
-		
+		EnumSingleton singleton = EnumSingleton.uniqueInstance;
+		EnumSingleton singleton_ = EnumSingleton.uniqueInstance;
+		System.out.println(singleton == singleton_);
+
 	}
 
 }
