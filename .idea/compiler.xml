@@ -17,6 +17,7 @@
         <module name="com-component-jndi" />
         <module name="com-component-logger" />
         <module name="com-component-mq" />
+        <module name="com-component-mq-web" />
         <module name="com-component-mybatis" />
         <module name="com-component-mybatis3-spring4" />
         <module name="com-component-nginx" />
@@ -74,6 +75,7 @@
       <module name="com-component-jndi" target="1.8" />
       <module name="com-component-logger" target="1.8" />
       <module name="com-component-mq" target="1.8" />
+      <module name="com-component-mq-web" target="1.8" />
       <module name="com-component-mybatis" target="1.8" />
       <module name="com-component-mybatis3-spring4" target="1.8" />
       <module name="com-component-nginx" target="1.8" />

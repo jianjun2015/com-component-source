@@ -56,6 +56,7 @@
       <module>com-component-util-mockito</module>
       <module>com-component-util-plugins-web</module>
       <module>com-component-scheduled</module>
+      <module>com-component-mq-web</module>
   </modules>
   <packaging>pom</packaging>
 

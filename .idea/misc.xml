@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/com-component-disconf-web" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-dubbo-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/com-component-mq-web" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-mybatis3-spring4" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-scheduled" />
     <file type="web" url="file://$PROJECT_DIR$/com-component-shiro-web" />

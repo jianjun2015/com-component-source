@@ -16,7 +16,7 @@
     <!-- 监控中心配置，从注册中心发现监控中心地址 -->
     <dubbo:monitor protocol="registry"/>
 
-    <!-- which service to consume? -->
+    <!-- which serviceproduce_sume? -->
     <dubbo:reference id="demoService"
                      interface="com.dubbo.demo.facade.DemoService"
                      version="1.0.0"

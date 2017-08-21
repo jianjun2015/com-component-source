@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" filepath="$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-logger/com-component-logger.iml" filepath="$PROJECT_DIR$/com-component-logger/com-component-logger.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mq/com-component-mq.iml" filepath="$PROJECT_DIR$/com-component-mq/com-component-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-mq-web/com-component-mq-web.iml" filepath="$PROJECT_DIR$/com-component-mq-web/com-component-mq-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" filepath="$PROJECT_DIR$/com-component-mybatis/com-component-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" filepath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-nginx/com-component-nginx.iml" filepath="$PROJECT_DIR$/com-component-nginx/com-component-nginx.iml" />

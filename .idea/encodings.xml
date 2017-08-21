@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/com-component-jndi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-logger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-mq-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mybatis3-spring4" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-nginx" charset="UTF-8" />

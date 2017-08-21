@@ -4,78 +4,73 @@ import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by wangjianjun on 2017/8/21.
  */
 public class JmsProduce {
 
-    //默认连接用户名
+    //ActiveMq 的默认用户名
     private static final String USERNAME = ActiveMQConnection.DEFAULT_USER;
-    //默认连接密码
+    //ActiveMq 的默认登录密码
     private static final String PASSWORD = ActiveMQConnection.DEFAULT_PASSWORD;
-    //默认连接地址
-    private static final String BROKEURL = ActiveMQConnection.DEFAULT_BROKER_URL;
-    //发送的消息数量
-    private static final int SENDNUM = 10;
+    //ActiveMQ 的链接地址
+    private static final String BROKEN_URL = ActiveMQConnection.DEFAULT_BROKER_URL;
 
-    public static void main(String[] args) {
-        //连接工厂
-        ConnectionFactory connectionFactory;
-        //连接
-        Connection connection = null;
-        //会话 接受或者发送消息的线程
-        Session session;
-        //消息的目的地
-        Destination destination;
-        //消息生产者
-        MessageProducer messageProducer;
-        //实例化连接工厂
-        connectionFactory = new ActiveMQConnectionFactory(JmsProduce.USERNAME, JmsProduce.PASSWORD, JmsProduce.BROKEURL);
+    AtomicInteger count = new AtomicInteger(0);
+    //链接工厂
+    ConnectionFactory connectionFactory;
+    //链接对象
+    Connection connection;
+    //事务管理
+    Session session;
+    ThreadLocal<MessageProducer> threadLocal = new ThreadLocal<>();
 
+    public void init(){
         try {
-            //通过连接工厂获取连接
-            connection = connectionFactory.createConnection();
-            //启动连接
+            //创建一个链接工厂
+            connectionFactory = new ActiveMQConnectionFactory(USERNAME,PASSWORD,BROKEN_URL);
+            //从工厂中创建一个链接
+            connection  = connectionFactory.createConnection();
+            //开启链接
             connection.start();
-            //创建session
-            session = connection.createSession(true, Session.AUTO_ACKNOWLEDGE);
-            //创建一个名称为HelloWorld的消息队列
-            destination = session.createQueue("HelloWorld");
-            //创建消息生产者
-            messageProducer = session.createProducer(destination);
-            //发送消息
-            sendMessage(session, messageProducer);
-
-            session.commit();
-
-        } catch (Exception e) {
+            //创建一个事务（这里通过参数可以设置事务的级别）
+            session = connection.createSession(true,Session.SESSION_TRANSACTED);
+        } catch (JMSException e) {
             e.printStackTrace();
-        }finally{
-            if(connection != null){
-                try {
-                    connection.close();
-                } catch (JMSException e) {
-                    e.printStackTrace();
-                }
-            }
         }
     }
 
-    /**
-     * 发送消息
-     * @param session
-     * @param messageProducer  消息生产者
-     * @throws Exception
-     */
-    public static void sendMessage(Session session, MessageProducer messageProducer) throws Exception{
-        for (int i = 0; i < JmsProduce.SENDNUM; i++) {
-            //创建一条文本消息
-            TextMessage message = session.createTextMessage("ActiveMQ 发送消息" +i);
-            System.out.println("发送消息：Activemq 发送消息" + i);
-            //通过消息生产者发出消息
-            messageProducer.send(message);
+    public void sendMessage(String disname){
+        try {
+            //创建一个消息队列
+            Queue queue = session.createQueue(disname);
+            //消息生产者
+            MessageProducer messageProducer = null;
+            if(threadLocal.get()!=null){
+                messageProducer = threadLocal.get();
+            }else{
+                messageProducer = session.createProducer(queue);
+                threadLocal.set(messageProducer);
+            }
+            while(true){
+                Thread.sleep(1000);
+                int num = count.getAndIncrement();
+                //创建一条消息
+                TextMessage msg = session.createTextMessage(Thread.currentThread().getName()+
+                        "productor:我是大帅哥，我现在正在生产东西！,count:"+num);
+                System.out.println(Thread.currentThread().getName()+
+                        "productor:我是大帅哥，我现在正在生产东西！,count:"+num);
+                //发送消息
+                messageProducer.send(msg);
+                //提交事务
+                session.commit();
+            }
+        } catch (JMSException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-
     }
 }

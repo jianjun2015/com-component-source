@@ -4,52 +4,65 @@ import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by wangjianjun on 2017/8/21.
  */
 public class JmsConsume {
 
-    private static final String USERNAME = ActiveMQConnection.DEFAULT_USER;//默认连接用户名
-    private static final String PASSWORD = ActiveMQConnection.DEFAULT_PASSWORD;//默认连接密码
-    private static final String BROKEURL = ActiveMQConnection.DEFAULT_BROKER_URL;//默认连接地址
+    private static final String USERNAME = ActiveMQConnection.DEFAULT_USER;
 
-    public static void main(String[] args) {
-        ConnectionFactory connectionFactory;//连接工厂
-        Connection connection = null;//连接
+    private static final String PASSWORD = ActiveMQConnection.DEFAULT_PASSWORD;
 
-        Session session;//会话 接受或者发送消息的线程
-        Destination destination;//消息的目的地
+    private static final String BROKEN_URL = ActiveMQConnection.DEFAULT_BROKER_URL;
 
-        MessageConsumer messageConsumer;//消息的消费者
+    ConnectionFactory connectionFactory;
 
-        //实例化连接工厂
-        connectionFactory = new ActiveMQConnectionFactory(JmsConsume.USERNAME, JmsConsume.PASSWORD, JmsConsume.BROKEURL);
+    Connection connection;
 
+    Session session;
+
+    ThreadLocal<MessageConsumer> threadLocal = new ThreadLocal<>();
+    AtomicInteger count = new AtomicInteger();
+
+    public void init(){
         try {
-            //通过连接工厂获取连接
-            connection = connectionFactory.createConnection();
-            //启动连接
+            connectionFactory = new ActiveMQConnectionFactory(USERNAME,PASSWORD,BROKEN_URL);
+            connection  = connectionFactory.createConnection();
             connection.start();
-            //创建session
-            session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-            //创建一个连接HelloWorld的消息队列
-            destination = session.createQueue("HelloWorld");
-            //创建消息消费者
-            messageConsumer = session.createConsumer(destination);
+            session = connection.createSession(false,Session.AUTO_ACKNOWLEDGE);
+        } catch (JMSException e) {
+            e.printStackTrace();
+        }
+    }
 
-            while (true) {
-                TextMessage textMessage = (TextMessage) messageConsumer.receive(100000);
-                if(textMessage != null){
-                    System.out.println("收到的消息:" + textMessage.getText());
+
+    public void getMessage(String disname){
+        try {
+            Queue queue = session.createQueue(disname);
+            MessageConsumer consumer = null;
+
+            if(threadLocal.get()!=null){
+                consumer = threadLocal.get();
+            }else{
+                consumer = session.createConsumer(queue);
+                threadLocal.set(consumer);
+            }
+            while(true){
+                Thread.sleep(1000);
+                TextMessage msg = (TextMessage) consumer.receive();
+                if(msg!=null) {
+                    msg.acknowledge();
+                    System.out.println(Thread.currentThread().getName()+": Consumer:我是消费者，我正在消费Msg"+msg.getText()+"--->"+count.getAndIncrement());
                 }else {
                     break;
                 }
             }
-
         } catch (JMSException e) {
             e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-
     }
 }
