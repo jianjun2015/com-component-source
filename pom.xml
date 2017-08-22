@@ -57,6 +57,7 @@
       <module>com-component-scheduled</module>
       <module>com-component-mq-web</module>
       <module>com-component-spring-boot_</module>
+      <module>com-component-spring-boot_web</module>
   </modules>
   <packaging>pom</packaging>
 

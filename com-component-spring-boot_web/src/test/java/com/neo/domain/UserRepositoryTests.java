@@ -26,9 +26,9 @@ public class UserRepositoryTests {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);        
 		String formattedDate = dateFormat.format(date);
 		
-		userRepository.save(new User("aa1", "aa@126.com", "aa", "aa123456",formattedDate));
-		userRepository.save(new User("bb2", "bb@126.com", "bb", "bb123456",formattedDate));
-		userRepository.save(new User("cc3", "cc@126.com", "cc", "cc123456",formattedDate));
+		userRepository.save(new User("aa4", "aa@126.com-4", "aa", "aa123456-4",formattedDate));
+		userRepository.save(new User("bb5", "bb@126.com-5", "bb", "bb123456-5",formattedDate));
+		userRepository.save(new User("cc6", "cc@126.com-6", "cc", "cc123456-6",formattedDate));
 
 		Assert.assertEquals(9, userRepository.findAll().size());
 		Assert.assertEquals("bb", userRepository.findByUserNameOrEmail("bb", "cc@126.com").getNickName());

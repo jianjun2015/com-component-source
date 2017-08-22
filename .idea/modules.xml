@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-source.iml" filepath="$PROJECT_DIR$/com-component-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring/com-component-spring.iml" filepath="$PROJECT_DIR$/com-component-spring/com-component-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot_/com-component-spring-boot_.iml" filepath="$PROJECT_DIR$/com-component-spring-boot_/com-component-spring-boot_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot_web/com-component-spring-boot_web.iml" filepath="$PROJECT_DIR$/com-component-spring-boot_web/com-component-spring-boot_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" filepath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" filepath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-sso/com-component-sso.iml" filepath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" />

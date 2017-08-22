@@ -28,6 +28,7 @@
         <module name="com-component-shiro-web" />
         <module name="com-component-spring" />
         <module name="com-component-spring-boot_" />
+        <module name="com-component-spring-boot_web" />
         <module name="com-component-spring-mvc" />
         <module name="com-component-springmvc" />
         <module name="com-component-sso" />
@@ -88,6 +89,7 @@
       <module name="com-component-spring" target="1.8" />
       <module name="com-component-spring-boot" target="1.8" />
       <module name="com-component-spring-boot_" target="1.8" />
+      <module name="com-component-spring-boot_web" target="1.8" />
       <module name="com-component-spring-mvc" target="1.8" />
       <module name="com-component-springmvc" target="1.8" />
       <module name="com-component-sso" target="1.8" />
