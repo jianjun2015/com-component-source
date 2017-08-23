@@ -2,68 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_10_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_11_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_12_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_13_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_14_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_15_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_16_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_17_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_18_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_19_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_1_Two_Sum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_20_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_2_Add_Two_Nums.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_3_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_4_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_6_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_7_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_8_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_9_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_21_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_22_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_23_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_24_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_25_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_26_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_27_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_28_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_29_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_30_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_31_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_32_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_33_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_34_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_35_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_36_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_37_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_38_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_39_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_40_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_41_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_42_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_43_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_44_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_45_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_46_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_47_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_48_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_49_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_50_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_51_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_52_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_53_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_54_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_55_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_56_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_57_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_58_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_59_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_60_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_2_Add_Two_Nums.java" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_2_Add_Two_Nums.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_3_.java" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_3_Longest_Substr_Without_Repeat_Characters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_4_.java" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_4_Median_Of_Sorted_Array.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_.java" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,11 +93,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_1_Two_Sum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_1_Two_Sum.java">
+      <file leaf-file-name="_4_Median_Of_Sorted_Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_4_Median_Of_Sorted_Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="177">
+              <caret line="45" column="75" lean-forward="true" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_2_Add_Two_Nums.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_2_Add_Two_Nums.java">
+      <file leaf-file-name="_5_Longest_Palindromic_Substring.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+            <state relative-caret-position="174">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -240,57 +183,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_13_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_14_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_15_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_16_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_17_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_18_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_19_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_20_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_21_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_22_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_23_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_24_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_25_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_26_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_27_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_28_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_29_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_30_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_31_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_32_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_33_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_34_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_35_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_36_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_37_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_38_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_39_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_40_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_41_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_42_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_43_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_44_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_45_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_46_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_47_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_48_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_49_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_50_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_51_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_52_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_53_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_54_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_55_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_56_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_57_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_58_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_59_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_60_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/_readme.txt" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_75_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_76_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_77_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_78_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_79_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_80_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_81_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_82_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_83_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_84_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_85_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_86_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_87_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_88_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_89_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_90_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_91_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_92_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_93_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_94_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_95_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_97_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_96_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_99_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_98_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_100_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_101_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_102_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_103_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_104_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_105_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_106_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_107_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_108_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_109_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_110_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_111_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_112_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_113_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_114_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_115_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_116_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_117_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_118_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_119_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_120_.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_3_Longest_Substr_Without_Repeat_Characters.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_4_Median_Of_Sorted_Array.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/util/ListNode.java" />
         <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_2_Add_Two_Nums.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_1_Two_Sum.java" />
+        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java" />
       </list>
     </option>
   </component>
@@ -322,7 +265,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="504" />
+    <option name="x" value="247" />
     <option name="width" value="1374" />
     <option name="height" value="877" />
   </component>
@@ -500,11 +443,11 @@
       <recent name="component.helloworld.realm.simple" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode_algorithm_101_120" />
+      <recent name="leetcode_algorithm_81_100" />
+      <recent name="leetcode_algorithm_61_80" />
       <recent name="leetcode_algorithm_41_60" />
       <recent name="leetcode_algorithm_21_40" />
-      <recent name="leetcode_algorithm_1_20" />
-      <recent name="leetcode" />
-      <recent name="component.mybatis" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\com-component-source\com-component-algorithm_\src\main\java" />
@@ -526,105 +469,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._1_Two_Sum">
-    <configuration default="false" name="TestRedis.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.neo.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="com-component-spring-boot_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.neo.util" />
-      <option name="MAIN_CLASS_NAME" value="com.neo.util.TestRedis" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.neo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.neo.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-spring-boot_web" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserRepositoryTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.neo.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="com-component-spring-boot_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.neo.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.neo.domain.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="HelloControlerTests.getHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.neo.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="com-component-spring-boot_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.neo.web" />
-      <option name="MAIN_CLASS_NAME" value="com.neo.web.HelloControlerTests" />
-      <option name="METHOD_NAME" value="getHello" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application._5_Longest_Palindromic_Substring">
     <configuration default="false" name="_1_Two_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -633,6 +478,86 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="leetcode_algorithm_1_20._1_Two_Sum" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com-component-algorithm_" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="_2_Add_Two_Nums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode_algorithm_1_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode_algorithm_1_20._2_Add_Two_Nums" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com-component-algorithm_" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="_3_Longest_Substr_Without_Repeat_Characters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode_algorithm_1_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode_algorithm_1_20._3_Longest_Substr_Without_Repeat_Characters" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com-component-algorithm_" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="_4_Median_Of_Sorted_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode_algorithm_1_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode_algorithm_1_20._4_Median_Of_Sorted_Array" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com-component-algorithm_" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="_5_Longest_Palindromic_Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode_algorithm_1_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode_algorithm_1_20._5_Longest_Palindromic_Substring" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1125,19 +1050,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.App" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestRedis.test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Application (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserRepositoryTests.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HelloControlerTests.getHello" />
-      <item index="5" class="java.lang.String" itemvalue="Application._1_Two_Sum" />
+      <item index="1" class="java.lang.String" itemvalue="Application._1_Two_Sum" />
+      <item index="2" class="java.lang.String" itemvalue="Application._2_Add_Two_Nums" />
+      <item index="3" class="java.lang.String" itemvalue="Application._3_Longest_Substr_Without_Repeat_Characters" />
+      <item index="4" class="java.lang.String" itemvalue="Application._4_Median_Of_Sorted_Array" />
+      <item index="5" class="java.lang.String" itemvalue="Application._5_Longest_Palindromic_Substring" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application._1_Two_Sum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HelloControlerTests.getHello" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestRedis.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserRepositoryTests.test" />
+        <item index="0" class="java.lang.String" itemvalue="Application._5_Longest_Palindromic_Substring" />
+        <item index="1" class="java.lang.String" itemvalue="Application._4_Median_Of_Sorted_Array" />
+        <item index="2" class="java.lang.String" itemvalue="Application._3_Longest_Substr_Without_Repeat_Characters" />
+        <item index="3" class="java.lang.String" itemvalue="Application._2_Add_Two_Nums" />
+        <item index="4" class="java.lang.String" itemvalue="Application._1_Two_Sum" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1232,7 +1157,7 @@
       <workItem from="1503281713353" duration="2140000" />
       <workItem from="1503284633652" duration="11725000" />
       <workItem from="1503299650240" duration="6530000" />
-      <workItem from="1503306517850" duration="28844000" />
+      <workItem from="1503306517850" duration="46344000" />
     </task>
     <task id="LOCAL-00001" summary="添加 注解">
       <created>1494828855356</created>
@@ -1493,7 +1418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1503393991236</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="leetcode">
+      <created>1503397124039</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1503397124039</updated>
+    </task>
+    <task id="LOCAL-00039" summary="leetcode">
+      <created>1503454522833</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1503454522833</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1529,7 +1468,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="662415000" />
+    <option name="totallyTimeSpent" value="679915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1541,7 +1480,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="504" y="0" width="1374" height="877" extended-state="0" />
+    <frame x="247" y="0" width="1374" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1557,7 +1496,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26917902" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23687753" sideWeight="0.49292928" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23670213" sideWeight="0.49292928" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1659,7 +1598,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mybatis3+spring4、druid监控" />
     <MESSAGE value="BigDecimal 相关" />
     <MESSAGE value="手机号、银行卡、身份证生成" />
     <MESSAGE value="Zookeeper" />
@@ -1684,7 +1622,8 @@
     <MESSAGE value="activeMq" />
     <MESSAGE value="spring boot" />
     <MESSAGE value="spring boot &amp; web" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring boot &amp; web" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1705,7 +1644,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="228" />
+      <option name="time" value="234" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1714,7 +1653,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_13_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_75_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1722,7 +1661,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_14_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_76_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1730,7 +1669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_15_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_77_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1738,7 +1677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_16_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_78_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1746,7 +1685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_17_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_79_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1754,7 +1693,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_18_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_61_80/_80_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1762,7 +1701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_19_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_81_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1770,7 +1709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_20_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_82_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1778,7 +1717,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_21_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_83_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1786,7 +1725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_22_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_84_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1794,7 +1733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_23_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_85_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1802,7 +1741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_24_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_86_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1810,7 +1749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_25_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_87_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1818,7 +1757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_26_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_88_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1826,7 +1765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_27_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_89_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1834,7 +1773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_28_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_90_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1842,7 +1781,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_29_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_91_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1850,7 +1789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_30_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_92_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1858,7 +1797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_31_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_93_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1866,7 +1805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_32_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_94_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1874,7 +1813,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_33_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_95_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1882,7 +1821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_34_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_97_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1890,7 +1829,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_35_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_96_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1898,7 +1837,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_36_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_99_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1906,7 +1845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_37_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_98_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1914,7 +1853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_38_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_100_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1922,7 +1861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_39_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_101_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1930,7 +1869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_21_40/_40_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_102_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1938,7 +1877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_41_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_103_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1946,7 +1885,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_42_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_104_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1954,7 +1893,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_43_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_105_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1962,7 +1901,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_44_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_106_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1970,7 +1909,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_45_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_107_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1978,7 +1917,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_46_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_108_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1986,7 +1925,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_47_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_109_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1994,7 +1933,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_48_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_110_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2002,7 +1941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_49_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_111_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2010,7 +1949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_50_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_112_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2018,7 +1957,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_51_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_113_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2026,7 +1965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_52_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_114_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2034,7 +1973,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_54_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_115_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2042,7 +1981,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_55_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_116_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2050,7 +1989,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_56_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_117_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2058,7 +1997,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_57_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_118_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2066,7 +2005,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_58_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_119_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2074,53 +2013,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_59_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_120_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_60_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_3_Longest_Substr_Without_Repeat_Characters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_41_60/_53_.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_4_Median_Of_Sorted_Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="177">
+          <caret line="45" column="75" lean-forward="true" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/_readme.txt">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/util/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_2_Add_Two_Nums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="1157">
+          <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+          <folding>
+            <element signature="e#2138#2139#0" expanded="true" />
+            <element signature="e#2168#2169#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_1_Two_Sum.java">
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
