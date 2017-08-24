@@ -42,7 +42,9 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" filepath="$PROJECT_DIR$/com-component-util-designmodule/com-component-util-designmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-encrypt/com-component-util-encrypt.iml" filepath="$PROJECT_DIR$/com-component-util-encrypt/com-component-util-encrypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-exception/com-component-util-exception.iml" filepath="$PROJECT_DIR$/com-component-util-exception/com-component-util-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" filepath="$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" filepath="$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-math/com-component-util-math.iml" filepath="$PROJECT_DIR$/com-component-util-math/com-component-util-math.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-mockito/com-component-util-mockito.iml" filepath="$PROJECT_DIR$/com-component-util-mockito/com-component-util-mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" filepath="$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-plugins-web/com-component-util-plugins-web.iml" filepath="$PROJECT_DIR$/com-component-util-plugins-web/com-component-util-plugins-web.iml" />

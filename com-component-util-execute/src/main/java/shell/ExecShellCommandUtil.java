@@ -1,12 +1,12 @@
-package com.base.util.other;
+package shell;
 
 import ch.ethz.ssh2.Connection;
 import ch.ethz.ssh2.Session;
 import ch.ethz.ssh2.StreamGobbler;
-import com.base.util.exception.InspectionServiceException;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import util.exception.BusiException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Created by wangjianjun on 2017/3/30.
+ * Created by wangjianjun on 2017/8/24.
  */
 public class ExecShellCommandUtil {
 
@@ -38,7 +38,7 @@ public class ExecShellCommandUtil {
      * @return
      * @throws IOException
      */
-    private boolean login() throws IOException{
+    private boolean login() throws IOException {
 
         conn = new Connection(ip);
         conn.connect();
@@ -49,9 +49,9 @@ public class ExecShellCommandUtil {
      * 远程执行shell命令
      * @param shellCMD
      * @return
-     * @throws InspectionServiceException
+     * @throws BusiException
      */
-    public String execute(String shellCMD) throws InspectionServiceException {
+    public String execute(String shellCMD) throws BusiException{
 
         String result;
 
@@ -63,7 +63,7 @@ public class ExecShellCommandUtil {
                 return "登录失败";
             }
         } catch (IOException e) {
-            throw new InspectionServiceException(e.getMessage());
+            throw new BusiException(e.getMessage());
         }
 
         try {
@@ -76,7 +76,7 @@ public class ExecShellCommandUtil {
             session.close();
         }catch (IOException e){
             logger.error("shell执行失败:"+e.getMessage());
-            throw new InspectionServiceException("shell执行失败:"+e.getMessage());
+            throw new BusiException("shell执行失败:"+e.getMessage());
         }finally {
             conn.close();
         }
@@ -91,7 +91,7 @@ public class ExecShellCommandUtil {
      * @return
      * @throws IOException
      */
-    private String processStdout(InputStream is,String charset) throws IOException{
+    private String processStdout(InputStream is, String charset) throws IOException{
 
         //标准输出包装成InputStream
         InputStream stdout = new StreamGobbler(is);

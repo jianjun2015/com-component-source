@@ -42,7 +42,9 @@
     <file url="file://$PROJECT_DIR$/com-component-util-designmodule" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-encrypt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-execute" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-util-math" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-mockito" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-pattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-util-plugins-web" charset="UTF-8" />

@@ -1,11 +1,11 @@
 package com.base.util.converter;
 
 
-import com.eif.inspection.base.entity.HasCreateInfo;
-import com.eif.inspection.base.entity.HasId;
-import com.eif.inspection.base.entity.HasModifyInfo;
-import com.eif.inspection.base.entity.HasVersion;
-import com.eif.inspection.base.exception.ConversionException;
+import com.base.util.entity.HasCreateInfo;
+import com.base.util.entity.HasId;
+import com.base.util.entity.HasModifyInfo;
+import com.base.util.entity.HasVersion;
+import com.base.util.exception.ConversionException;
 
 /**
  * Created by houjun on 2016-5-5.

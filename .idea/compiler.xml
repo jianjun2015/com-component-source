@@ -46,7 +46,9 @@
         <module name="com-component-util-designmodule" />
         <module name="com-component-util-encrypt" />
         <module name="com-component-util-exception" />
+        <module name="com-component-util-execute" />
         <module name="com-component-util-json" />
+        <module name="com-component-util-math" />
         <module name="com-component-util-mockito" />
         <module name="com-component-util-pattern" />
         <module name="com-component-util-plugins-web" />
@@ -107,7 +109,9 @@
       <module name="com-component-util-designmodule" target="1.8" />
       <module name="com-component-util-encrypt" target="1.8" />
       <module name="com-component-util-exception" target="1.8" />
+      <module name="com-component-util-execute" target="1.8" />
       <module name="com-component-util-json" target="1.8" />
+      <module name="com-component-util-math" target="1.8" />
       <module name="com-component-util-mockito" target="1.8" />
       <module name="com-component-util-pattern" target="1.8" />
       <module name="com-component-util-plugins-web" target="1.8" />

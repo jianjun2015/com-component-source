@@ -58,6 +58,8 @@
       <module>com-component-mq-web</module>
       <module>com-component-spring-boot_</module>
       <module>com-component-spring-boot_web</module>
+      <module>com-component-util-math</module>
+    <module>com-component-util-execute</module>
   </modules>
   <packaging>pom</packaging>
 
