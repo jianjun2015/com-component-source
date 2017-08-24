@@ -7,7 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>com-component-spring</module>
-    <module>com-component-web</module>
     <module>com-component-logger</module>
     <module>com-component-mybatis</module>
     <module>com-component-mq</module>

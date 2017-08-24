@@ -57,7 +57,6 @@
         <module name="com-component-util-sort" />
         <module name="com-component-util-stringnumbric" />
         <module name="com-component-util-thread" />
-        <module name="com-component-web" />
         <module name="com-component-webservice-client" />
         <module name="com-component-zookeeper" />
         <module name="com-conponent-nosql" />

@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/util/exception/BusiException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/com-component-util-math.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/src/main/java/arithmetic_operation/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/src/main/java/bit_operation/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/src/main/java/logical_operation/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/src/main/java/relational_operation/_readme.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/other/ExecShellCommandUtil.java" afterPath="" />
+    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="mod + 添加java执行shell">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/com-component-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-aspects-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-context-support-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/com-component-web/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-web/target/maven-archiver/pom.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq-web/com-component-mq-web.iml" afterPath="$PROJECT_DIR$/com-component-mq-web/com-component-mq-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" afterPath="$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" afterPath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" afterPath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" afterPath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" afterPath="$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/converter/AbstractConverter.java" afterPath="$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/converter/AbstractConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-plugins-web/com-component-util-plugins-web.iml" afterPath="$PROJECT_DIR$/com-component-util-plugins-web/com-component-util-plugins-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-webservice-client/com-component-webservice-client.iml" afterPath="$PROJECT_DIR$/com-component-webservice-client/com-component-webservice-client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,7 +117,18 @@
     <favorites_list name="com-component-source" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,9 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_92_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_93_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_94_.java" />
         <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_95_.java" />
         <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_97_.java" />
         <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_96_.java" />
@@ -240,6 +244,9 @@
         <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandUtil.java" />
         <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" />
         <option value="$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/converter/AbstractConverter.java" />
+        <option value="$PROJECT_DIR$/com-component-web/src/main/java/com/mvc/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/com-component-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -268,36 +275,11 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="com-component-util-execute" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="com-component-util-execute" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="581" />
-    <option name="width" value="1027" />
+    <option name="x" value="392" />
+    <option name="width" value="1211" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -386,18 +368,18 @@
       <recent name="component.helloworld.realm.simple" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mvc.controller" />
       <recent name="leetcode_algorithm_101_120" />
       <recent name="leetcode_algorithm_81_100" />
       <recent name="leetcode_algorithm_61_80" />
       <recent name="leetcode_algorithm_41_60" />
-      <recent name="leetcode_algorithm_21_40" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\com-component-source\com-component-web\src\main\webapp" />
+      <recent name="D:\GitHub\com-component-source\com-component-web\src\main\resources" />
       <recent name="D:\GitHub\com-component-source\com-component-algorithm_\src\main\java" />
       <recent name="D:\GitHub\com-component-source\com-component-algorithm_\src\main\java\leetcode_21_40" />
       <recent name="D:\GitHub\com-component-source\com-component-spring-boot_web\src\test\java" />
-      <recent name="D:\GitHub\com-component-source\com-component-spring-boot_web\src\main\java" />
-      <recent name="D:\GitHub\com-component-source\com-component-spring-boot_web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1100,7 +1082,7 @@
       <workItem from="1503281713353" duration="2140000" />
       <workItem from="1503284633652" duration="11725000" />
       <workItem from="1503299650240" duration="6530000" />
-      <workItem from="1503306517850" duration="53750000" />
+      <workItem from="1503306517850" duration="54752000" />
     </task>
     <task id="LOCAL-00001" summary="添加 注解">
       <created>1494828855356</created>
@@ -1389,7 +1371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503483991952</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="mod + 添加java执行shell">
+      <created>1503545535993</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1503545535993</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1425,7 +1414,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="687321000" />
+    <option name="totallyTimeSpent" value="688323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1437,12 +1426,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="581" y="0" width="1027" height="877" extended-state="0" />
+    <frame x="392" y="0" width="1211" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1897712" sideWeight="0.5070707" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44053775" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30929625" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1450,7 +1440,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24885845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2718708" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2718708" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23271276" sideWeight="0.49292928" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1458,11 +1448,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18438762" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24601063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24495289" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20822622" sideWeight="0.516129" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36091003" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3032146" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1554,7 +1544,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="手机号、银行卡、身份证生成" />
     <MESSAGE value="Zookeeper" />
     <MESSAGE value="面试点记录" />
     <MESSAGE value="算法记录" />
@@ -1579,7 +1568,8 @@
     <MESSAGE value="spring boot &amp; web" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithm" />
+    <MESSAGE value="mod + 添加java执行shell" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod + 添加java执行shell" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1609,78 +1599,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_109_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_110_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_111_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_112_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_113_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_114_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_115_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_116_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_117_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_118_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1720,7 +1638,7 @@
         <state relative-caret-position="177">
           <caret line="45" column="75" lean-forward="true" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1896,14 +1814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="88" column="17" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="88" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-logger/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1943,7 +1853,7 @@
         <state relative-caret-position="272">
           <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2024,6 +1934,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="117" column="21" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="117" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-web/src/main/resources/props/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-web/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-web/src/main/java/com/mvc/controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-web/src/main/java/com/mvc/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/mvc/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding />
         </state>
       </provider>
