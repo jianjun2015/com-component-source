@@ -59,6 +59,7 @@
       <module>com-component-spring-boot_web</module>
       <module>com-component-util-math</module>
     <module>com-component-util-execute</module>
+    <module>com-component-test-web</module>
   </modules>
   <packaging>pom</packaging>
 

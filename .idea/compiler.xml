@@ -36,6 +36,7 @@
         <module name="com-component-sso-client-sec" />
         <module name="com-component-struts2" />
         <module name="com-component-test" />
+        <module name="com-component-test-web" />
         <module name="com-component-util-annotation" />
         <module name="com-component-util-array" />
         <module name="com-component-util-base-web" />
@@ -98,6 +99,7 @@
       <module name="com-component-sso-client-sec" target="1.8" />
       <module name="com-component-struts2" target="1.8" />
       <module name="com-component-test" target="1.8" />
+      <module name="com-component-test-web" target="1.8" />
       <module name="com-component-util-annotation" target="1.8" />
       <module name="com-component-util-array" target="1.8" />
       <module name="com-component-util-base-web" target="1.8" />

@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-sso-client-sec/com-component-sso-client-sec.iml" filepath="$PROJECT_DIR$/com-component-sso-client-sec/com-component-sso-client-sec.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" filepath="$PROJECT_DIR$/com-component-struts2/com-component-struts2.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-test/com-component-test.iml" filepath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-test-web/com-component-test-web.iml" filepath="$PROJECT_DIR$/com-component-test-web/com-component-test-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" filepath="$PROJECT_DIR$/com-component-util-annotation/com-component-util-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" filepath="$PROJECT_DIR$/com-component-util-array/com-component-util-array.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" filepath="$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" />
