@@ -1,2 +1,4 @@
-component\string\StringsUtil.class
+component\decimal\BigDecimalC.class
 component\App.class
+component\string\StringBufBui.class
+component\string\StringsUtil.class

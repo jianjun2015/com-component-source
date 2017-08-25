@@ -23,19 +23,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/com-component-algorithm/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-dubbo/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-mybatis-pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-spring-boot/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-web/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-webservice/pom.xml" />
-        <option value="$PROJECT_DIR$/com-conponent-nosql/pom.xml" />
-        <option value="$PROJECT_DIR$/comcomponentmybatis3spring4/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-dubbo-provider/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

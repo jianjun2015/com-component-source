@@ -41,6 +41,7 @@ D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\com
 D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\component\design\proxy\staticproxy\Main.java
 D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\component\design\strategy\OperationAdd.java
 D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\component\design\absfactory\ColorFactory.java
+D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\component\design\singleton\EnumSingleton.java
 D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\component\App.java
 D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\component\design\proxy\staticproxy\IUserDao.java
 D:\GitHub\com-component-source\com-component-util-designmodule\src\main\java\component\design\factory\Shapefactory.java

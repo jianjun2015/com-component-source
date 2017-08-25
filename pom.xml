@@ -60,6 +60,7 @@
       <module>com-component-util-math</module>
     <module>com-component-util-execute</module>
     <module>com-component-test-web</module>
+      <module>com-component-test-tmp</module>
   </modules>
   <packaging>pom</packaging>
 

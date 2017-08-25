@@ -67,5 +67,6 @@ component\design\proxy\staticproxy\IUserDao.class
 component\design\adapter\AudioPlayer.class
 component\design\bridge\DrawAPI.class
 component\design\proxy\staticproxy\UserDao.class
+component\design\singleton\EnumSingleton.class
 component\design\decrator\Rectangle.class
 component\design\absfactory\FactoryProduce.class
