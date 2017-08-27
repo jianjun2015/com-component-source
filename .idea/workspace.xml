@@ -2,148 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-test-tmp/com-component-test-tmp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-test-tmp/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/com-component-hibernate-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-hibernate/target/com-component-hibernate-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/com-component-jdbc-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-jdbc/target/com-component-jdbc-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/com-component-jndi-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-jndi/target/com-component-jndi-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/com-component-logger-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-logger/target/com-component-logger-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/com-component-mq-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-mq/target/com-component-mq-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/com-component-mybatis.jar" afterPath="$PROJECT_DIR$/com-component-mybatis/target/com-component-mybatis.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/com-component-nosql-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-nosql/target/com-component-nosql-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/com-component-poi-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-poi/target/com-component-poi-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro-web/target/com-component-shiro-web.war" afterPath="$PROJECT_DIR$/com-component-shiro-web/target/com-component-shiro-web.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/com-component-shiro-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-shiro/target/com-component-shiro-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/com-component-spring-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-spring/target/com-component-spring-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc.war" afterPath="$PROJECT_DIR$/com-component-springmvc/target/com-component-springmvc.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/com-component-struts2-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-struts2/target/com-component-struts2-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/com-component-test-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-test/target/com-component-test-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/com-component-util-annotation-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/com-component-util-annotation-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/com-component-util-array-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-array/target/com-component-util-array-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/com-component-util-cache-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-cache/target/com-component-util-cache-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/com-component-util-collection-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-collection/target/com-component-util-collection-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/com-component-util-datatime-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/com-component-util-datatime-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/com-component-util-designmodule-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/com-component-util-designmodule-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/com-component-util-json-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-json/target/com-component-util-json-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/com-component-util-pattern-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/com-component-util-pattern-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/com-component-util-reflect-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/com-component-util-reflect-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/com-component-util-serializable-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/com-component-util-serializable-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/com-component-util-sort-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-sort/target/com-component-util-sort-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/com-component-util-stringnumbric-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/com-component-util-stringnumbric-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/com-component-util-thread-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/com-component-util-thread/target/com-component-util-thread-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-hibernate/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-hibernate/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-jdbc/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-jdbc/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-jndi/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-jndi/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-logger/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-logger/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-mq/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-mq/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-mybatis/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-mybatis/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-nosql/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-nosql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-nosql/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-poi/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-poi/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-shiro-web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-shiro/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.authenticate.TestAuthentication.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.authenticate.TestAuthentication.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.EncodeDeCodeTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.EncodeDeCodeTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.PasswordTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.encode_password.PasswordTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.TestHelloWorld.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.TestHelloWorld.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.realm.TestRealm.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.helloworld.realm.TestRealm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.noconfig.NonConfigurationCreateTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.noconfig.NonConfigurationCreateTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.AuthorizerTest.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.AuthorizerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestHasRole.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestHasRole.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestPermission.xml" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/TEST-component.role.TestPermission.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.EncodeDeCodeTest.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.EncodeDeCodeTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.PasswordTest.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.encode_password.PasswordTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.helloworld.realm.TestRealm.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.helloworld.realm.TestRealm.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.role.TestPermission.txt" afterPath="$PROJECT_DIR$/com-component-shiro/target/surefire-reports/component.role.TestPermission.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot_/pom.xml" afterPath="$PROJECT_DIR$/com-component-spring-boot_/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot_web/pom.xml" afterPath="$PROJECT_DIR$/com-component-spring-boot_web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-spring/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-spring/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-springmvc/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-struts2/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-struts2/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-test/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-test/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-test/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-array/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-array/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-cache/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-cache/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-collection/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-collection/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.deteutil.DateUtilTest.xml" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/TEST-component.deteutil.DateUtilTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-datetime/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-json/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-json/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-pattern/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-reflect/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-serializable/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-sort/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-sort/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-stringnumbric/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/com-component-util-thread/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com-component-util-thread/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/TEST-component.AppTest.xml" afterPath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/TEST-component.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/component.AppTest.txt" afterPath="$PROJECT_DIR$/com-component-util-thread/target/surefire-reports/component.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -243,71 +104,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-test-web/pom.xml">
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="123" column="28" lean-forward="false" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+            <state relative-caret-position="1500">
+              <caret line="75" column="63" lean-forward="false" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-spring-boot_/pom.xml">
+      <file leaf-file-name="appilcationContext-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-shiro-web/src/main/resources/spring/appilcationContext-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2300">
-              <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+            <state relative-caret-position="1480">
+              <caret line="74" column="65" lean-forward="false" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-component-spring-boot_web/pom.xml">
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-shiro-web/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-spring/pom.xml">
+      <file leaf-file-name="ApplicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/ApplicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-test-web/src/main/webapp/WEB-INF/views/main.jsp">
+      <file leaf-file-name="ClassDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/dao/ClassDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-test-tmp/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_1_Two_Sum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_1_Two_Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
@@ -315,21 +156,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/dao/TUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3720">
-              <caret line="186" column="9" lean-forward="false" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
+            <state relative-caret-position="80">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-interview-recond/src/website/_readme.txt">
+      <file leaf-file-name="TUserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/sqlmapper/TUserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="52" />
+            <state relative-caret-position="40">
+              <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <folding>
+                <marker date="1499398844927" expanded="true" signature="913:978" ph="delete from " />
+                <marker date="1499398844927" expanded="true" signature="1260:1436" ph="insert into t_user... " />
+                <marker date="1499398844927" expanded="true" signature="1665:1878" ph="update t_use... " />
+                <marker date="1499398844927" expanded="true" signature="2120:2236" ph="select user_... t_user" />
+                <marker date="1499398844927" expanded="true" signature="2435:2504" ph="select user_... t_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-mybatis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1520">
+              <caret line="76" column="15" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="76" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -403,8 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_81_100/_100_.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_101_.java" />
         <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_102_.java" />
         <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_103_.java" />
         <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_101_120/_104_.java" />
@@ -454,6 +331,8 @@
         <option value="$PROJECT_DIR$/com-component-test-tmp/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-spring-boot_/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-spring-boot_web/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/mybatis-config.xml" />
       </list>
     </option>
   </component>
@@ -502,7 +381,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
+    <option name="width" value="1616" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -546,8 +425,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -560,8 +437,260 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-mybatis3-spring4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1381,7 +1510,9 @@
       <workItem from="1503568175418" duration="1339000" />
       <workItem from="1503641623420" duration="276000" />
       <workItem from="1503641950716" duration="1690000" />
-      <workItem from="1503644045200" duration="46000" />
+      <workItem from="1503644045200" duration="291000" />
+      <workItem from="1503648611698" duration="3685000" />
+      <workItem from="1503816706343" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="添加 注解">
       <created>1494828855356</created>
@@ -1691,7 +1822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503554987598</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="mod">
+      <created>1503644292795</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1503644292796</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1727,7 +1865,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="700455000" />
+    <option name="totallyTimeSpent" value="704981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1739,12 +1877,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24468085" sideWeight="0.505799" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32409793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29428044" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1762,7 +1900,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20822622" sideWeight="0.516129" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20618556" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27249357" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1776,7 +1914,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23149395" sideWeight="0.49292928" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1880,9 +2018,9 @@
     <MESSAGE value="leetcode" />
     <MESSAGE value="algorithm" />
     <MESSAGE value="mod + 添加java执行shell" />
-    <MESSAGE value="mod" />
     <MESSAGE value="添加 test-web" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 test-web" />
+    <MESSAGE value="mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1912,181 +2050,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/backtrack_method/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/greedy_algorithms/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-math/src/main/java/relational_operation/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-math/src/main/java/logical_operation/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-math/src/main/java/bit_operation/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-math/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-math/src/main/java/arithmetic_operation/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-math/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/other/DataSourceDefUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1322">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/util/exception/BusiException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-logger/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="52" column="28" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/converter/AbstractConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/converter/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/exception/CommonException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/exception/ConversionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/exception/InspectionServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/other/AppCtxUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/paging/QueryOrderDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/paging/PagingResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/paging/PagingQueryDef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -2154,7 +2117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2176,7 +2138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2184,7 +2145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2192,9 +2152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2210,7 +2167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2460">
           <caret line="123" column="28" lean-forward="false" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2218,7 +2174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2226,14 +2181,211 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2300">
           <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-spring-boot_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+        <state relative-caret-position="138">
+          <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="149" column="21" lean-forward="true" selection-start-line="124" selection-start-column="8" selection-end-line="149" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/sql/update.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/sql/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/test/component/mybatis/service/impl/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="104" lean-forward="false" selection-start-line="17" selection-start-column="104" selection-end-line="17" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/mybatis/mapper/TTest1Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/test/java/component/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/MyBatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/Configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="76" column="15" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="76" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/dao/ClassDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/ApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-shiro-web/src/main/resources/spring/appilcationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="74" column="65" lean-forward="false" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-shiro-web/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/sqlmapper/TUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding>
+            <marker date="1499398844927" expanded="true" signature="913:978" ph="delete from " />
+            <marker date="1499398844927" expanded="true" signature="1260:1436" ph="insert into t_user... " />
+            <marker date="1499398844927" expanded="true" signature="1665:1878" ph="update t_use... " />
+            <marker date="1499398844927" expanded="true" signature="2120:2236" ph="select user_... t_user" />
+            <marker date="1499398844927" expanded="true" signature="2435:2504" ph="select user_... t_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="75" column="63" lean-forward="false" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/dao/TUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

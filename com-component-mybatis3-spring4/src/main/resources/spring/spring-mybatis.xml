@@ -72,6 +72,8 @@
         value="classpath:me/gacl/mapping/*.xml"指的是classpath(类路径)下me.gacl.mapping包中的所有xml文件
         UserMapper.xml位于me.gacl.mapping包下，这样UserMapper.xml就可以被自动扫描
          -->
+        <!--添加配置信息，如取别名 通过如下加载配置文件-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="mapperLocations" value="classpath:sqlmapper/*.xml" />
     </bean>
     <!-- 配置扫描器 -->
