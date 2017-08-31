@@ -63,6 +63,7 @@
         <module name="com-component-zookeeper" />
         <module name="com-conponent-nosql" />
         <module name="com-interview-recond" />
+        <module name="com-src-code-test" />
         <module name="demo-dubbo-provider" />
         <module name="dubbo-provider" />
       </profile>
@@ -128,6 +129,7 @@
       <module name="com-component-webservice-client" target="1.8" />
       <module name="com-component-zookeeper" target="1.8" />
       <module name="com-interview-recond" target="1.8" />
+      <module name="com-src-code-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

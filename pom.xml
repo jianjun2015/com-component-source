@@ -61,6 +61,7 @@
     <module>com-component-util-execute</module>
     <module>com-component-test-web</module>
       <module>com-component-test-tmp</module>
+      <module>com-src-code-test</module>
   </modules>
   <packaging>pom</packaging>
 
