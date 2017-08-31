@@ -1,4 +1,4 @@
-package algorithm.branch_bound_method;
+package algorithm.divide_conquer;
 
 /**
  * 求x的n次幂：拆分子问题、递归求解

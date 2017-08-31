@@ -1,4 +1,4 @@
-package algorithm.branch_bound_method;
+package algorithm.divide_conquer;
 
 /**
  * 最大子序列
