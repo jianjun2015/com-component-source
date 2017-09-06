@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-src-code-test/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-src-code-test/com-src-code-test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-src-code-test/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/DoubleClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/IntegerClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="添加源码测试模块">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/_readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/codec/Base64Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/reflect/Base64Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandKeyUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainKeyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/resources/id_rsa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/mysql-锁.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-encrypt/com-component-util-encrypt.iml" afterPath="$PROJECT_DIR$/com-component-util-encrypt/com-component-util-encrypt.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-encrypt/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-encrypt/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" afterPath="$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-execute/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-execute/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandUtil.java" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandPwdUtil.java" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,11 +118,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_readme.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-src-code-test/_readme.txt">
+      <file leaf-file-name="MyISAM和InnoDB的区别.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="乐观锁悲观锁.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -190,24 +206,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_3_Longest_Substr_Without_Repeat_Characters.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_4_Median_Of_Sorted_Array.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/util/ListNode.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_2_Add_Two_Nums.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/divide_conquer/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/_readme.txt" />
-        <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-math/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-util-math/src/main/java/arithmetic_operation/_readme.txt" />
         <option value="$PROJECT_DIR$/com-component-util-math/src/main/java/relational_operation/_readme.txt" />
         <option value="$PROJECT_DIR$/com-component-util-math/src/main/java/logical_operation/_readme.txt" />
         <option value="$PROJECT_DIR$/com-component-util-math/src/main/java/bit_operation/_readme.txt" />
         <option value="$PROJECT_DIR$/com-component-util-math/_readme.txt" />
         <option value="$PROJECT_DIR$/com-component-util-execute/_readme.txt" />
         <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/util/exception/BusiException.java" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandUtil.java" />
         <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" />
         <option value="$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/converter/AbstractConverter.java" />
@@ -241,6 +245,18 @@
         <option value="$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/DoubleClass.java" />
         <option value="$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/IntegerClass.java" />
         <option value="$PROJECT_DIR$/com-src-code-test/_readme.txt" />
+        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandPwdUtil.java" />
+        <option value="$PROJECT_DIR$/com-component-util-execute/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainKeyTest.java" />
+        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandKeyUtil.java" />
+        <option value="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/reflect/Bas64Util.java" />
+        <option value="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/_readme.txt" />
+        <option value="$PROJECT_DIR$/com-component-util-encrypt/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/codec/Base64Util.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/mysql-锁.txt" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt" />
       </list>
     </option>
   </component>
@@ -287,8 +303,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="350" />
-    <option name="y" value="5" />
+    <option name="x" value="481" />
+    <option name="y" value="4" />
     <option name="width" value="1258" />
     <option name="height" value="877" />
   </component>
@@ -355,7 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-src-code-test" />
+              <option name="myItemId" value="com-interview-recond" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +385,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-src-code-test" />
+              <option name="myItemId" value="com-interview-recond" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -387,7 +403,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-src-code-test" />
+              <option name="myItemId" value="com-interview-recond" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -395,11 +411,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,7 +425,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-util-sort" />
+              <option name="myItemId" value="com-interview-recond" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,25 +451,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-util-sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-util-sort" />
+              <option name="myItemId" value="com-interview-recond" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -453,49 +459,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-util-sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sort" />
+              <option name="myItemId" value="mysql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,18 +498,18 @@
       <recent name="component.helloworld.realm.simple" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\com-component-source\com-component-util-execute\src\main\resources" />
       <recent name="D:\GitHub\com-component-source\com-component-algorithm_\src\main\java\algorithm\branch_bound_method" />
       <recent name="D:\GitHub\com-component-source\com-component-algorithm_\src\main\java\algorithm\divide_conquer" />
       <recent name="D:\GitHub\com-component-source\com-component-test-web\src\main\webapp" />
       <recent name="D:\GitHub\com-component-source\com-component-test-web\src\main\resources" />
-      <recent name="D:\GitHub\com-component-source\com-component-web\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shell" />
       <recent name="datatype" />
       <recent name="com.mvc.controller" />
       <recent name="leetcode_algorithm_101_120" />
       <recent name="leetcode_algorithm_81_100" />
-      <recent name="leetcode_algorithm_61_80" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\com-component-source\com-component-spring-mvc\src" />
@@ -559,67 +531,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntegerClass">
-    <configuration default="false" name="MaxSubSeqSumCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithm.branch_bound_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm.branch_bound_method.MaxSubSeqSumCase" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-algorithm_" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="BigNumMultiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="component.bignum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="component.bignum.BigNumMultiply" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-algorithm_" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Backage0_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithm.backtrack_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm.backtrack_method.Backage0_1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-algorithm_" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Base64Util (1)">
     <configuration default="false" name="GreedyPenny" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -657,6 +569,66 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="com-src-code-test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="_5_Longest_Palindromic_Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode_algorithm_1_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode_algorithm_1_20._5_Longest_Palindromic_Substring" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com-component-algorithm_" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Base64Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="base64.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="base64.reflect.Base64Util" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com-component-util-encrypt" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Base64Util (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="base64.codec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="base64.codec.Base64Util" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com-component-util-encrypt" />
       <envs />
       <method />
     </configuration>
@@ -1202,19 +1174,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.App" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MaxSubSeqSumCase" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BigNumMultiply" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Backage0_1" />
-      <item index="5" class="java.lang.String" itemvalue="Application.GreedyPenny" />
-      <item index="6" class="java.lang.String" itemvalue="Application.IntegerClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GreedyPenny" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IntegerClass" />
+      <item index="4" class="java.lang.String" itemvalue="Application._5_Longest_Palindromic_Substring" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Base64Util" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Base64Util (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IntegerClass" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GreedyPenny" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Backage0_1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BigNumMultiply" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MaxSubSeqSumCase" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Base64Util (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Base64Util" />
+        <item index="2" class="java.lang.String" itemvalue="Application._5_Longest_Palindromic_Substring" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IntegerClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GreedyPenny" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1319,14 +1291,7 @@
       <workItem from="1503641950716" duration="1690000" />
       <workItem from="1503644045200" duration="291000" />
       <workItem from="1503648611698" duration="3685000" />
-      <workItem from="1503816706343" duration="44567000" />
-    </task>
-    <task id="LOCAL-00001" summary="添加 注解">
-      <created>1494828855356</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1494828855356</updated>
+      <workItem from="1503816706343" duration="55397000" />
     </task>
     <task id="LOCAL-00002" summary="添加mybatis操作">
       <created>1499340018522</created>
@@ -1664,7 +1629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504149128902</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="添加源码测试模块">
+      <created>1504150885809</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1504150885811</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1700,7 +1672,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="748952000" />
+    <option name="totallyTimeSpent" value="759782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1712,7 +1684,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="350" y="5" width="1258" height="877" extended-state="0" />
+    <frame x="481" y="4" width="1258" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1724,7 +1696,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24885845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37012112" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37012112" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23149395" sideWeight="0.49292928" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1732,11 +1704,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18438762" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24468085" sideWeight="0.49420103" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28667563" sideWeight="0.49420103" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20822622" sideWeight="0.516129" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579299" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2579299" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1830,7 +1802,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加模块" />
     <MESSAGE value="dubbo demo" />
     <MESSAGE value="spring-mvc" />
     <MESSAGE value="补充dubbo和添加sso(单点登录系统)" />
@@ -1855,7 +1826,8 @@
     <MESSAGE value="添加 test-web" />
     <MESSAGE value="mod" />
     <MESSAGE value="add 算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 算法" />
+    <MESSAGE value="添加源码测试模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加源码测试模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1890,11 +1862,23 @@
           <properties />
           <option name="timeStamp" value="262" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="263" />
+      <option name="time" value="266" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1903,140 +1887,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/MyBatisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/Configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="76" column="15" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="76" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis/src/main/java/component/module/mybatis/dao/ClassDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/ApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-shiro-web/src/main/resources/spring/appilcationContext-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="74" column="65" lean-forward="false" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-shiro-web/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/sqlmapper/TUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding>
-            <marker date="1499398844927" expanded="true" signature="913:978" ph="delete from " />
-            <marker date="1499398844927" expanded="true" signature="1260:1436" ph="insert into t_user... " />
-            <marker date="1499398844927" expanded="true" signature="1665:1878" ph="update t_use... " />
-            <marker date="1499398844927" expanded="true" signature="2120:2236" ph="select user_... t_user" />
-            <marker date="1499398844927" expanded="true" signature="2435:2504" ph="select user_... t_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="75" column="63" lean-forward="false" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/dao/TUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/PennyCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -2324,6 +2174,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_6_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/resources/id_rsa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-execute/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandPwdUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainKeyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/_readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/reflect/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/codec/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/java-se/jvm/常见知识点.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/mysql-锁.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
       </provider>

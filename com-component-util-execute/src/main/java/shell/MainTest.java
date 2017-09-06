@@ -8,7 +8,7 @@ import util.exception.BusiException;
 public class MainTest {
 
     public static void main(String[] args) {
-        ExecShellCommandUtil shellCommandUtil = new ExecShellCommandUtil("192.168.66.129","root","352810579");
+        ExecShellCommandPwdUtil shellCommandUtil = new ExecShellCommandPwdUtil("192.168.66.129","root","352810579");
         try {
 //            String shellCMD = "pwd";
             String shellCMD ="sh " + "/root/cmdPath/test.sh";

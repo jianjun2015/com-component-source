@@ -1,0 +1,54 @@
+先说乐观锁和悲观锁的机制：
+    1. 乐观锁是一种思想，具体实现是，表中有一个版本字段，第一次读的时候，获取到这个字段。处理完业务逻辑开始更新的时候，需要再次查看该字段的值是否和第一次的一样。如果一样更新，反之拒绝。之所以叫乐观，因为这个模式没有从数据库加锁。
+    2. 悲观锁是读取的时候为后面的更新加锁，之后再来的读操作都会等待。这种是数据库锁乐观锁优点程序实现，不会存在死锁等问题。他的适用场景也相对乐观。阻止不了除了程序之外的数据库操作。悲观锁是数据库实现，他阻止一切数据库操作。再来说更新数据丢失，所有的读锁都是为了保持数据一致性。乐观锁如果有人在你之前更新了，你的更新应当是被拒绝的，可以让用户从新操作。悲观锁则会等待前一个更新完成。这也是区别。具体业务具体分析
+
+    1. 悲观锁(Pessimistic Lock), 顾名思义，就是很悲观，每次去拿数据的时候都认为别人会修改，所以每次在拿数据的时候都会上锁，这样别人想拿这个数据就会block直到它拿到锁。传统的关系型数据库里边就用到了很多这种锁机制，比如行锁，表锁等，读锁，写锁等，都是在做操作之前先上锁。
+    2. 乐观锁(Optimistic Lock), 顾名思义，就是很乐观，每次去拿数据的时候都认为别人不会修改，所以不会上锁，但是在更新的时候会判断一下在此期间别人有没有去更新这个数据，可以使用版本号等机制。乐观锁适用于多读的应用类型，这样可以提高吞吐量，像数据库如果提供类似于write_condition机制的其实都是提供的乐观锁。
+
+悲观锁的实现：http://chenzhou123520.iteye.com/blog/1860954
+    注：要使用悲观锁，我们必须关闭mysql数据库的自动提交属性，因为MySQL默认使用autocommit模式，也就是说，当你执行一个更新操作后，MySQL会立刻将结果进行提交。
+
+    我们可以使用命令设置MySQL为非autocommit模式：
+    set autocommit=0;
+
+    设置完autocommit后，我们就可以执行我们的正常业务了。具体如下：
+    //0.开始事务
+    begin;/begin work;/start transaction; (三者选一就可以)
+    //1.查询出商品信息
+    select status from t_goods where id=1 for update;
+    //2.根据商品信息生成订单
+    insert into t_orders (id,goods_id) values (null,1);
+    //3.修改商品status为2
+    update t_goods set status=2;
+    //4.提交事务
+    commit;/commit work;
+
+    注：上面的begin/commit为事务的开始和结束，因为在前一步我们关闭了mysql的autocommit，所以需要手动控制事务的提交，在这里就不细表了。
+
+    上面的第一步我们执行了一次查询操作：select status from t_goods where id=1 for update;
+    与普通查询不一样的是，我们使用了select…for update的方式，这样就通过数据库实现了悲观锁。
+
+    注：需要注意的是，在事务中，只有SELECT ... FOR UPDATE 或LOCK IN SHARE MODE 同一笔数据时会等待其它事务结束后才执行，一般SELECT ... 则不受此影响。拿上面的实例来说，当我执行select status from t_goods where id=1 for update;后。我在另外的事务中如果再次执行select status from t_goods where id=1 for update;则第二个事务会一直等待第一个事务的提交，此时第二个查询处于阻塞的状态，但是如果我是在第二个事务中执行select status from t_goods where id=1;则能正常查询出数据，不会受第一个事务的影响。
+
+    补充：MySQL select…for update的Row Lock与Table Lock
+    上面我们提到，使用select…for update会把数据给锁住，不过我们需要注意一些锁的级别，MySQL InnoDB默认Row-Level Lock，所以只有「明确」地指定主键，MySQL 才会执行Row lock (只锁住被选取的数据) ，否则MySQL 将会执行Table Lock (将整个数据表单给锁住)。
+
+悲观锁的实现：http://chenzhou123520.iteye.com/blog/1863407
+    因为悲观锁大多数情况下依靠数据库的锁机制实现，以保证操作最大程度的独占性。如果加锁的时间过长，其他用户长时间无法访问，影响了程序的并发访问性，同时这样对数据库性能开销影响也很大，特别是对长事务而言，这样的开销往往无法承受。所以与悲观锁相对的，我们有了乐观锁
+    乐观锁（ Optimistic Locking ） 相对悲观锁而言，乐观锁假设认为数据一般情况下不会造成冲突，所以在数据进行提交更新的时候，才会正式对数据的冲突与否进行检测，如果发现冲突了，则让返回用户错误的信息，让用户决定如何去做。那么我们如何实现乐观锁呢，一般来说有以下2种方式：
+    1.使用数据版本（Version）记录机制实现，这是乐观锁最常用的一种实现方式。何谓数据版本？即为数据增加一个版本标识，一般是通过为数据库表增加一个数字类型的 “version” 字段来实现。当读取数据时，将version字段的值一同读出，数据每更新一次，对此version值加一。当我们提交更新的时候，判断数据库表对应记录的当前版本信息与第一次取出来的version值进行比对，如果数据库表当前版本号与第一次取出来的version值相等，则予以更新，否则认为是过期数据。
+    2.乐观锁定的第二种实现方式和第一种差不多，同样是在需要乐观锁控制的table中增加一个字段，名称无所谓，字段类型使用时间戳（timestamp）, 和上面的version类似，也是在更新提交的时候检查当前数据库中数据的时间戳和自己更新前取到的时间戳进行对比，如果一致则OK，否则就是版本冲突。
+
+    使用举例：以MySQL InnoDB为例
+    还是拿之前的实例来举：商品goods表中有一个字段status，status为1代表商品未被下单，status为2代表商品已经被下单，那么我们对某个商品下单时必须确保该商品status为1。假设商品的id为1。
+
+    下单操作包括3步骤：
+    1.查询出商品信息
+    select (status,status,version) from t_goods where id=#{id}
+    2.根据商品信息生成订单
+    3.修改商品status为2
+    update t_goods
+    set status=2,version=version+1
+    where id=#{id} and version=#{version};
+
+    那么为了使用乐观锁，我们首先修改t_goods表，增加一个version字段，数据默认version值为1。

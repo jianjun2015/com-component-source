@@ -16,18 +16,18 @@ import java.io.InputStreamReader;
 /**
  * Created by wangjianjun on 2017/8/24.
  */
-public class ExecShellCommandUtil {
+public class ExecShellCommandPwdUtil {
 
-    private static Logger logger = LoggerFactory.getLogger(ExecShellCommandUtil.class);
+    private static Logger logger = LoggerFactory.getLogger(ExecShellCommandPwdUtil.class);
     private static String DEFAULTCHART  = "UTF-8";
     private Connection conn;
     private String ip;//远程机器ip
     private String userName;//登录用户名
     private String userPwd;//登录密码
 
-    public ExecShellCommandUtil(){}
+    public ExecShellCommandPwdUtil(){}
 
-    public ExecShellCommandUtil(String ip, String userName, String userPwd) {
+    public ExecShellCommandPwdUtil(String ip, String userName, String userPwd) {
         this.ip = ip;
         this.userName = userName;
         this.userPwd = userPwd;
