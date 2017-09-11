@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com-component-hign-concurrency:war">
+    <output-path>$PROJECT_DIR$/com-component-hign-concurrency/target</output-path>
+    <root id="archive" name="com-component-hign-concurrency.war">
+      <element id="artifact" artifact-name="com-component-hign-concurrency:war exploded" />
+    </root>
+  </artifact>
+</component>

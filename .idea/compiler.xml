@@ -13,6 +13,7 @@
         <module name="com-component-dubbo-consume" />
         <module name="com-component-dubbo-provider" />
         <module name="com-component-hibernate" />
+        <module name="com-component-hign-concurrency" />
         <module name="com-component-jdbc" />
         <module name="com-component-jndi" />
         <module name="com-component-logger" />
@@ -76,6 +77,7 @@
       <module name="com-component-dubbo-consume" target="1.8" />
       <module name="com-component-dubbo-provider" target="1.8" />
       <module name="com-component-hibernate" target="1.8" />
+      <module name="com-component-hign-concurrency" target="1.8" />
       <module name="com-component-jdbc" target="1.8" />
       <module name="com-component-jndi" target="1.8" />
       <module name="com-component-logger" target="1.8" />

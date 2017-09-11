@@ -1,23 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="添加源码测试模块">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/_readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/codec/Base64Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/reflect/Base64Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandKeyUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainKeyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/resources/id_rsa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/mysql-锁.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt" />
+    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_hign_concurrency_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_hign_concurrency_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_38.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/com-component-hign-concurrency.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/applicationContext-mvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/generatorConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/props/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/spring/appilcationContext-mybatis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/spring/applicationContext-base.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/sql/init.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/sql/update.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/views/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/views/user/add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/views/user/show.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/test/java/com.concurrency.service/UserServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/boot/ProjectBoot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/AppCtxUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/DataSourcesPropsUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/PropsUtilBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/entity/DsInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-test-web/src/main/java/com/concurrency/controller/IndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/java-se/jdk1.8/新特性.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_1/InterDefaultMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_1/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_2/LambdaExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_3/FunctionInterfaceClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_3/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_4/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_4/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_4/PersonFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Formula.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_1_Formula.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_2_Predicate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_3_Function.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_4_Supplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_5_Consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_6_Comparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_7_Optional.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_8_Stream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_9/DateAPI.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_37.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0_pr4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0_pr4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0_pr4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/other/DataSourceDefUtils.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_component_spring_mvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_spring_mvc_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_component_util_base_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_util_base_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-encrypt/com-component-util-encrypt.iml" afterPath="$PROJECT_DIR$/com-component-util-encrypt/com-component-util-encrypt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-encrypt/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-encrypt/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" afterPath="$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-execute/pom.xml" afterPath="$PROJECT_DIR$/com-component-util-execute/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandUtil.java" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandPwdUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" afterPath="$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq-web/com-component-mq-web.iml" afterPath="$PROJECT_DIR$/com-component-mq-web/com-component-mq-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/spring/applicationContext-active-mq-queue.xml" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/spring/applicationContext-active-mq-queue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/spring/applicationContext-active-mq-topic.xml" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/resources/spring/applicationContext-active-mq-topic.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" afterPath="$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-scheduled/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/com-component-scheduled/src/main/resources/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-scheduled/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/com-component-scheduled/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" afterPath="$PROJECT_DIR$/com-component-shiro-web/com-component-shiro-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/_readme.txt" afterPath="$PROJECT_DIR$/com-component-spring-mvc/_readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/pom.xml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/props/db.properties" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/props/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/applicationContext-base.xml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/applicationContext-base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/views/main.jsp" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/views/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" afterPath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" afterPath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test-web/com-component-test-web.iml" afterPath="$PROJECT_DIR$/com-component-test-web/com-component-test-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test-web/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/com-component-test-web/src/main/resources/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/com-component-test-web/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/com-component-test.iml" afterPath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" afterPath="$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-plugins-web/com-component-util-plugins-web.iml" afterPath="$PROJECT_DIR$/com-component-util-plugins-web/com-component-util-plugins-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-plugins-web/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/com-component-util-plugins-web/src/main/resources/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-plugins-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/com-component-util-plugins-web/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-webservice-client/com-component-webservice-client.iml" afterPath="$PROJECT_DIR$/com-component-webservice-client/com-component-webservice-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/activemq/consume/ConsumeService.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/activemq/consume/ConsumeService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/activemq/listener/QueueMessageListener.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/activemq/listener/QueueMessageListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/activemq/produce/ProduceService.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/activemq/produce/ProduceService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/activemq/topic/Consumer.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/activemq/topic/Consumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/activemq/topic/Producer.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/activemq/topic/Producer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/activemq/topic/TopicMessageListener.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/activemq/topic/TopicMessageListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/activemq/topic/_readme.txt" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/activemq/topic/_readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/controller/IndexController.java" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/mvc/controller/MqController.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/controller/MqController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-scheduled/src/main/java/com/mvc/controller/IndexController.java" afterPath="$PROJECT_DIR$/com-component-mq-web/src/main/java/com/concurrency/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/mvc/controller/IndexController.java" afterPath="$PROJECT_DIR$/com-component-scheduled/src/main/java/com/concurrency/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-springmvc/src/main/java/com/mvc/controller/IndexController.java" afterPath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-springmvc/src/main/java/com/mvc/controller/LoginController.java" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/java/com/concurrency/controller/LoginController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com-component-test-web/src/main/java/com/mvc/controller/IndexController.java" afterPath="$PROJECT_DIR$/com-component-springmvc/src/main/java/com/concurrency/controller/IndexController.java" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,6 +184,7 @@
     <ignored path="$PROJECT_DIR$/com-component-test-web/target/" />
     <ignored path="$PROJECT_DIR$/com-component-test-tmp/target/" />
     <ignored path="$PROJECT_DIR$/com-src-code-test/target/" />
+    <ignored path="$PROJECT_DIR$/com-component-hign-concurrency/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,22 +215,133 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyISAM和InnoDB的区别.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="40">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="乐观锁悲观锁.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt">
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/views/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="220">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectBoot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/boot/ProjectBoot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/_readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSourcesPropsUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/DataSourcesPropsUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="56" column="75" lean-forward="true" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+                <element signature="e#2157#2158#0" expanded="true" />
+                <element signature="e#2199#2200#0" expanded="true" />
+                <element signature="e#2251#2252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropsUtilBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/PropsUtilBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="121" column="25" lean-forward="false" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-base.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/applicationContext-base.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/props/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DsInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/entity/DsInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-309">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +380,8 @@
       <find>8091</find>
       <find>execute</find>
       <find>jmsQueueTemplate</find>
+      <find>Asia</find>
+      <find>Bei</find>
     </findStrings>
     <replaceStrings>
       <replace>stackMin</replace>
@@ -206,57 +416,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-util-math/src/main/java/relational_operation/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-math/src/main/java/logical_operation/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-math/src/main/java/bit_operation/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-math/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/util/exception/BusiException.java" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandUtil.java" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainTest.java" />
-        <option value="$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/converter/AbstractConverter.java" />
-        <option value="$PROJECT_DIR$/com-component-web/src/main/java/com/mvc/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/com-component-web/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-test-web/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-test-web/src/main/webapp/WEB-INF/views/main.jsp" />
-        <option value="$PROJECT_DIR$/com-component-test-tmp/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-spring-boot_/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-spring-boot_web/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/PennyCase.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/MiniNumPath.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/GoUpstairs.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/LongestCommonSeq.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/LIS.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/PowerCase.java" />
-        <option value="$PROJECT_DIR$/com-component-util-sort/src/main/java/component/sort/Main.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/MergeSortCase.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/MaxSubSeqSumCase.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/component/bignum/BigNumMultiply.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/backtrack_method/Knapsack.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/backtrack_method/Backage0_1.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/greedy_algorithms/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/greedy_algorithms/GreedyPenny.java" />
-        <option value="$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/backtrack_method/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-src-code-test/pom.xml" />
-        <option value="$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/DoubleClass.java" />
-        <option value="$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/IntegerClass.java" />
-        <option value="$PROJECT_DIR$/com-src-code-test/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandPwdUtil.java" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainKeyTest.java" />
-        <option value="$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandKeyUtil.java" />
-        <option value="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/reflect/Bas64Util.java" />
-        <option value="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/_readme.txt" />
-        <option value="$PROJECT_DIR$/com-component-util-encrypt/pom.xml" />
-        <option value="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/codec/Base64Util.java" />
-        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/mysql-锁.txt" />
-        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt" />
-        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁" />
-        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_2/LambdaExpression.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_3/FunctionInterfaceClass.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_3/Main.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_4/MethodAndConstructure.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_4/PersonFactory.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_4/Main.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Formula.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_1_Formula.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_2_Predicate.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_3_Supplier.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_9_Filter.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_10_Sort.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_11_Map.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_12_Match.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_13_Count.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_14_Reduce.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_3_Function.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_4_Supplier.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_4/Person.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_5_Consumer.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_6_Comparator.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_7_Optional.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_8/Main_8_Stream.java" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/java-se/jdk1.8/新特性.txt" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_9/DateAPI.java" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/props/db.properties" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/spring/appilcationContext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/sql/init.sql" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/test/java/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/entity/User.java" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/test/java/com.concurrency.service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/spring/applicationContext-base.xml" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/service/UserService.java" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/views/user/show.jsp" />
+        <option value="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/AppCtxUtils.java" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/props/db.properties" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/PropsUtilBase.java" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/boot/ProjectBoot.java" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/applicationContext-base.xml" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/entity/DsInfo.java" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/DataSourcesPropsUtil.java" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/views/main.jsp" />
+        <option value="$PROJECT_DIR$/com-component-spring-mvc/_readme.txt" />
       </list>
     </option>
   </component>
@@ -293,8 +503,54 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="com-component-disconf-web Maven Webapp" />
+          <option name="myItemId" value="com-component-spring-mvc Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com-component-spring-mvc Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com-component-spring-mvc Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jetty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com-component-spring-mvc Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -303,9 +559,9 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="481" />
-    <option name="y" value="4" />
-    <option name="width" value="1258" />
+    <option name="x" value="-11" />
+    <option name="y" value="3" />
+    <option name="width" value="1570" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -348,7 +604,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,7 +627,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-interview-recond" />
+              <option name="myItemId" value="com-component-util-base-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,7 +641,107 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-interview-recond" />
+              <option name="myItemId" value="com-component-util-base-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-util-base-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-util-base-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-spring-mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -403,7 +759,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-interview-recond" />
+              <option name="myItemId" value="com-component-spring-mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -411,7 +767,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,7 +781,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-interview-recond" />
+              <option name="myItemId" value="com-component-spring-mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -433,11 +789,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,7 +807,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com-interview-recond" />
+              <option name="myItemId" value="com-component-spring-mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -459,22 +815,188 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mysql" />
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="props" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="componennt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,32 +1013,32 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/GitHub/com-component-source/com-component-util-thread/pom.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\test\java\com.concurrency.service" />
+      <recent name="D:\GitHub\com-component-source\com-component-spring-mvc\src" />
+      <recent name="D:\GitHub\com-component-source\com-component-mq-web\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\GitHub\com-component-source\com-component-util-mockito\src" />
+      <recent name="D:\GitHub\com-component-source\com-component-shiro-web\src\main\java\com\shiro\util" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="component" />
       <recent name="component.helloworld.realm" />
       <recent name="component.helloworld.realm.simple" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\com-component-source\com-component-util-execute\src\main\resources" />
-      <recent name="D:\GitHub\com-component-source\com-component-algorithm_\src\main\java\algorithm\branch_bound_method" />
-      <recent name="D:\GitHub\com-component-source\com-component-algorithm_\src\main\java\algorithm\divide_conquer" />
-      <recent name="D:\GitHub\com-component-source\com-component-test-web\src\main\webapp" />
-      <recent name="D:\GitHub\com-component-source\com-component-test-web\src\main\resources" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.concurrency.entity" />
+      <recent name="com.concurrency.service.impl" />
+      <recent name="com.concurrency.service" />
+      <recent name="component.java_se.jdk1_8.new_features_8" />
       <recent name="shell" />
-      <recent name="datatype" />
-      <recent name="com.mvc.controller" />
-      <recent name="leetcode_algorithm_101_120" />
-      <recent name="leetcode_algorithm_81_100" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\com-component-source\com-component-spring-mvc\src" />
-      <recent name="D:\GitHub\com-component-source\com-component-mq-web\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\GitHub\com-component-source\com-component-util-mockito\src" />
-      <recent name="D:\GitHub\com-component-source\com-component-shiro-web\src\main\java\com\shiro\util" />
-      <recent name="D:\GitHub\com-component-source\com-component-shiro-web\src\main\java\com\shiro\entity\cond" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\main\resources" />
+      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\main\resources\spring" />
+      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\main" />
+      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -531,15 +1053,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Base64Util (1)">
-    <configuration default="false" name="GreedyPenny" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Maven.com-component-spring-mvc [jetty:run]">
+    <configuration default="false" name="Main_8_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="algorithm.greedy_algorithms.*" />
+          <option name="PATTERN" value="component.java_se.jdk1_8.new_features_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm.greedy_algorithms.GreedyPenny" />
+      <option name="MAIN_CLASS_NAME" value="component.java_se.jdk1_8.new_features_8.Main_8_Stream" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -548,18 +1070,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-algorithm_" />
+      <module name="com-interview-recond" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="IntegerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DateAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="datatype.*" />
+          <option name="PATTERN" value="component.java_se.jdk1_8.new_features_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="datatype.IntegerClass" />
+      <option name="MAIN_CLASS_NAME" value="component.java_se.jdk1_8.new_features_9.DateAPI" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -568,68 +1090,86 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-src-code-test" />
+      <module name="com-interview-recond" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_5_Longest_Palindromic_Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserServiceTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetcode_algorithm_1_20.*" />
+          <option name="PATTERN" value="com.concurrency.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode_algorithm_1_20._5_Longest_Palindromic_Substring" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="com-component-hign-concurrency" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.concurrency.service" />
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-algorithm_" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Base64Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="base64.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="base64.reflect.Base64Util" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-util-encrypt" />
-      <envs />
+    <configuration default="false" name="com-component-hign-concurrency [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="mybatis-generator" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/com-component-hign-concurrency" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
-    <configuration default="false" name="Base64Util (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="base64.codec.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="base64.codec.Base64Util" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com-component-util-encrypt" />
-      <envs />
+    <configuration default="false" name="com-component-spring-mvc [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="mybatis-generator" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/com-component-spring-mvc" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1174,19 +1714,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.App" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GreedyPenny" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IntegerClass" />
-      <item index="4" class="java.lang.String" itemvalue="Application._5_Longest_Palindromic_Substring" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Base64Util" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Base64Util (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main_8_Stream" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DateAPI" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.addUser" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.com-component-hign-concurrency [jetty:run]" />
+      <item index="6" class="java.lang.String" itemvalue="Maven.com-component-spring-mvc [jetty:run]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Base64Util (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Base64Util" />
-        <item index="2" class="java.lang.String" itemvalue="Application._5_Longest_Palindromic_Substring" />
-        <item index="3" class="java.lang.String" itemvalue="Application.IntegerClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GreedyPenny" />
+        <item index="0" class="java.lang.String" itemvalue="Maven.com-component-spring-mvc [jetty:run]" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.com-component-hign-concurrency [jetty:run]" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.addUser" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DateAPI" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main_8_Stream" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1291,14 +1831,8 @@
       <workItem from="1503641950716" duration="1690000" />
       <workItem from="1503644045200" duration="291000" />
       <workItem from="1503648611698" duration="3685000" />
-      <workItem from="1503816706343" duration="55397000" />
-    </task>
-    <task id="LOCAL-00002" summary="添加mybatis操作">
-      <created>1499340018522</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1499340018522</updated>
+      <workItem from="1503816706343" duration="68796000" />
+      <workItem from="1504838421580" duration="8462000" />
     </task>
     <task id="LOCAL-00003" summary="update">
       <created>1499340979709</created>
@@ -1636,19 +2170,17 @@
       <option name="project" value="LOCAL" />
       <updated>1504150885811</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="添加base64和mysq锁相关">
+      <created>1504691058388</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1504691058388</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloControlerTests_getHello - 2017.08.22 at 17h 15m 27s.xml">
-      <configuration name="HelloControlerTests.getHello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_test - 2017.08.22 at 16h 03m 54s.xml">
-      <configuration name="TestRedis.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_test - 2017.08.22 at 16h 14m 52s.xml">
-      <configuration name="TestRedis.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRedis_test - 2017.08.22 at 16h 28m 11s.xml">
       <configuration name="TestRedis.test" configurationId="JUnit" />
     </history-entry>
@@ -1670,9 +2202,18 @@
     <history-entry file="UserRepositoryTests_test - 2017.08.22 at 17h 06m 01s.xml">
       <configuration name="UserRepositoryTests.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest_addUser - 2017.09.08 at 11h 19m 25s.xml">
+      <configuration name="UserServiceTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_addUser - 2017.09.08 at 11h 21m 10s.xml">
+      <configuration name="UserServiceTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_addUser - 2017.09.08 at 11h 22m 56s.xml">
+      <configuration name="UserServiceTest.addUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="759782000" />
+    <option name="totallyTimeSpent" value="781643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1684,19 +2225,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="481" y="4" width="1258" height="877" extended-state="0" />
+    <frame x="-11" y="3" width="1570" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24468085" sideWeight="0.505799" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29428044" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23311259" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24885845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37012112" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42664874" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23149395" sideWeight="0.49292928" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1704,14 +2245,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18438762" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28667563" sideWeight="0.49420103" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28667563" sideWeight="0.49420103" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20822622" sideWeight="0.516129" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2579299" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20463575" sideWeight="0.6070686" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42664874" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28803244" sideWeight="0.3929314" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1802,7 +2343,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dubbo demo" />
     <MESSAGE value="spring-mvc" />
     <MESSAGE value="补充dubbo和添加sso(单点登录系统)" />
     <MESSAGE value="sso(单点登录系统)" />
@@ -1827,7 +2367,8 @@
     <MESSAGE value="mod" />
     <MESSAGE value="add 算法" />
     <MESSAGE value="添加源码测试模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加源码测试模块" />
+    <MESSAGE value="添加base64和mysq锁相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加base64和mysq锁相关" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1874,11 +2415,17 @@
           <properties />
           <option name="timeStamp" value="265" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/format/DateTimeFormatter.java</url>
+          <line>1850</line>
+          <properties />
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="266" />
+      <option name="time" value="272" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1887,426 +2434,462 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/PennyCase.java">
+    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_9/DateAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="468">
+          <caret line="107" column="48" lean-forward="false" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/MiniNumPath.java">
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/views/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#1093#1094#0" expanded="false" />
-            <element signature="e#1123#1124#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/GoUpstairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1671">
-          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuffer.java">
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/com-component-mybatis3-spring4.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1131">
-          <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/LongestCommonSeq.java">
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/spring/appilcationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="149" column="21" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="149" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="143" column="21" lean-forward="false" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/LIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/dynamic_programming/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-sort/src/main/java/component/sort/Main.java">
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-sort/src/main/java/component/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="-124">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/MaxSubSeqSumCase.java">
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="-1272">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/component/bigNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/component/bignum/BigNumMultiply.java">
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/props/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/MergeSortCase.java">
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/sql/update.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/PowerCase.java">
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/sql/init.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="100">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/backtrack_method/Backage0_1.java">
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        <state relative-caret-position="14">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/greedy_algorithms/_readme.txt">
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="335">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/backtrack_method/Knapsack.java">
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/java/component/mybatis/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/module/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/dao/TUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/sqlmapper/TUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <marker date="1504840092108" expanded="true" signature="980:1045" ph="delete from " />
+            <marker date="1504840092108" expanded="true" signature="1325:1540" ph="insert into t_user... " />
+            <marker date="1504840092108" expanded="true" signature="1767:2026" ph="update t_use... " />
+            <marker date="1504840092108" expanded="true" signature="2268:2394" ph="select user_... t_user" />
+            <marker date="1504840092108" expanded="true" signature="2593:2672" ph="select user_... t_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/test/component/mybatis/service/impl/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/greedy_algorithms/GreedyPenny.java">
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/test/component/mybatis/service/impl/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/test/java/com.concurrency.service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/spring/appilcationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/spring/applicationContext-base.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/ApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/views/user/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/applicationContext-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#702#703#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/webapp/WEB-INF/views/user/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/divide_conquer/Backage0_1.java">
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/divide_conquer/Knapsack.java">
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/AppCtxUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/divide_conquer/MaxSubSeqSumCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/divide_conquer/MergeSortCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/divide_conquer/PowerCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/divide_conquer/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/Backage0_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/Knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/branch_bound_method/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/algorithm/backtrack_method/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-src-code-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-src-code-test/src/main/java/framework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/DoubleClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6381">
-          <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-src-code-test/src/main/java/datatype/IntegerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-src-code-test/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_6_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-algorithm_/src/main/java/leetcode_algorithm_1_20/_5_Longest_Palindromic_Substring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/resources/id_rsa">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandPwdUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/MainKeyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-execute/src/main/java/shell/ExecShellCommandKeyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/reflect/Base64Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="32" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-util-encrypt/src/main/java/base64/codec/Base64Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        <state relative-caret-position="331">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           <folding>
-            <element signature="e#204#205#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/java-se/jvm/常见知识点.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="133">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/mysql-锁.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="43" />
+        <state relative-caret-position="133">
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/MyISAM和InnoDB的区别.txt">
+    <entry file="file://$PROJECT_DIR$/com-component-util-base-web/src/main/java/com/base/util/other/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="-647">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁">
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/props/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="121" column="25" lean-forward="false" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/applicationContext-base.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/乐观锁悲观锁.txt">
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/PropsUtilBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="188">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/entity/DsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/DataSourcesPropsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="56" column="75" lean-forward="true" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/boot/ProjectBoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/_readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -2365,7 +2948,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>com-component-test-web</last-edited>
+          <last-edited>com-component-hign-concurrency</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

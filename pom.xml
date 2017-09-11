@@ -62,6 +62,7 @@
     <module>com-component-test-web</module>
       <module>com-component-test-tmp</module>
       <module>com-src-code-test</module>
+      <module>com-component-hign-concurrency</module>
   </modules>
   <packaging>pom</packaging>
 

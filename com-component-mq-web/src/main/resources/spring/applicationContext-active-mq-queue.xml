@@ -7,7 +7,7 @@
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
        http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
 
-    <context:component-scan base-package="com.mvc.activemq"/>
+    <context:component-scan base-package="com.concurrency.activemq"/>
     <amq:connectionFactory id="amqConnectionFactory"
                            brokerURL="tcp://127.0.0.1:61616"
                            userName="admin"
@@ -40,7 +40,7 @@
 
     <!--监听消息类-->
     <bean id="queueMessageListener"
-          class="com.mvc.activemq.listener.QueueMessageListener"/>
+          class="com.concurrency.activemq.listener.QueueMessageListener"/>
 
     <!--监听容器-->
     <bean id="queueListenerContainer"
