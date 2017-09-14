@@ -6,5 +6,6 @@
 <a href="<%=request.getContextPath()%>/index/welcome">跳转index</a>
 1:${request.contextPath}
 2:<%=request.getContextPath() %>
+3:<p><a href="<%= request.getContextPath() %>/ongoing">Ongoing task list</a></p>
 </body>
 </html>
