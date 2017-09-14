@@ -3,7 +3,11 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
                       http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> origin/jdk_1.8
   <display-name>Archetype Created Web Application</display-name>
 
   <!-- Spring Listener -->
@@ -16,6 +20,10 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/jdk_1.8
   <!--Core filter-->
   <servlet>
     <servlet-name>springDispatcherServlet</servlet-name>
@@ -31,7 +39,10 @@
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/jdk_1.8
   <!--Character Filter-->
   <filter>
     <filter-name>encodingFilter</filter-name>
@@ -55,8 +66,19 @@
     <session-timeout>120</session-timeout>
   </session-config>
 
+<<<<<<< HEAD
+=======
+  <!--Welcome page-->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+>>>>>>> origin/jdk_1.8
 
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/jdk_1.8
 </web-app>
