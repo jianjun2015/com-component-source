@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" filepath="$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-dubbo-provider/com-component-dubbo-provider.iml" filepath="$PROJECT_DIR$/com-component-dubbo-provider/com-component-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" filepath="$PROJECT_DIR$/com-component-hibernate/com-component-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/com-component-high-concurrency-seckill.iml" filepath="$PROJECT_DIR$/com-component-high-concurrency-seckill/com-component-high-concurrency-seckill.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-hign-concurrency/com-component-hign-concurrency.iml" filepath="$PROJECT_DIR$/com-component-hign-concurrency/com-component-hign-concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" filepath="$PROJECT_DIR$/com-component-jdbc/com-component-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" filepath="$PROJECT_DIR$/com-component-jndi/com-component-jndi.iml" />

@@ -63,6 +63,7 @@
       <module>com-component-test-tmp</module>
       <module>com-src-code-test</module>
       <module>com-component-hign-concurrency</module>
+      <module>com-component-high-concurrency-seckill</module>
   </modules>
   <packaging>pom</packaging>
 
