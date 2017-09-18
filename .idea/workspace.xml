@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/service/SeckillServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/备注记录点.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/spring-dao_c3p0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_component_high_concurrency_seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_high_concurrency_seckill_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-high-concurrency-seckill/com-component-high-concurrency-seckill.iml" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/com-component-high-concurrency-seckill.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,17 +115,47 @@
         <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/cache/RedisDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeckillStateEnum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="245">
+              <caret line="165" column="18" lean-forward="false" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dao_c3p0.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/spring-dao_c3p0.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appilcationContext-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/appilcationContext-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -201,7 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/executors/Main.java" />
         <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/executors/MyTask.java" />
         <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/executors/ControlFrame.java" />
         <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/executors/ExecutorPane.java" />
@@ -217,7 +248,6 @@
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/readme.txt" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/applicationContext-mvc.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/applicationContext-base.xml" />
-        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/IndexController.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/index.jsp" />
@@ -235,7 +265,6 @@
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/SeckillExecution.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSeckillMapper.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSeckillMapper.java" />
-        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/appilcationContext-mybatis.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/views/detail.jsp" />
@@ -252,6 +281,9 @@
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/spring-dao_c3p0.xml" />
       </list>
     </option>
   </component>
@@ -344,7 +376,7 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="485" />
+    <option name="x" value="198" />
     <option name="width" value="1411" />
     <option name="height" value="877" />
   </component>
@@ -400,116 +432,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqlmapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,6 +536,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-high-concurrency-seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-high-concurrency-seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-high-concurrency-seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="props" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -979,18 +987,18 @@
     <property name="SearchEverywhereHistoryKey" value="cron&#9;PSI&#9;JAVA://org.quartz.CronExpression&#10;Sche&#9;PSI&#9;JAVA://first.type.ScheduledByThread" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\webapp" />
+      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\webapp\WEB-INF" />
+      <recent name="D:\GitHub\com-component-source\com-component-scheduled" />
+      <recent name="D:\GitHub\com-component-source\com-component-scheduled\src\main\webapp" />
+      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\test\java\com.concurrency.service" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="component" />
       <recent name="component.helloworld.realm" />
       <recent name="component.helloworld.realm.simple" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\resources\sql" />
-      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\java\org\seckill\enums" />
-      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\resources" />
-      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.seckill.enums" />
@@ -999,12 +1007,12 @@
       <recent name="com.concurrency.service.impl" />
       <recent name="com.concurrency.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\webapp" />
-      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\webapp\WEB-INF" />
-      <recent name="D:\GitHub\com-component-source\com-component-scheduled" />
-      <recent name="D:\GitHub\com-component-source\com-component-scheduled\src\main\webapp" />
-      <recent name="D:\GitHub\com-component-source\com-component-hign-concurrency\src\test\java\com.concurrency.service" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\resources\spring" />
+      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\resources\sql" />
+      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\java\org\seckill\enums" />
+      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\resources" />
+      <recent name="D:\GitHub\com-component-source\com-component-high-concurrency-seckill\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1806,14 +1814,7 @@
       <workItem from="1503816706343" duration="68796000" />
       <workItem from="1504838421580" duration="9235000" />
       <workItem from="1505206364343" duration="37406000" />
-      <workItem from="1505549469599" duration="19387000" />
-    </task>
-    <task id="LOCAL-00008" summary="面试点记录">
-      <created>1500004587598</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1500004587598</updated>
+      <workItem from="1505549469599" duration="20042000" />
     </task>
     <task id="LOCAL-00009" summary="面试点记录">
       <created>1500027753958</created>
@@ -2151,7 +2152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505555051707</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="高并发-秒杀项目">
+      <created>1505720688961</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1505720688961</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2187,7 +2195,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="839209000" />
+    <option name="totallyTimeSpent" value="839864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2199,7 +2207,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="485" y="0" width="1411" height="877" extended-state="0" />
+    <frame x="198" y="0" width="1411" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2223,7 +2231,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20822622" sideWeight="0.516129" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30940044" sideWeight="0.5963719" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30940044" sideWeight="0.5963719" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2414,14 +2422,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -2583,22 +2583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/appilcationContext-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="112" column="63" lean-forward="true" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/views/common/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -2643,14 +2627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -2922,15 +2898,47 @@
     <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/cache/RedisDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="80">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="165" column="18" lean-forward="false" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/appilcationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/spring-dao_c3p0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding />
         </state>
       </provider>
