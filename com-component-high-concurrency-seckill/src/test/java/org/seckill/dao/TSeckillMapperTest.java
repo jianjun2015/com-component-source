@@ -1,5 +1,6 @@
 package org.seckill.dao;
 
+import org.apache.commons.collections.MapUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.seckill.module.TSeckill;
@@ -8,7 +9,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by wangjianjun on 2017/9/16.
@@ -37,5 +40,17 @@ public class TSeckillMapperTest {
     public void testQueryAll() throws Exception{
         List<TSeckill> tSeckills = seckillMapper.selectAll();
         System.out.println(tSeckills.size());
+    }
+
+    @Test
+    public void testExecuteProcedure(){
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("seckillId", 1001l);
+        map.put("phone", 13916801235l);
+        map.put("killTime", new Date());
+        map.put("result", null);
+        seckillMapper.killByProcedure(map);
+        int result = MapUtils.getInteger(map, "result", -2);
+        System.out.println(result);
     }
 }

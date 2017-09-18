@@ -1,0 +1,1 @@
+1、mysql中的ROW_COUNT()可以返回前一个SQL进行UPDATE，DELETE，INSERT操作所影响的行数

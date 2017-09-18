@@ -1,78 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="高并发说明、cron4j">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_high_concurrency_seckill_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_high_concurrency_seckill_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/com-component-high-concurrency-seckill.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/boot/InitBoot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/conponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSeckillMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSuccessKilledMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/cache/RedisDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/Exposer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/SeckillExecution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/SeckillResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/entitiy/Seckill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/entitiy/SuccessKilled.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/exception/RepeatKillException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/exception/SeckillCloseException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/exception/SeckillException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/module/TSeckill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/module/TSuccessKilled.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/SeckillService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/SeckillController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/applicationContext-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/appilcationContext-mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/applicationContext-base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/applicationContext-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sql/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sql/seckill.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSeckillMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSuccessKilledMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/views/common/head.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/views/common/tag.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/views/detail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/views/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/js/seckill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSuccessKilledMapperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/service/SeckillServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/备注记录点.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" afterPath="$PROJECT_DIR$/com-component-scheduled/com-component-scheduled.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" afterPath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" afterPath="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,100 +109,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java">
+      <file leaf-file-name="RedisDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/cache/RedisDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="178" column="34" lean-forward="false" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
+            <state relative-caret-position="40">
+              <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TSuccessKilledMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSuccessKilledMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-              <folding>
-                <marker date="1505552720153" expanded="true" signature="898:1028" ph="delete from " />
-                <marker date="1505552720153" expanded="true" signature="1319:1495" ph="insert into success_killed... " />
-                <marker date="1505552720153" expanded="true" signature="1727:1948" ph="update succe... " />
-                <marker date="1505552720153" expanded="true" signature="2176:2353" ph="select secki... success_killed" />
-                <marker date="1505552720153" expanded="true" signature="2552:2625" ph="select secki... success_killed" />
-                <marker date="1505552720153" expanded="true" signature="2700:2808" ph="INSERT ignor... success_killed" />
-                <marker date="1505552720153" expanded="true" signature="2931:3099" ph="SELECT * FRO... success_killed" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TSuccessKilledMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSuccessKilledMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TSuccessKilled.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/module/TSuccessKilled.java">
+      <file leaf-file-name="SeckillStateEnum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seckill.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/js/seckill.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="116" column="49" lean-forward="false" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TSuccessKilledMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSuccessKilledMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TSeckillMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSeckillMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1328">
-              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-              <folding>
-                <element signature="e#2975#2979#0" expanded="true" />
-                <element signature="e#3010#3014#0" expanded="true" />
-                <element signature="e#3043#3047#0" expanded="true" />
-                <marker date="1505470607351" expanded="true" signature="1043:1114" ph="delete from " />
-                <marker date="1505470607351" expanded="true" signature="1399:1646" ph="insert into seckill... " />
-                <marker date="1505470607351" expanded="true" signature="1872:2175" ph="update secki... " />
-                <marker date="1505470607351" expanded="true" signature="2414:2549" ph="select secki... seckill" />
-                <marker date="1505470607351" expanded="true" signature="2748:2831" ph="select secki... seckill" />
-                <marker date="1505470607351" expanded="true" signature="2877:3049" ph="UPDATE secki... " />
-                <marker date="1505470607351" expanded="true" signature="3120:3262" ph="SELECT secki... seckill" />
-                <marker date="1505470607351" expanded="true" signature="3337:3557" ph="call execute... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -345,9 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/scheduler/listener/MyTask.java" />
-        <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/scheduler/listener/MySchedulerListener.java" />
-        <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/scheduler/listener/Main.java" />
         <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/executors/Main.java" />
         <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/executors/MyTask.java" />
         <option value="$PROJECT_DIR$/com-component-scheduled/src/main/java/three/type/cron4j/executors/ControlFrame.java" />
@@ -382,7 +235,6 @@
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/SeckillExecution.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSeckillMapper.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSeckillMapper.java" />
-        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/SeckillController.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/props/db.properties" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/spring/appilcationContext-mybatis.xml" />
@@ -390,12 +242,16 @@
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/SeckillResult.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/entitiy/SuccessKilled.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSuccessKilledMapper.java" />
-        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
-        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSuccessKilledMapperTest.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/module/TSuccessKilled.java" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSuccessKilledMapper.xml" />
         <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/js/seckill.js" />
+        <option value="$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/备注记录点.txt" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/SeckillController.java" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/service/SeckillServiceTest.java" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java" />
+        <option value="$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
       </list>
     </option>
   </component>
@@ -460,6 +316,24 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jetty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com-component-high-concurrency-seckill Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
@@ -470,9 +344,8 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="279" />
-    <option name="y" value="9" />
-    <option name="width" value="1287" />
+    <option name="x" value="485" />
+    <option name="width" value="1411" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -520,56 +393,6 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: it.sauronsoftware.cron4j:cron4j:2.2.5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cron4j-2.2.5.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: it.sauronsoftware.cron4j:cron4j:2.2.5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cron4j-2.2.5.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cron4j" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="com-component-source" />
@@ -730,6 +553,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com-component-high-concurrency-seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -753,220 +614,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-high-concurrency-seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-high-concurrency-seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-high-concurrency-seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-high-concurrency-seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-high-concurrency-seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqlmapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-high-concurrency-seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-high-concurrency-seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="props" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1372,8 +1019,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill">
-    <configuration default="false" name="TSeckillMapperTest.testQueryAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SeckillStateEnum">
+    <configuration default="false" name="SeckillServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.seckill.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com-component-high-concurrency-seckill" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.seckill.service" />
+      <option name="MAIN_CLASS_NAME" value="org.seckill.service.SeckillServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TSeckillMapperTest.testExecutePeocess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.seckill.dao.*" />
@@ -1385,7 +1058,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.seckill.dao" />
       <option name="MAIN_CLASS_NAME" value="org.seckill.dao.TSeckillMapperTest" />
-      <option name="METHOD_NAME" value="testQueryAll" />
+      <option name="METHOD_NAME" value="testExecutePeocess" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1399,7 +1072,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TSeckillMapperTest.testQueryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TSeckillMapperTest.testExecuteProcedure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.seckill.dao.*" />
@@ -1411,7 +1084,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.seckill.dao" />
       <option name="MAIN_CLASS_NAME" value="org.seckill.dao.TSeckillMapperTest" />
-      <option name="METHOD_NAME" value="testQueryById" />
+      <option name="METHOD_NAME" value="testExecuteProcedure" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1425,82 +1098,50 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TSeckillMapperTest.testReduceNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.seckill.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="com-component-high-concurrency-seckill" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.seckill.dao" />
-      <option name="MAIN_CLASS_NAME" value="org.seckill.dao.TSeckillMapperTest" />
-      <option name="METHOD_NAME" value="testReduceNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+    <configuration default="false" name="com-component-high-concurrency-seckill [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="mybatis-generator" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/com-component-high-concurrency-seckill" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
-    <configuration default="false" name="TSuccessKilledMapperTest.testInsertSuccessKilled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SeckillStateEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.seckill.dao.*" />
+          <option name="PATTERN" value="org.seckill.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="com-component-high-concurrency-seckill" />
+      <option name="MAIN_CLASS_NAME" value="org.seckill.enums.SeckillStateEnum" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.seckill.dao" />
-      <option name="MAIN_CLASS_NAME" value="org.seckill.dao.TSuccessKilledMapperTest" />
-      <option name="METHOD_NAME" value="testInsertSuccessKilled" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.seckill.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <module name="com-component-high-concurrency-seckill" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.seckill.dao" />
-      <option name="MAIN_CLASS_NAME" value="org.seckill.dao.TSuccessKilledMapperTest" />
-      <option name="METHOD_NAME" value="testSelectByPrimaryKeyWithSeckill" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
       <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -2045,19 +1686,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.App" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testQueryAll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testQueryById" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testReduceNumber" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TSuccessKilledMapperTest.testInsertSuccessKilled" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillServiceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testExecutePeocess" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testExecuteProcedure" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.com-component-high-concurrency-seckill [jetty:run]" />
+      <item index="6" class="java.lang.String" itemvalue="Application.SeckillStateEnum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TSuccessKilledMapperTest.testInsertSuccessKilled" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testReduceNumber" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testQueryAll" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testQueryById" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SeckillStateEnum" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.com-component-high-concurrency-seckill [jetty:run]" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testExecuteProcedure" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TSeckillMapperTest.testExecutePeocess" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SeckillServiceTest" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2165,14 +1806,7 @@
       <workItem from="1503816706343" duration="68796000" />
       <workItem from="1504838421580" duration="9235000" />
       <workItem from="1505206364343" duration="37406000" />
-      <workItem from="1505549469599" duration="5385000" />
-    </task>
-    <task id="LOCAL-00007" summary="Zookeeper">
-      <created>1499824126795</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1499824126795</updated>
+      <workItem from="1505549469599" duration="19387000" />
     </task>
     <task id="LOCAL-00008" summary="面试点记录">
       <created>1500004587598</created>
@@ -2510,43 +2144,50 @@
       <option name="project" value="LOCAL" />
       <updated>1505379864823</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="高并发-秒杀项目">
+      <created>1505555051705</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1505555051707</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TSeckillMapperTest_testQueryAll - 2017.09.16 at 16h 45m 58s.xml">
-      <configuration name="TSeckillMapperTest.testQueryAll" configurationId="JUnit" />
+    <history-entry file="SeckillServiceTest - 2017.09.18 at 14h 54m 52s.xml">
+      <configuration name="SeckillServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSeckillMapperTest_testQueryById - 2017.09.16 at 16h 44m 58s.xml">
-      <configuration name="TSeckillMapperTest.testQueryById" configurationId="JUnit" />
+    <history-entry file="SeckillServiceTest - 2017.09.18 at 15h 01m 26s.xml">
+      <configuration name="SeckillServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSeckillMapperTest_testReduceNumber - 2017.09.16 at 16h 46m 40s.xml">
-      <configuration name="TSeckillMapperTest.testReduceNumber" configurationId="JUnit" />
+    <history-entry file="SeckillServiceTest_testExecuteSeckillProcedure - 2017.09.18 at 14h 53m 26s.xml">
+      <configuration name="SeckillServiceTest.testExecuteSeckillProcedure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSeckillMapperTest_testReduceNumber - 2017.09.16 at 16h 47m 40s.xml">
-      <configuration name="TSeckillMapperTest.testReduceNumber" configurationId="JUnit" />
+    <history-entry file="SeckillServiceTest_testExecuteSeckillProcedure - 2017.09.18 at 14h 56m 33s.xml">
+      <configuration name="SeckillServiceTest.testExecuteSeckillProcedure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSuccessKilledMapperTest_testInsertSuccessKilled - 2017.09.16 at 16h 53m 05s.xml">
-      <configuration name="TSuccessKilledMapperTest.testInsertSuccessKilled" configurationId="JUnit" />
+    <history-entry file="SeckillServiceTest_testExecuteSeckillProcedure - 2017.09.18 at 14h 57m 05s.xml">
+      <configuration name="SeckillServiceTest.testExecuteSeckillProcedure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSuccessKilledMapperTest_testSelectByPrimaryKeyWithSeckill - 2017.09.16 at 16h 53m 33s.xml">
-      <configuration name="TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" configurationId="JUnit" />
+    <history-entry file="TSeckillMapperTest_testExecutePeocess - 2017.09.18 at 15h 05m 12s.xml">
+      <configuration name="TSeckillMapperTest.testExecutePeocess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSuccessKilledMapperTest_testSelectByPrimaryKeyWithSeckill - 2017.09.16 at 16h 57m 26s.xml">
-      <configuration name="TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" configurationId="JUnit" />
+    <history-entry file="TSeckillMapperTest_testExecuteProcedure - 2017.09.18 at 15h 05m 35s.xml">
+      <configuration name="TSeckillMapperTest.testExecuteProcedure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSuccessKilledMapperTest_testSelectByPrimaryKeyWithSeckill - 2017.09.16 at 16h 58m 26s.xml">
-      <configuration name="TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" configurationId="JUnit" />
+    <history-entry file="TSeckillMapperTest_testExecuteProcedure - 2017.09.18 at 15h 08m 11s.xml">
+      <configuration name="TSeckillMapperTest.testExecuteProcedure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSuccessKilledMapperTest_testSelectByPrimaryKeyWithSeckill - 2017.09.16 at 17h 03m 50s.xml">
-      <configuration name="TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" configurationId="JUnit" />
+    <history-entry file="TSeckillMapperTest_testExecuteProcedure - 2017.09.18 at 15h 08m 52s.xml">
+      <configuration name="TSeckillMapperTest.testExecuteProcedure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSuccessKilledMapperTest_testSelectByPrimaryKeyWithSeckill - 2017.09.16 at 17h 05m 38s.xml">
-      <configuration name="TSuccessKilledMapperTest.testSelectByPrimaryKeyWithSeckill" configurationId="JUnit" />
+    <history-entry file="TSeckillMapperTest_testExecuteProcedure - 2017.09.18 at 15h 09m 29s.xml">
+      <configuration name="TSeckillMapperTest.testExecuteProcedure" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="825207000" />
+    <option name="totallyTimeSpent" value="839209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2558,19 +2199,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="9" width="1287" height="877" extended-state="0" />
+    <frame x="485" y="0" width="1411" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24468085" sideWeight="0.505799" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21678892" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19022946" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24775876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4064603" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33916554" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23149395" sideWeight="0.49292928" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2582,7 +2223,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20822622" sideWeight="0.516129" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2991035" sideWeight="0.5963719" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30940044" sideWeight="0.5963719" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2676,7 +2317,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sso(单点登录系统)" />
     <MESSAGE value="shiro 实现redis session共享登录" />
     <MESSAGE value="添加webservice" />
     <MESSAGE value="补充sso" />
@@ -2701,7 +2341,8 @@
     <MESSAGE value="添加base64和mysq锁相关" />
     <MESSAGE value="add" />
     <MESSAGE value="高并发说明、cron4j" />
-    <option name="LAST_COMMIT_MESSAGE" value="高并发说明、cron4j" />
+    <MESSAGE value="高并发-秒杀项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="高并发-秒杀项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2760,17 +2401,11 @@
           <properties />
           <option name="timeStamp" value="272" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/SeckillController.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="284" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="287" />
+      <option name="time" value="302" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2779,29 +2414,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/conponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/boot/InitBoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-spring-mvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="98" column="21" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="98" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/resources/spring/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
@@ -2865,30 +2477,30 @@
         <state relative-caret-position="180">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#840#841#0" expanded="false" />
+            <element signature="e#887#888#0" expanded="false" />
+            <element signature="e#925#926#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
+            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="e#1049#1050#0" expanded="false" />
+            <element signature="e#1083#1084#0" expanded="false" />
+            <element signature="e#1115#1116#0" expanded="false" />
+            <element signature="e#1163#1164#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1233#1234#0" expanded="false" />
+            <element signature="e#1259#1260#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+            <element signature="e#1355#1356#0" expanded="false" />
+            <element signature="e#1383#1384#0" expanded="false" />
+            <element signature="e#1423#1424#0" expanded="false" />
+            <element signature="e#1457#1458#0" expanded="false" />
+            <element signature="e#1485#1486#0" expanded="false" />
+            <element signature="e#1511#1512#0" expanded="false" />
+            <element signature="e#1547#1548#0" expanded="false" />
+            <element signature="e#1577#1578#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2912,10 +2524,10 @@
         <state relative-caret-position="160">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="false" />
+            <element signature="e#211#212#0" expanded="false" />
+            <element signature="e#275#276#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2952,14 +2564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/exception/RepeatKillException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -2971,43 +2575,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/SeckillExecution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="false" />
-            <element signature="e#1338#1339#0" expanded="false" />
-            <element signature="e#1403#1404#0" expanded="false" />
-            <element signature="e#1453#1454#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sql/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sql/seckill.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/SeckillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3055,16 +2627,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="77" column="52" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3081,17 +2644,6 @@
         <state relative-caret-position="120">
           <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/cache/RedisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="e#668#669#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3166,54 +2718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSeckillMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1328">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="e#2975#2979#0" expanded="true" />
-            <element signature="e#3010#3014#0" expanded="true" />
-            <element signature="e#3043#3047#0" expanded="true" />
-            <marker date="1505470607351" expanded="true" signature="1043:1114" ph="delete from " />
-            <marker date="1505470607351" expanded="true" signature="1399:1646" ph="insert into seckill... " />
-            <marker date="1505470607351" expanded="true" signature="1872:2175" ph="update secki... " />
-            <marker date="1505470607351" expanded="true" signature="2414:2549" ph="select secki... seckill" />
-            <marker date="1505470607351" expanded="true" signature="2748:2831" ph="select secki... seckill" />
-            <marker date="1505470607351" expanded="true" signature="2877:3049" ph="UPDATE secki... " />
-            <marker date="1505470607351" expanded="true" signature="3120:3262" ph="SELECT secki... seckill" />
-            <marker date="1505470607351" expanded="true" signature="3337:3557" ph="call execute... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSeckillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSuccessKilledMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -3283,18 +2791,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/js/seckill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="178" column="34" lean-forward="false" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
+        <state relative-caret-position="195">
+          <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/webapp/js/seckill.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="116" column="49" lean-forward="false" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+        <state relative-caret-position="147">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSuccessKilledMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sqlmapper/TSeckillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="84" column="46" lean-forward="true" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+          <folding>
+            <element signature="e#2975#2979#0" expanded="true" />
+            <element signature="e#3010#3014#0" expanded="true" />
+            <element signature="e#3043#3047#0" expanded="true" />
+            <marker date="1505470607351" expanded="true" signature="1043:1114" ph="delete from " />
+            <marker date="1505470607351" expanded="true" signature="1399:1646" ph="insert into seckill... " />
+            <marker date="1505470607351" expanded="true" signature="1872:2175" ph="update secki... " />
+            <marker date="1505470607351" expanded="true" signature="2414:2549" ph="select secki... seckill" />
+            <marker date="1505470607351" expanded="true" signature="2748:2831" ph="select secki... seckill" />
+            <marker date="1505470607351" expanded="true" signature="2877:3049" ph="UPDATE secki... " />
+            <marker date="1505470607351" expanded="true" signature="3120:3262" ph="SELECT secki... seckill" />
+            <marker date="1505470607351" expanded="true" signature="3337:3557" ph="call execute... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/resources/sql/seckill.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-interview-recond/src/doc/db/mysql/备注记录点.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/TSeckillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dto/SeckillExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/service/SeckillServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="32" column="63" lean-forward="false" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/SeckillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/test/java/org/seckill/dao/TSeckillMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="143" column="64" lean-forward="true" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/web/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1362">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/dao/cache/RedisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com-component-high-concurrency-seckill/src/main/java/org/seckill/enums/SeckillStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
