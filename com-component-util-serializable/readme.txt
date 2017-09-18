@@ -1,0 +1,2 @@
+protostuff序列化：
+    java内置的序列化接口Serializable，效率没有protostuff自定义序列化高，protostuff的反序列化效率比Serializable高了很多倍，而且压缩后的空间比Serializable小了10倍左右
