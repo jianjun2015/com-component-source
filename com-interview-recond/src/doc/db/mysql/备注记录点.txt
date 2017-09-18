@@ -1,1 +1,4 @@
 1、mysql中的ROW_COUNT()可以返回前一个SQL进行UPDATE，DELETE，INSERT操作所影响的行数
+2、登陆mysql或者mariadb(两种任选其一)
+  [root@localhost ~]# mysql -u root
+  [root@localhost ~]# mysql -uroot -p
