@@ -64,6 +64,8 @@
       <module>com-src-code-test</module>
       <module>com-component-hign-concurrency</module>
       <module>com-component-high-concurrency-seckill</module>
+      <module>com-component-spring-mvc-login</module>
+    <module>com-component-db-read-write</module>
   </modules>
   <packaging>pom</packaging>
 

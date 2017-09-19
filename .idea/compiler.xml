@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="com-componennt-util-base-web" />
         <module name="com-component-algorithm_" />
+        <module name="com-component-db-read-write" />
         <module name="com-component-disconf-web" />
         <module name="com-component-dubbo-api" />
         <module name="com-component-dubbo-consume" />
@@ -32,6 +33,7 @@
         <module name="com-component-spring-boot_" />
         <module name="com-component-spring-boot_web" />
         <module name="com-component-spring-mvc" />
+        <module name="com-component-spring-mvc-login" />
         <module name="com-component-springmvc" />
         <module name="com-component-sso" />
         <module name="com-component-sso-client-one" />
@@ -73,6 +75,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="com-componennt-util-base-web" target="1.8" />
       <module name="com-component-algorithm_" target="1.8" />
+      <module name="com-component-db-read-write" target="1.8" />
       <module name="com-component-disconf-web" target="1.8" />
       <module name="com-component-dubbo-api" target="1.8" />
       <module name="com-component-dubbo-consume" target="1.8" />
@@ -86,10 +89,13 @@
       <module name="com-component-mq" target="1.8" />
       <module name="com-component-mq-web" target="1.8" />
       <module name="com-component-mybatis" target="1.8" />
+      <module name="com-component-mybatis3-read-write" target="1.8" />
       <module name="com-component-mybatis3-spring4" target="1.8" />
+      <module name="com-component-mysql-read-write" target="1.8" />
       <module name="com-component-nginx" target="1.8" />
       <module name="com-component-nosql" target="1.8" />
       <module name="com-component-poi" target="1.8" />
+      <module name="com-component-read-write-mysql" target="1.8" />
       <module name="com-component-scheduled" target="1.8" />
       <module name="com-component-shiro" target="1.8" />
       <module name="com-component-shiro-web" target="1.8" />
@@ -99,6 +105,7 @@
       <module name="com-component-spring-boot_" target="1.8" />
       <module name="com-component-spring-boot_web" target="1.8" />
       <module name="com-component-spring-mvc" target="1.8" />
+      <module name="com-component-spring-mvc-login" target="1.8" />
       <module name="com-component-springmvc" target="1.8" />
       <module name="com-component-sso" target="1.8" />
       <module name="com-component-sso-client-one" target="1.8" />

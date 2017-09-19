@@ -1,0 +1,4 @@
+1、 java.lang.NoClassDefFoundError: org/apache/ibatis/cursor/Cursor
+    mybatis的3.4.0及以上版本只支持mybatis-spring1.3.0及以上版本
+    出现java.lang.NoClassDefFoundError: org/apache/ibatis/cursor/Cursor 错误！
+    说明是版本兼容问题，解决办法：mybatis的3.4.0及以上版本用mybatis-spring1.3.0及以上版本；mybatis的3.4.0以下版本用mybatis-spring1.3.0以下版本。

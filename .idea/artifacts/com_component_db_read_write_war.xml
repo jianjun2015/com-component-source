@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com-component-db-read-write:war">
+    <output-path>$PROJECT_DIR$/com-component-db-read-write/target</output-path>
+    <root id="archive" name="com-component-db-read-write.war">
+      <element id="artifact" artifact-name="com-component-db-read-write:war exploded" />
+    </root>
+  </artifact>
+</component>

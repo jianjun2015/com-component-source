@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-algorithm_" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-db-read-write" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-disconf-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-dubbo-consume" charset="UTF-8" />
@@ -16,10 +17,17 @@
     <file url="file://$PROJECT_DIR$/com-component-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mq-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-mybatis3-read-write" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-mybatis3-read-write" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-mybatis3-spring4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-mysql-read-write" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-nginx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-nosql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-poi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-read-write-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-read-write-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-read-write-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-read-write-mysql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-scheduled" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-shiro-web" charset="UTF-8" />
@@ -27,6 +35,7 @@
     <file url="file://$PROJECT_DIR$/com-component-spring-boot_" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-spring-boot_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-spring-mvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-component-spring-mvc-login" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-springmvc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-sso" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-component-sso-client-one" charset="UTF-8" />

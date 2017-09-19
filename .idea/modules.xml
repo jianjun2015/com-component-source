@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" filepath="$PROJECT_DIR$/com-component-algorithm_/com-component-algorithm_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-db-read-write/com-component-db-read-write.iml" filepath="$PROJECT_DIR$/com-component-db-read-write/com-component-db-read-write.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-disconf-web/com-component-disconf-web.iml" filepath="$PROJECT_DIR$/com-component-disconf-web/com-component-disconf-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-dubbo-api/com-component-dubbo-api.iml" filepath="$PROJECT_DIR$/com-component-dubbo-api/com-component-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" filepath="$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" />
@@ -28,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot_/com-component-spring-boot_.iml" filepath="$PROJECT_DIR$/com-component-spring-boot_/com-component-spring-boot_.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-boot_web/com-component-spring-boot_web.iml" filepath="$PROJECT_DIR$/com-component-spring-boot_web/com-component-spring-boot_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" filepath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-spring-mvc-login/com-component-spring-mvc-login.iml" filepath="$PROJECT_DIR$/com-component-spring-mvc-login/com-component-spring-mvc-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" filepath="$PROJECT_DIR$/com-component-springmvc/com-component-springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-sso/com-component-sso.iml" filepath="$PROJECT_DIR$/com-component-sso/com-component-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-sso-client-one/com-component-sso-client-one.iml" filepath="$PROJECT_DIR$/com-component-sso-client-one/com-component-sso-client-one.iml" />

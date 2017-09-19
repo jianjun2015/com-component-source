@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com-component-mybatis3-read-write:war">
+    <output-path>$PROJECT_DIR$/com-component-mybatis3-read-write/target</output-path>
+    <root id="archive" name="com-component-mybatis3-read-write.war">
+      <element id="artifact" artifact-name="com-component-mybatis3-read-write:war exploded" />
+    </root>
+  </artifact>
+</component>
