@@ -74,7 +74,7 @@
     <root level="INFO">
         <appender-ref ref="STDOUT" />
         <!--<appender-ref ref="org.mybatis"/>-->
-        <!--<appender-ref ref="FILE"/>-->
+        <appender-ref ref="DAYFILE"/>
     </root>
 
 </configuration>

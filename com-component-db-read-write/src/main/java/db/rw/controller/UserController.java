@@ -2,6 +2,8 @@ package db.rw.controller;
 
 import db.rw.entity.User;
 import db.rw.service.IUserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,6 +20,8 @@ import java.util.Date;
 @RequestMapping("/userInfo")
 public class UserController {
 
+    Logger logger = LoggerFactory.getLogger(UserController.class);
+
     @Autowired
     private IUserService iUserService;
 
@@ -33,6 +37,8 @@ public class UserController {
         user.setUserSalary(101d);
         int ret = iUserService.insertUser(user);
         request.getSession().setAttribute("uId",ret);
+
+        logger.info(user.toString());
 
 //        return "redirect:/user/show";//跳转controller -全路径-新的资源 重定向改变url
         return "forward:show";//当前controller 的映射 -相对当前路径 改变url
