@@ -1,0 +1,123 @@
+http://blog.csdn.net/csdn_terence/article/details/78002154
+
+1、case when
+    显示员工的employee_id,last_name 和location。其中，若员工department_id 与 location_id 为1800 的 department_id 相同，则location 为’Canada’,其余则为’USA’。
+    SELECT employee_id, last_name,
+        ( CASE department_id
+         WHEN ( SELECT department_id FROM departments
+                        WHERE location_id = 1800)
+          THEN 'Canada'  ELSE  'USA' END) location
+    FROM employees;
+2、相关子查询
+    查询员工中工资大于本部门平均工资的员工的 last_name,salary 和其 department_id
+    SELECT last_name, salary, department_id
+    FROM  employees outer
+    WHERE salary > (SELECT AVG(salary)
+                    FROM  employees
+                    WHERE     department_id=outer.department_id);
+
+     若 employees 表中employee_id 与 job_history 表中employee_id相同的数目不小于 2，输出这些相同 id 的员工的employee_id,last_name和其 job_id
+     SELECT e.employee_id, last_name,e.job_id
+     FROM employees e
+     WHERE     2<= (SELECT COUNT(*)
+                    FROM  job_history
+                    WHERE employee_id =e.employee_id);
+
+3、EXISTS 操作符
+    查询公司管理者的employee_id,last_name,job_id,department_id 信息
+    SELECT employee_id, last_name, job_id, department_id
+    FROM  employees outer
+    WHERE [NOT] EXISTS ( SELECT 'X'
+                   FROM  employees
+                   WHERE     manager_id= outer.employee_id);
+
+4、IN
+    删除表 employees 中，其与emp_history 表皆有的数据
+    DELETE FROM employees E
+    WHERE employee_id in(
+                  SELECT employee_id
+                  FROM  emp_history
+                  WHERE  employee_id =E.employee_id);
+
+
+5、WITH 子句
+    查询公司中各部门的总工资大于公司中各部门的平均总工资的部门信息
+    WITH
+    dept_costs AS (
+         SELECT     d.department_name,SUM(e.salary) AS dept_total
+         FROM          employeese, departments d
+        WHERE  e.department_id= d.department_id
+        GROUPBY d.department_name),
+    avg_cost          AS(
+         SELECT   SUM(dept_total) / COUNT(*)  AS dept_avg
+         FROM   dept_costs)
+    SELECT *
+    FROM  dept_costs
+    WHERE     dept_total> (SELECT dept_avg  FROM avg_cost)
+    ORDER BY department_name;
+
+6、NOTNULL/ALL
+    查询员工的  last_name,  department_id,  salary. 其中员工的salary,department_id 与有奖金的任何一个员工的 salary,department_id 相同即可
+    select last_name, department_id, salary
+    from employees
+    where(salary,department_id) in (
+                select salary,department_id
+                from employees
+                where commission_pct is not null
+    )
+
+    选择工资大于所有  JOB_ID =  'SA_MAN' 的员工的工资的员工的last_name,job_id, salary
+    select last_name, job_id, salary
+    from employees
+    where salary > all(
+         select salary
+         from employees
+         where job_id = 'SA_MAN' )
+
+7、union
+    查询 10，50，20 号部门的job_id，department_id 并且department_id 按 10，50，20 的顺序排列(union)
+    select job_id , department_id ,1dummy
+       from employees
+       where department_id = 10
+    union
+         select job_id , department_id , 2
+         from employees
+         where department_id = 50
+    union
+         select job_id , department_id , 3
+          from employees
+         where department_id= 20
+    order by 3
+
+8、Having
+    SELECT department_id
+    FROM employees
+    GROUP BY department_id
+    HAVING avg(salary) >   ( SELECT avg(salary)  FROM employees)
+
+
+总结：
+1 Having 和Where的区别
+having 和where 都是用来筛选用的 ，但是having 是筛选组， 而where是筛选记录。他们有各自的区别：
+1》当分组筛选的时候用having
+-----------------------------------------------------
+用having就一定要和group by连用
+用group by不一有having （它只是一个筛选条件用的）
+-------------------------------------------------------
+2》其它情况用where
+
+3》where和having的执行级别不同
+在查询过程中聚合语句(sum,min,max,avg,count)要比having子句优先执行。
+而where子句在查询过程中优先于聚合语句(sum,min,max,avg,count)。
+having就是来弥补where在分组数据判断时的不足，因为where执行优先级别要快于聚合语句。
+
+
+
+
+
+
+
+
+
+
+
