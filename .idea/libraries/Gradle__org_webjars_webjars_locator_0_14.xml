@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:webjars-locator:0.14">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/webjars-locator/0.14/9cab10492a0cb4b9e4a69325b1a0ae6e90608fb/webjars-locator-0.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/webjars-locator/0.14/3df8984d3f2036104ce01d68ff497064724bfd3a/webjars-locator-0.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -141,6 +141,8 @@
       <module name="com-component-zookeeper" target="1.8" />
       <module name="com-interview-recond" target="1.8" />
       <module name="com-src-code-test" target="1.8" />
+      <module name="favorites-web_main" target="1.8" />
+      <module name="favorites-web_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

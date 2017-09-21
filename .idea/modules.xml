@@ -64,6 +64,9 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" filepath="$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-interview-recond/com-interview-recond.iml" filepath="$PROJECT_DIR$/com-interview-recond/com-interview-recond.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-src-code-test/com-src-code-test.iml" filepath="$PROJECT_DIR$/com-src-code-test/com-src-code-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorites-web.iml" filepath="$PROJECT_DIR$/.idea/modules/favorites-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorites-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/favorites-web_main.iml" group="favorites-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorites-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/favorites-web_test.iml" group="favorites-web" />
     </modules>
   </component>
 </project>
