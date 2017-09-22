@@ -37,7 +37,11 @@ public class IndexController {
         DsInfo dsInfo = DataSourcesPropsUtil.getDsInfoByName("local");
         List<DsInfo> dsInfos = DataSourcesPropsUtil.getAll();
 
-        LoginInfo user = gson.fromJson(request.getSession().getAttribute("user").toString(), LoginInfo.class);
+        LoginInfo user = null;
+        Object userObj = request.getSession().getAttribute("user");
+        if(userObj != null)
+            user = gson.fromJson(request.getSession().getAttribute("user").toString(), LoginInfo.class);
+
         if (user != null && user.getUsername().equals(loginInfo.getUsername())){
             mv.setViewName("main");
             return mv;
