@@ -20,4 +20,5 @@
     <import resource="classpath:spring/applicationContext-schedule-3.xml"/>
     <import resource="classpath:spring/applicationContext-schedule-anno.xml"/>
     <import resource="classpath:spring/applicationContext-schedule-param.xml"/>
+    <import resource="classpath:spring/applicationContext-quartz.xml"/>
 </beans>
