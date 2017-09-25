@@ -1,0 +1,2 @@
+5283 [main] DEBUG o.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+31441 [qtp890060621-25] INFO  db.rw.controller.UserController - User{userId=null, userName='KZKZ', userBirthday=Tue Sep 19 19:42:35 CST 2017, userSalary=101.0}

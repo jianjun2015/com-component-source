@@ -2,8 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/FastInoset.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/gmbal-api-only.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/ha-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/javax.annotation.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/jaxb-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/jaxb-impl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/jaxb-xjc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/jaxws-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/jaxws-rt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/jaxws-tools.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/jsr181-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/mail.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/management-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/mimepull.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/policy.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/saaj-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/saaj-impl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/stax-ex.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/stax2-api.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/streambuffer.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/lib/woodstox-core-asl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RSAKey.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-algorithm_/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-db-read-write/logFile.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-disconf-web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-disconf-web/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-dubbo-api/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-dubbo-consume/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-dubbo-consume/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-dubbo-provider/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-dubbo-provider/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/dao/TUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/java/com/concurrency/module/TUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-hign-concurrency/src/main/resources/sqlmapper/TUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/logFile.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-mybatis3-spring4/testFile-20170919T182049.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-nginx/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-nginx/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TPermissionMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TRoleMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TRolePermissionMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TUserLoginInfoMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/dao/TUserRoleMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/entity/module/TPermission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/entity/module/TRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/entity/module/TRolePermission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/entity/module/TUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/entity/module/TUserLoginInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/java/com/shiro/entity/module/TUserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/resources/sqlmapper/TPermissionMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/resources/sqlmapper/TRoleMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/resources/sqlmapper/TRolePermissionMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/resources/sqlmapper/TUserLoginInfoMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/resources/sqlmapper/TUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-shiro-web/src/main/resources/sqlmapper/TUserRoleMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-boot_/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-spring-boot_/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-one/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-one/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-sec/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso-client-sec/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-sso/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-test-tmp/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-test-tmp/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-base-web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-base-web/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-class/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-class/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-encrypt/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-exception/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-exception/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-execute/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-math/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-mockito/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-mockito/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-plugins-web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-plugins-web/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-client/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-client/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-webservice-server/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-zookeeper/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-zookeeper/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-interview-recond/src/test/java/component/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-src-code-test/src/main/java/component/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-src-code-test/src/test/java/component/AppTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-pattern/readme.txt" afterPath="$PROJECT_DIR$/com-component-util-pattern/readme.txt" />
     </list>
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,8 +302,8 @@
       <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com-component-util-pattern/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+            <state relative-caret-position="228">
+              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -884,20 +977,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com-component-util-pattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1739,14 +1818,7 @@
       <workItem from="1505813490905" duration="21445000" />
       <workItem from="1505962496586" duration="142000" />
       <workItem from="1505983281442" duration="13803000" />
-      <workItem from="1506312353272" duration="168000" />
-    </task>
-    <task id="LOCAL-00018" summary="shiro 实现redis session共享登录">
-      <created>1501230795652</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1501230795652</updated>
+      <workItem from="1506312353272" duration="1079000" />
     </task>
     <task id="LOCAL-00019" summary="添加webservice">
       <created>1501655460813</created>
@@ -2084,7 +2156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506063235134</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="正则表达式规则收集">
+      <created>1506312557819</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1506312557820</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2120,7 +2199,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="896300000" />
+    <option name="totallyTimeSpent" value="897211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2251,7 +2330,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java 定时器" />
     <MESSAGE value="多线程操作" />
     <MESSAGE value="activeMq" />
     <MESSAGE value="spring boot" />
@@ -2276,7 +2354,8 @@
     <MESSAGE value="quartz 调度" />
     <MESSAGE value="quartz+spring整合" />
     <MESSAGE value="添加  Filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加  Filter" />
+    <MESSAGE value="正则表达式规则收集" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则表达式规则收集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2748,8 +2827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com-component-util-pattern/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        <state relative-caret-position="228">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding />
         </state>
       </provider>
