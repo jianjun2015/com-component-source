@@ -3,6 +3,7 @@ package com.concurrency.controller;
 import com.concurrency.componennt.DataSourcesPropsUtil;
 import com.concurrency.entity.DsInfo;
 import com.concurrency.entity.LoginInfo;
+import com.concurrency.logger.LoggerManage;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.stereotype.Controller;
@@ -31,6 +32,7 @@ public class IndexController {
     }
 
     @RequestMapping("/login")
+    @LoggerManage(description="登录")
     public ModelAndView login(HttpServletRequest request,LoginInfo loginInfo){
         System.out.println("userNumber *****"+request.getSession().getAttribute("userNumber"));
 
