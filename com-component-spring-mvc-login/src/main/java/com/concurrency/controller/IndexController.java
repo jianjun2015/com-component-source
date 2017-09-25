@@ -32,6 +32,7 @@ public class IndexController {
 
     @RequestMapping("/login")
     public ModelAndView login(HttpServletRequest request,LoginInfo loginInfo){
+        System.out.println("userNumber *****"+request.getSession().getAttribute("userNumber"));
 
         ModelAndView mv = new ModelAndView();
         DsInfo dsInfo = DataSourcesPropsUtil.getDsInfoByName("local");

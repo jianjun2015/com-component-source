@@ -1,6 +1,7 @@
 package com.concurrency.filter;
 
 import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.Enumeration;
 
@@ -26,6 +27,8 @@ public class MyFilter implements Filter {
         String parameterName = null;
         String parameterValue = null;
         Enumeration<String> allParameter = servletRequest.getParameterNames();
+//        HttpServletRequest request = (HttpServletRequest) servletRequest;
+//        request.getHeader("referer");
         while(allParameter.hasMoreElements()) {
             parameterName = allParameter.nextElement();
             parameterValue = servletRequest.getParameter(parameterName);

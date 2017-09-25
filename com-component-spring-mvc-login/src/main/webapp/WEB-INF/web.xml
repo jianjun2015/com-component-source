@@ -16,6 +16,16 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 
+  <listener>
+    <listener-class>com.concurrency.listener.MyHttpSessionListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.concurrency.listener.ListenerRequestSessionContext</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.concurrency.listener.SessionAttributeListener</listener-class>
+  </listener>
+
   <!--分布式Session共享Filter-->
   <filter>
     <filter-name>springSessionRepositoryFilter</filter-name>

@@ -175,6 +175,7 @@ public class ReflectTest implements Serializable{
         Class<?> clazz = Class.forName("component.entity.User");
 
         Object object = clazz.newInstance();
+        User user = (User) object;//可以进行强转
         Field field = clazz.getDeclaredField("name");
         field.setAccessible(true);//当类中的成员变量为private时 必须设置此项
 
