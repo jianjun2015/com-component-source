@@ -8,9 +8,9 @@ package component.design.proxy.jdkproxy;
 public class UserDao implements IUserDao {
 
 	@Override
-	public void save() {
+	public void save(String str) {
 		// TODO Auto-generated method stub
-		System.out.println("-----save--------");
+		System.out.println("-----save--------"+str);
 
 	}
 

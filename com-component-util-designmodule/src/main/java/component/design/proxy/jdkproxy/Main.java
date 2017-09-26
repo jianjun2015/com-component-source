@@ -10,7 +10,7 @@ public class Main {
 		IUserDao proxy = (IUserDao) new ProxyFactory(target).getProxyInstance();
 		System.out.println(proxy.getClass());
 		
-		proxy.save();
+		proxy.save("Jack");
 	}
 
 }

@@ -22,9 +22,28 @@ public class MySampleMain {
         this.id = id;
     }
 
-    public static void main(String[] args) throws NoSuchMethodException, NoSuchFieldException {
+    public static void main(String[] args) throws NoSuchMethodException, NoSuchFieldException, ClassNotFoundException {
 
         MySampleMain sampleMain = new MySampleMain();
+
+//        自定义注解使用，可以通过反射得到注解信息
+        Class c = Class.forName("component.annotation.MySampleMain");
+        if (c.isAnnotationPresent(MyClassAnnotation.class)){
+            MyClassAnnotation classAnnotation_ = (MyClassAnnotation) c.getAnnotation(MyClassAnnotation.class);
+            System.out.println(classAnnotation_.desc());
+            Method []methods = c.getMethods();
+            for (Method method:methods){
+                if (method.isAnnotationPresent(MyConstructorAnnotation.class)){
+                    MyConstructorAnnotation constructorAnnotation_ = method.getAnnotation(MyConstructorAnnotation.class);
+                    System.out.println(constructorAnnotation_.desc());
+                }else
+                if (method.isAnnotationPresent(MyMethodAnnotation.class)){
+                    MyMethodAnnotation methodAnnotation_ = method.getAnnotation(MyMethodAnnotation.class);
+                    System.out.println(methodAnnotation_.desc());
+                }
+            }
+        }
+
 
         MyClassAnnotation classAnnotation = MySampleMain.class.getAnnotation(MyClassAnnotation.class);
         System.out.println(classAnnotation.url()+":"+classAnnotation.desc());
