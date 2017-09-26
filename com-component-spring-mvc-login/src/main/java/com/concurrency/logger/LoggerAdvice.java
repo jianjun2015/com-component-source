@@ -20,19 +20,19 @@ public class LoggerAdvice {
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Before("within(com.concurrency.controller.IndexController.*) && @annotation(loggerManage)")
+    @Before("within(com.concurrency.controller..*) && @annotation(loggerManage)")
     public void addBeforeLogger(JoinPoint joinPoint,LoggerManage loggerManage){
         logger.info("执行:"+loggerManage.description()+" 开始");
         logger.info(joinPoint.getSignature().toString());
         logger.info(parseParames(joinPoint.getArgs()));
     }
 
-    @AfterReturning("within(com.concurrency.controller.IndexController*) && @annotation(loggerManage)")
+    @AfterReturning("within(com.concurrency.controller..*) && @annotation(loggerManage)")
     public void addAfterReturningLogger(JoinPoint joinPoint,LoggerManage loggerManage){
         logger.info("执行:"+loggerManage.description()+" 结束");
     }
 
-    @AfterThrowing("within(com.concurrency.controller.IndexController.*) && @annotation(loggerManage)")
+    @AfterThrowing("within(com.concurrency.controller..*) && @annotation(loggerManage)")
     public void addAfterThrowingLogger(JoinPoint joinPoint,LoggerManage loggerManage){
         logger.error("执行:"+loggerManage.description()+ " 异常");
     }

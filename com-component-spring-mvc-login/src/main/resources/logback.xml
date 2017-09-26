@@ -55,8 +55,9 @@
     </appender>
 
     <logger name="com.concurrency" level="DEBUG" additivity="false">
-        <appender-ref ref="ASYNC" />
+        <!--<appender-ref ref="ASYNC" />-->
         <appender-ref ref="FILE"/>
+        <appender-ref ref="STDOUT"/>
     </logger>
 
     <root level="DEBUG">
