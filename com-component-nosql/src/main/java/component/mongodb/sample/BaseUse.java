@@ -1,5 +1,6 @@
 package component.mongodb.sample;
 
+import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
@@ -26,15 +27,17 @@ public class BaseUse {
         return mongoDatabase;
     }
 
-    public MongoCollection createCollection(String colName){
+    public MongoCollection createCollection(String dbName,String colName){
 
         MongoCollection<Document> collection = null;
         try{
-            //连接到数据库
-            MongoDatabase testDB = mongoDBJDBC.baseJdbc("test");
-            testDB.createCollection(colName);
+
+            MongoDatabase testDB = mongoDBJDBC.createMongoDatabase(dbName);
 
             collection = testDB.getCollection(colName);
+            if (collection == null)
+                testDB.createCollection(colName);
+
             System.out.println("集合 "+colName+" 连接成功");
         }catch (Exception e){
             System.out.println(e.getClass().getName()+":"+e.getMessage());
@@ -97,12 +100,36 @@ public class BaseUse {
         return mongoCursor;
     }
 
+    public MongoCursor<Document> findDoucuments_(MongoCollection<Document> mongoCollection){
+
+        FindIterable<Document> findIterable = mongoCollection.find();
+        MongoCursor<Document> mongoCursor = findIterable.iterator();
+        while (mongoCursor.hasNext()){
+            Document document = mongoCursor.next();
+            System.out.println(document.get("_id"));
+            System.out.println(document.get("id"));
+            System.out.println(document.get("name"));
+            System.out.println(document.get("age"));
+        }
+
+//        FindIterable findIterable_ = mongoCollection.find(Filters.eq("id",1)).sort(new BasicDBObject("id",1));
+        FindIterable findIterable_ = mongoCollection.find().limit(10).sort(new BasicDBObject("age",1));//1升序 -1降序
+        MongoCursor<Document> mongoCursor_ = findIterable_.iterator();
+        while (mongoCursor_.hasNext()){
+            System.out.println(mongoCursor_.next());
+        }
+
+        return mongoCursor;
+    }
+
     public static void main(String[] args) {
         BaseUse baseUse = new BaseUse();
-        MongoCollection mongoCollection = baseUse.createCollection("myColl");
-        baseUse.insertDocument(mongoCollection);
-        baseUse.findDoucuments(mongoCollection);
-        baseUse.updatedDoucuments(mongoCollection);
-        baseUse.deleteDoucuments(mongoCollection);
+        MongoCollection mongoCollection = baseUse.createCollection("test","myColl");
+
+//        baseUse.insertDocument(mongoCollection);
+//        baseUse.findDoucuments(mongoCollection);
+        baseUse.findDoucuments_(mongoCollection);
+//        baseUse.updatedDoucuments(mongoCollection);
+//        baseUse.deleteDoucuments(mongoCollection);
     }
 }
