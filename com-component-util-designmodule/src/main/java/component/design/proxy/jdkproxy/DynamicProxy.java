@@ -18,8 +18,8 @@ public class DynamicProxy implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("Before ....");
         System.out.println("Method:"+method);
-        method.invoke(subject,args);
+        Object object = method.invoke(subject,args);
         System.out.println("after ...");
-        return null;
+        return object;
     }
 }
