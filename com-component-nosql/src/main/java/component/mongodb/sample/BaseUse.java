@@ -122,12 +122,44 @@ public class BaseUse {
         return mongoCursor;
     }
 
+    public void find_function(MongoCollection<Document> collection){
+        BasicDBObject exclude = new BasicDBObject(); //projection :除了_id字段例外，不能把包含和不包含混用,1用于显示字段，而0用于隐藏字段
+        exclude.append("_id",1);
+        exclude.append("zhangsan", 1);//有则显示，没有就不显示，不会报错
+        exclude.append("description", 1);
+//         exclude.append("title", 0); //会出错
+
+        FindIterable datas = collection.find()
+                .projection(exclude)
+                .limit(5);
+
+//        BasicDBList options = new BasicDBList();
+//        options.add(new BasicDBObject("likes", 101));
+//        options.add(new BasicDBObject("likes", 103));
+//        BasicDBObject queryObj = new BasicDBObject("$or", options);
+//        BasicDBObject queryObj = new BasicDBObject("by", "fly");
+//        BasicDBObject queryObj = new BasicDBObject("likes", new BasicDBObject("$gt", 100));
+//        FindIterable<User> datas = collection.find(queryObj).limit(5);
+//        FindIterable<User> datas = collection.find(Filters.type("zhangsan", BsonType.STRING)).limit(5); //查询含有zhangsan为key的
+//        FindIterable datas = collection.find(Filters.eq("by","fly")).limit(5);
+//        FindIterable datas_ = collection.find(Filters.eq("likes",100)).limit(5);
+//        FindIterable datas__ = collection.find(Filters.eq("by","fly")).limit(5);
+        MongoCursor cursor = datas.iterator();
+        while (cursor.hasNext()){
+            System.out.println(cursor.next());
+//            Document doc = (Document) cursor.next();
+//            if (doc.containsKey("_id")){
+//                System.out.println("_id:"+doc.get("_id"));
+//            }
+        }
+    }
+
     public static void main(String[] args) {
         BaseUse baseUse = new BaseUse();
         MongoCollection mongoCollection = baseUse.createCollection("test","myColl");
 
-//        baseUse.insertDocument(mongoCollection);
-//        baseUse.findDoucuments(mongoCollection);
+        baseUse.insertDocument(mongoCollection);
+        baseUse.findDoucuments(mongoCollection);
         baseUse.findDoucuments_(mongoCollection);
 //        baseUse.updatedDoucuments(mongoCollection);
 //        baseUse.deleteDoucuments(mongoCollection);
