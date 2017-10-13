@@ -11,7 +11,7 @@ import java.security.spec.RSAPrivateKeySpec;
 import java.security.spec.RSAPublicKeySpec;
 
 /**
- * RSA加解密类
+ * RSA加解密类：加密就是你哪怕看到了不该看到的东西，也理解不了
  * Created by wangjianjun on 2017/7/22.
  */
 public class RSAUtil {
