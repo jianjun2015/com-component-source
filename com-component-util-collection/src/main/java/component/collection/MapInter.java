@@ -1,6 +1,9 @@
 package component.collection;
 
+import org.springframework.util.LinkedCaseInsensitiveMap;
+
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Map 是顶层接口
@@ -55,6 +58,18 @@ public class MapInter {
 		map.put(null, null);//OK
 		fun_mapRead(map);
 
+		//key值不区分大小写
+		Map<String,Object> objectMap = new LinkedCaseInsensitiveMap<>();
+		objectMap.put("NAME","zhangsan");
+		objectMap.get("namE");
+
+	}
+
+	public void fun_concurretHashMap(){
+		Map map = new ConcurrentHashMap();//线程同步仅限于原子操作
+		map.put("key_","");
+
+		map.put("kk",map.get("kk")+"");//不适用
 	}
 
 	//输入顺序

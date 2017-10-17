@@ -7,3 +7,12 @@ HashMap和Hashtable都实现了Map接口，但决定用哪一个之前先要弄�
     另一个区别是HashMap的迭代器(Iterator)是fail-fast迭代器，而Hashtable的enumerator迭代器不是fail-fast的。所以当有其它线程改变了HashMap的结构（增加或者移除元素），将会抛出ConcurrentModificationException，但迭代器本身的remove()方法移除元素则不会抛出ConcurrentModificationException异常。但这并不是一个一定发生的行为，要看JVM。这条同样也是Enumeration和Iterator的区别。
     由于Hashtable是线程安全的也是synchronized，所以在单线程环境下它比HashMap要慢。如果你不需要同步，只需要单一线程，那么使用HashMap性能要好过Hashtable。
     HashMap不能保证随着时间的推移Map中的元素次序是不变的。
+
+
+HashMap面试点--内部存储结构：<hash(key),Map.Entry<key,value>>
+put过程：
+    key->hashCode()->存储<hashcode,Map.Entry<key,value>>
+    --达到装载因子->再hash操作
+get过程：
+    key->hashCode()->比较hashcode和equals(key)->相等则可以去到对应的value
+http://www.importnew.com/7099.html

@@ -37,20 +37,26 @@ public static void quickSort(int[] arr,int left,int right){
 		
 		Exchange.swap(arr, pivotPointer, left);
 		return left;
-		
-		//�Ż�
-//		int pivotKey = arr[left];
-//        
-//        while(left < right) {
-//            while(left < right && arr[right] >= pivotKey)
-//                right --;
-//            arr[left] = arr[right]; //��С���ƶ������
-//            while(left < right && arr[left] <= pivotKey)
-//                left ++;
-//            arr[right] = arr[left]; //�Ѵ���ƶ����ұ�
-//        }
-//        arr[left] = pivotKey; //����pivot��ֵ���м�
-//        return left;
+
+//		int pivot = arr[left];     //枢轴记录
+//		while (left<right){
+//			while (left<right && arr[right]>=pivot)
+//				--right;
+//			arr[left]=arr[right];             //交换比枢轴小的记录到左端
+//			while (left<right && arr[left]<=pivot)
+//				++left;
+//			arr[right] = arr[left];           //交换比枢轴小的记录到右端
+//		}
+//		//扫描完成，枢轴到位
+//		arr[left] = pivot;
+//		//返回的是枢轴的位置
+//		return left;
+	}
+
+	public static void main(String[] args) {
+		int[] arr = new int[]{3,2,5,7,9,4};
+		sort(arr);
+		System.out.println(arr);
 	}
 	
 }
