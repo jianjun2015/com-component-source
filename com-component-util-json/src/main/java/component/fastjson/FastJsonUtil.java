@@ -1,6 +1,7 @@
 package component.fastjson;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 import component.entity.User;
 
 /**
@@ -27,5 +28,6 @@ public class FastJsonUtil {
 
         User json2BeanUser = jsonUtil.json2Bean(bean2jsonStr, User.class);
         System.out.println(json2BeanUser);
+
     }
 }

@@ -44,7 +44,6 @@
     <module>com-component-dubbo-consume</module>
     <module>com-component-dubbo-provider</module>
     <module>com-component-dubbo-api</module>
-      <module>com-component-spring-mvc</module>
       <module>com-component-util-encrypt</module>
       <module>com-component-sso</module>
       <module>com-component-webservice-client</module>
