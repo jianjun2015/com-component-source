@@ -1,7 +1,0 @@
-component\mongodb\sample\BaseUse.class
-component\redis\JedisUtilTest.class
-component\redis\RedisTest.class
-component\redis\RedisUtil.class
-component\mongodb\MongoDBJDBC.class
-component\App.class
-component\redis\JedisClusterTest.class

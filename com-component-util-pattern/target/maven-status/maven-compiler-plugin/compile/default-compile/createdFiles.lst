@@ -1,5 +1,0 @@
-component\App.class
-component\generator\PhoneNoGenerator.class
-component\generator\BankCardNoGenerator.class
-component\generator\IDCardNoGenerator.class
-component\pattern\Util.class
