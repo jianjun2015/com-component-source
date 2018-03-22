@@ -1,52 +1,4 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-*/target/
-out/
+# Created by .ignore support plugin (hsz.mobi)
 ### Java template
 # Compiled class file
 *.class
@@ -56,6 +8,9 @@ out/
 
 # BlueJ files
 *.ctxt
+
+#Folder
+*/target/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -70,3 +25,59 @@ out/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+com-component-algorithm_/src/main/java/component/list/
+com-component-db-read-write/src/test/
+com-component-disconf-web/src/main/resources/
+com-component-mq/src/main/java/rabbit/spring_rabbit/
+com-component-mq/src/main/java/rocket/
+com-component-mybatis/src/main/java/component/module/mybatis/TestCase/
+com-component-mybatis/src/main/java/org/
+com-component-nosql/src/main/java/component/memcached/
+com-component-scheduled/src/main/test/
+com-component-shiro-web/src/main/test/
+com-component-spring-boot_web/com-component-spring-mvc/src/test/
+com-component-spring-boot_web/com-component-spring-mvc/target/com-component-spring-mvc/META-INF/
+com-component-spring-boot_web/com-component-spring-mvc/target/generated-sources/
+com-component-spring-mvc-login/src/test/
+com-component-springmvc/src/main/test/
+com-component-sso-client-one/src/main/resources/
+com-component-sso-client-sec/src/main/resources/
+com-component-sso/src/main/java/
+com-component-sso/src/main/test/
+com-component-test-web/src/test/
+com-component-util-base-web/src/main/java/com/base/util/io/
+com-component-util-base-web/src/main/java/com/base/util/nio/
+com-component-util-base-web/src/main/resources/
+com-component-util-base-web/src/main/test/
+com-component-util-class/src/main/java/component/jvm/
+com-component-util-class/src/main/resources/
+com-component-util-encrypt/src/main/java/md5/
+com-component-util-execute/src/main/java/procedure/
+com-component-util-plugins-web/src/main/java/
+com-component-util-plugins-web/src/main/test/
+com-component-webservice-client/src/main/resources/
+com-component-webservice-client/src/main/test/
+com-component-zookeeper/src/main/resources/
+com-interview-recond/src/doc/algorithm/binary-tree/
+com-interview-recond/src/doc/algorithm/list/
+com-interview-recond/src/doc/algorithm/queue/
+com-interview-recond/src/doc/algorithm/sort/
+com-interview-recond/src/doc/algorithm/string/
+com-interview-recond/src/doc/db/mongodb/
+com-interview-recond/src/doc/db/nosql/
+com-interview-recond/src/doc/db/oracle/
+com-interview-recond/src/doc/java-distributed/nginx/
+com-interview-recond/src/doc/java-web/css/
+com-interview-recond/src/doc/java-web/html/
+com-interview-recond/src/doc/java-web/js/
+com-interview-recond/src/doc/java-web/jsp/
+com-interview-recond/src/doc/plugin/mq/
+com-interview-recond/src/doc/plugin/solr/
+com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_10/
+com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_5/
+com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_6/
+com-interview-recond/src/main/java/component/java_se/jdk1_8/new_features_7/
+com-interview-recond/src/main/resources/
+com-src-code-test/src/main/java/conllection/
+com-src-code-test/src/main/java/framework/
+com-src-code-test/src/main/java/sort/
