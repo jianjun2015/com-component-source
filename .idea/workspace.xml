@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="补充">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-json/src/main/java/component/fastjson/Demo.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/_readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/com-component-spring-mvc.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/boot/ProjectBoot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/AppCtxUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/DataSourcesPropsUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/componennt/PropsUtilBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/controller/IndexController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/java/com/concurrency/entity/DsInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/props/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/appilcationContext-mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/resources/spring/applicationContext-base.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/views/main.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com-component-spring-mvc/src/main/webapp/index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-nosql/target/classes/component/mongodb/sample/BaseUse.class" afterPath="$PROJECT_DIR$/com-component-nosql/target/classes/component/mongodb/sample/BaseUse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-annotation/target/classes/component/annotation/MySampleMain.class" afterPath="$PROJECT_DIR$/com-component-util-annotation/target/classes/component/annotation/MySampleMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-collection/target/classes/component/collection/MapInter.class" afterPath="$PROJECT_DIR$/com-component-util-collection/target/classes/component/collection/MapInter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-designmodule/target/classes/component/design/proxy/cglibproxy/ProxyFactory.class" afterPath="$PROJECT_DIR$/com-component-util-designmodule/target/classes/component/design/proxy/cglibproxy/ProxyFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/target/classes/component/fastjson/FastJsonUtil.class" afterPath="$PROJECT_DIR$/com-component-util-json/target/classes/component/fastjson/FastJsonUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-sort/target/classes/component/sort/QuickSort.class" afterPath="$PROJECT_DIR$/com-component-util-sort/target/classes/component/sort/QuickSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/com_component_util_base_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/com_component_util_base_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" afterPath="$PROJECT_DIR$/com-component-dubbo-consume/com-component-dubbo-consume.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-spring-boot_web/com-component-spring-boot_web.iml" afterPath="$PROJECT_DIR$/com-component-spring-boot_web/com-component-spring-boot_web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-test/com-component-test.iml" afterPath="$PROJECT_DIR$/com-component-test/com-component-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" afterPath="$PROJECT_DIR$/com-component-util-base-web/com-component-util-base-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com-component-util-json/src/main/java/component/fastjson/FastJsonUtil.java" afterPath="$PROJECT_DIR$/com-component-util-json/src/main/java/component/fastjson/FastJsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_41.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" />
-    </list>
+    <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="" />
     <ignored path="com-component-source.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1677,14 +1637,7 @@
       <workItem from="1506578116690" duration="30182000" />
       <workItem from="1510023258413" duration="9511000" />
       <workItem from="1511491095453" duration="663000" />
-      <workItem from="1521706010915" duration="806000" />
-    </task>
-    <task id="LOCAL-00031" summary="多线程操作">
-      <created>1503053061727</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1503053061727</updated>
+      <workItem from="1521706010915" duration="869000" />
     </task>
     <task id="LOCAL-00032" summary="多线程操作">
       <created>1503223258146</created>
@@ -2022,7 +1975,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511421985039</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="补充">
+      <created>1521706868871</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1521706868871</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2058,7 +2018,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="978384000" />
+    <option name="totallyTimeSpent" value="978447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
