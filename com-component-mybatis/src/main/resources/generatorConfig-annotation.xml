@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+
+    <!--次配置文件能在对应bean上添加字段说明和注解-->
+
+    <classPathEntry
+            location="D:\software\maven339\repository\mysql\mysql-connector-java\5.1.25\mysql-connector-java-5.1.25.jar" />
+    <context id="mybatis" targetRuntime="MyBatis3"
+             defaultModelType="flat">
+        <property name="beginningDelimiter" value="`" />
+        <property name="endingDelimiter" value="`" />
+        <property name="javaFileEncoding" value="UTF-8" />
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper" />
+            <!-- caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true -->
+            <property name="caseSensitive" value="true" />
+        </plugin>
+
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+            <property name="suppressAllComments" value="false" />
+        </commentGenerator>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/eif_paycore" userId="root"
+                        password="123456" />
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="true" />
+        </javaTypeResolver>
+        <javaModelGenerator targetPackage="com.eif.paycore.dal.model"
+                            targetProject="src/main/java" />
+        <sqlMapGenerator targetPackage="sqlmapper"
+                         targetProject="src/main/resources">
+        </sqlMapGenerator>
+        <javaClientGenerator targetPackage="com.eif.paycore.dal.dao"
+                             targetProject="src/main/java" type="XMLMAPPER">
+        </javaClientGenerator>
+
+        <table tableName="t_paycore_offline_payment_instrument"
+               domainObjectName="OfflinePaymentInstrument">
+            <generatedKey column="id" sqlStatement="JDBC" />
+        </table>
+
+        <!--<table tableName="t_paycore_payment_instrument_unbind_worksheet" domainObjectName="PaymentInstrumentUnbindWorksheet">-->
+        <!--<generatedKey column="id" sqlStatement="JDBC" />-->
+        <!--</table>-->
+        <!--<table tableName="t_paycore_authentication_route_map" domainObjectName="AuthenticationRouteMap">-->
+        <!--<generatedKey column="id" sqlStatement="JDBC" />-->
+        <!--</table>-->
+        <!--<table tableName="t_paycore_bank_info" domainObjectName="PaymentBankInfo">-->
+        <!--<generatedKey column="id" sqlStatement="JDBC" />-->
+        <!--</table>-->
+        <!--<table tableName="t_paycore_cardbin" domainObjectName="CardBin"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_dcp_binding" domainObjectName="DCPBinding"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_dcp_pi" domainObjectName="DCPPaymentInstrument"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_dcp_provider_recharge_route_map" -->
+        <!--domainObjectName="DCPRechargeRouteMap"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_dcp_provider_withdraw_route_map" -->
+        <!--domainObjectName="DCPWithdrawRouteMap"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_payment" domainObjectName="Payment"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_payment_event" domainObjectName="PaymentEvent"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_payment_instrument" -->
+        <!--domainObjectName="PaymentInstrument"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_payment_instrument_type" -->
+        <!--domainObjectName="PaymentInstrumentType"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider" domainObjectName="PaymentProvider"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_merchant_info" -->
+        <!--domainObjectName="PaymentProviderMerchantInfo"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" identity="true" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_merchant_map" -->
+        <!--domainObjectName="PaymentProviderMerchantMap"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" identity="true" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_registered_payment_instrument" -->
+        <!--domainObjectName="RegisteredPaymentInstrument"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_unique_id" domainObjectName="UniqueId"
+            /> -->
+        <!--<table tableName="t_paycore_reconciliation_file" -->
+        <!--domainObjectName="ReconciliationFile"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_payment_limitation" -->
+        <!--domainObjectName="ProviderPaymentLimitation"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_recharge_router" -->
+        <!--domainObjectName="ProviderRechargeRouter"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_payment_statistics" -->
+        <!--domainObjectName="PaymentStatistics"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_black_list" -->
+        <!--domainObjectName="ProviderBlackList"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_maintenance_duration" -->
+        <!--domainObjectName="ProviderMaintenanceDuration"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider" -->
+        <!--domainObjectName="PaymentProvider"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_commission_fee" -->
+        <!--domainObjectName="ProviderCommissionFee"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_provider_commission_fee_interval" -->
+        <!--domainObjectName="ProviderCommissionFeeInterval"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+        <!--<table tableName="t_paycore_pi_binding_event" -->
+        <!--domainObjectName="PiBindingEvent"> -->
+        <!--<generatedKey column="id" sqlStatement="JDBC" /> -->
+        <!--</table> -->
+
+    </context>
+</generatorConfiguration>
