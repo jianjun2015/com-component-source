@@ -65,6 +65,7 @@
       <module>com-component-high-concurrency-seckill</module>
       <module>com-component-spring-mvc-login</module>
     <module>com-component-db-read-write</module>
+      <module>com-component-util-plugins</module>
   </modules>
   <packaging>pom</packaging>
 
