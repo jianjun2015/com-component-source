@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a2d133-01cc-447c-a15e-4b9bdd64d604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-thread/src/main/java/component/thread/TljucUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-thread/src/main/java/thread/multiply/threadlocal/ThreadlocalDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com-component-util-thread/src/main/java/thread/multiply/threadlocal/ThreadlocalDemo2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com-component-source.iws" />
@@ -1907,14 +1904,7 @@
       <workItem from="1523513895157" duration="1271000" />
       <workItem from="1523515330737" duration="5027000" />
       <workItem from="1524714543762" duration="1992000" />
-      <workItem from="1525422358418" duration="2660000" />
-    </task>
-    <task id="LOCAL-00036" summary="spring boot">
-      <created>1503387240273</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1503387240273</updated>
+      <workItem from="1525422358418" duration="2833000" />
     </task>
     <task id="LOCAL-00037" summary="spring boot &amp; web">
       <created>1503393991236</created>
@@ -2252,7 +2242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525423911535</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="并发编程 补充">
+      <created>1525682532524</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1525682532524</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2288,7 +2285,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="994210000" />
+    <option name="totallyTimeSpent" value="994383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2301,7 +2298,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24468085" sideWeight="0.505799" order="7" side_tool="true" content_ui="tabs" />
@@ -2322,7 +2318,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18351063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35106382" sideWeight="0.49420103" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19414894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19414894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20822622" sideWeight="0.516129" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2976804" sideWeight="0.5963719" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -2422,7 +2418,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="高并发说明、cron4j" />
     <MESSAGE value="高并发-秒杀项目" />
     <MESSAGE value="高并发-秒杀项目-c3p0实现数据库连接" />
     <MESSAGE value="protostuff 序列化工具-比原生效率高" />
@@ -2447,7 +2442,8 @@
     <MESSAGE value="添加日期处理类" />
     <MESSAGE value="添加mybatis通过数据库自动生成带注解的代码" />
     <MESSAGE value="添加类似于map中模糊匹配value找key" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加类似于map中模糊匹配value找key" />
+    <MESSAGE value="并发编程 补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发编程 补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
