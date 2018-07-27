@@ -27,6 +27,7 @@ public class Thread_3 {
 			Callable c = new MyCallable(i+" ");
 
 			// 执行任务并获取Future对象
+			Thread.sleep(3000);
 			Future f = pool.submit(c);
 
 			// System.out.println(">>>" + f.get().toString());

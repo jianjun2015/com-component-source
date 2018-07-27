@@ -24,7 +24,7 @@ public class RedisTest {
 	@Before
 	public void setup() {
 		// TODO Auto-generated method stub
-		String host = "192.168.66.129";
+		String host = "192.168.25.129";
 		int port = 6379;
 		String password="admin";
 		jedis = new Jedis(host, port);
@@ -227,6 +227,16 @@ public class RedisTest {
 		System.out.println(jedis.lrange(key, 0, -1));
 	}
 
+	@Test
+	public void objectTest(){
+		A a = new A(1,"zhangsan");
+		String s = serialize(a);
+		jedis.set("obj",s);
+
+		String obj = jedis.get("obj");
+		A a_ = (A) deserialize(obj);
+		System.out.println(a_);
+	}
 	/**
 	 * 中午测试
 	 */
@@ -237,6 +247,38 @@ public class RedisTest {
 		System.out.println(jedis.get("nameKey"));
 	}
 
+}
 
+class A implements Serializable{
+	private int id;
+	private String name;
 
+	public A(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "A{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				'}';
+	}
 }

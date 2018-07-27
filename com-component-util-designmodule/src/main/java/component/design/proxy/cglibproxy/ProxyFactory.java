@@ -33,7 +33,10 @@ public class ProxyFactory implements MethodInterceptor{
 		// TODO Auto-generated method stub
 		
 		System.out.println("前序动作");
-		
+
+
+		System.out.println("++++++===================++++++"+method.getName());
+
 		Object returnValue = method.invoke(target, args);
 		
 		System.out.println("前序动作");

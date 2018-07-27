@@ -49,6 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-exception/com-component-util-exception.iml" filepath="$PROJECT_DIR$/com-component-util-exception/com-component-util-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" filepath="$PROJECT_DIR$/com-component-util-execute/com-component-util-execute.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" filepath="$PROJECT_DIR$/com-component-util-json/com-component-util-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-llock/com-component-util-lock.iml" filepath="$PROJECT_DIR$/com-component-util-llock/com-component-util-lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-math/com-component-util-math.iml" filepath="$PROJECT_DIR$/com-component-util-math/com-component-util-math.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-mockito/com-component-util-mockito.iml" filepath="$PROJECT_DIR$/com-component-util-mockito/com-component-util-mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" filepath="$PROJECT_DIR$/com-component-util-pattern/com-component-util-pattern.iml" />
@@ -59,6 +60,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-component-util-sort/com-component-util-sort.iml" filepath="$PROJECT_DIR$/com-component-util-sort/com-component-util-sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" filepath="$PROJECT_DIR$/com-component-util-stringnumbric/com-component-util-stringnumbric.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" filepath="$PROJECT_DIR$/com-component-util-thread/com-component-util-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-component-util-transaction/com-component-util-transaction.iml" filepath="$PROJECT_DIR$/com-component-util-transaction/com-component-util-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-webservice-client/com-component-webservice-client.iml" filepath="$PROJECT_DIR$/com-component-webservice-client/com-component-webservice-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-webservice-server/com-component-webservice-server.iml" filepath="$PROJECT_DIR$/com-component-webservice-server/com-component-webservice-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" filepath="$PROJECT_DIR$/com-component-zookeeper/com-component-zookeeper.iml" />

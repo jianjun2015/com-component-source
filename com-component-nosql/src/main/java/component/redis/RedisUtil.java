@@ -11,7 +11,7 @@ import redis.clients.jedis.JedisPoolConfig;
  */
 public final class RedisUtil {
 
-	private static String ADDR = "192.168.66.129";
+	private static String ADDR = "192.168.25.129";
 //	private static String ADDR = "192.168.66.131";
 	private static int PORT = 6379;//可以s单单机redis 也可以集群环境
 	private static String AUTH = "admin";//访问密码
