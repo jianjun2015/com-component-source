@@ -68,6 +68,7 @@
       <module>com-component-util-plugins</module>
       <module>com-component-util-transaction</module>
     <module>com-component-util-lock</module>
+    <module>com-component-dubbo</module>
   </modules>
   <packaging>pom</packaging>
 
