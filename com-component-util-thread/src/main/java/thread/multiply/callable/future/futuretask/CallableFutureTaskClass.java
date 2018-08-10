@@ -12,6 +12,9 @@ public class CallableFutureTaskClass {
         ExecutorService executor = Executors.newCachedThreadPool();
         Task_ task = new Task_();
         FutureTask<Integer> futureTask = new FutureTask<Integer>(task);
+
+//        new Thread(futureTask).start(); //callable线程执行
+
         executor.submit(futureTask);
         executor.shutdown();
 
