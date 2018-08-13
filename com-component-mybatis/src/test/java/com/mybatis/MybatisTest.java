@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Properties;
 
 /**
  * @Author: JianJun
@@ -19,6 +20,21 @@ import java.io.InputStream;
  * @Version:
  */
 public class MybatisTest {
+
+    public  void preTest(){
+        String resource = "/mybatis-config.xml";
+        InputStream inputStream = getClass().getResourceAsStream(resource);
+
+        Properties pro = new Properties();
+        pro.setProperty("jdbc.username","root");//优先级最高
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream,pro);
+
+        SqlSession session = sqlSessionFactory.openSession();
+        Object o = session.selectOne("com.mybatis.BlogMapper.selectBlog", 1);
+        System.out.println(o instanceof Blog);
+        System.out.println((Blog)o);
+    }
 
     /**
      * 新建一个会话工厂构建器
