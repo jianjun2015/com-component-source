@@ -35,6 +35,8 @@ public class MybatisTest {
         InputStream inputStream = getClass().getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
+        sqlSessionFactory.getConfiguration();//加载mybatis的配置信息   如：驼峰设计
+
         SqlSession session = sqlSessionFactory.openSession();
         Object o = session.selectOne("com.mybatis.BlogMapper.selectBlog", 1);
         System.out.println(o instanceof Blog);
