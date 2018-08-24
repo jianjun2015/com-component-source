@@ -1,0 +1,36 @@
+获取SqlSessionFactory
+1、org.apache.ibatis.session.SqlSessionFactory
+	>org.apache.ibatis.builder.xml.XMLConfigBuilder
+	 >org.apache.ibatis.builder.xml.XMLConfigBuilder#parse
+	  >org.apache.ibatis.builder.xml.XMLConfigBuilder#parseConfiguration
+	   >org.apache.ibatis.builder.xml.XMLConfigBuilder#mapperElement
+	    >org.apache.ibatis.session.Configuration#addMappers(java.lang.String)
+		 >org.apache.ibatis.binding.MapperRegistry#addMappers(java.lang.String)
+		  >org.apache.ibatis.binding.MapperRegistry#addMapper
+		   >org.apache.ibatis.builder.annotation.MapperAnnotationBuilder  注解扫描
+		    >org.apache.ibatis.builder.annotation.MapperAnnotationBuilder#parse
+			 >org.apache.ibatis.builder.annotation.MapperAnnotationBuilder#parseStatement
+			  >org.apache.ibatis.builder.annotation.MapperAnnotationBuilder#getSqlSourceFromAnnotations
+			   >java.lang.reflect.Method#getAnnotation
+			    >org.apache.ibatis.builder.annotation.MapperAnnotationBuilder#buildSqlSourceFromStrings
+	>org.apache.ibatis.session.SqlSessionFactoryBuilder#build(org.apache.ibatis.session.Configuration)
+
+得到 SqlSession
+2、org.apache.ibatis.session.SqlSession
+	>org.apache.ibatis.session.defaults.DefaultSqlSessionFactory#openSession()
+	 >org.apache.ibatis.session.defaults.DefaultSqlSessionFactory#openSessionFromDataSource
+	  >org.apache.ibatis.session.Configuration#newExecutor(org.apache.ibatis.transaction.Transaction, org.apache.ibatis.session.ExecutorType)
+	   >org.apache.ibatis.session.defaults.DefaultSqlSession 构造方法
+
+执行select注解方法
+3、org.apache.ibatis.session.defaults.DefaultSqlSession#selectOne(java.lang.String, java.lang.Object)
+     >org.apache.ibatis.session.defaults.DefaultSqlSession#selectList(java.lang.String, java.lang.Object)
+	  >org.apache.ibatis.session.Configuration#getMappedStatement(java.lang.String) 根据传入的statement 获取SqlSessionFactory中MappedStatement
+	   >org.apache.ibatis.executor.CachingExecutor#query(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler)
+	    >org.apache.ibatis.executor.CachingExecutor#query(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.cache.CacheKey, org.apache.ibatis.mapping.BoundSql)
+		 >org.apache.ibatis.executor.BaseExecutor#query(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.cache.CacheKey, org.apache.ibatis.mapping.BoundSql)
+		  >org.apache.ibatis.executor.BaseExecutor#queryFromDatabase 会优先从缓存获取，缓存没有则走数据库
+		   >org.apache.ibatis.executor.SimpleExecutor#doQuery
+		    >org.apache.ibatis.executor.statement.RoutingStatementHandler#query
+			 >java.sql.PreparedStatement#execute
+			 >org.apache.ibatis.executor.resultset.ResultSetHandler#handleResultSets 根据返回结果集是否为1条
